@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="204d8930b4798816"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="Damodar Shanbhag"
+		host="HP"
+		rxversion="6.0.1.0"
+		osversion="Windows 8.1 64bit"
+		runtimeversion="4.0.30319.34209"
+		procarch="64bit"
+		language="en-GB"
+		screenresolution="1366x768"
+		timestamp="25-07-2016 12:56:04"
+		timestampiso="2016-07-25T07:26:04"
+		timeoutfactor="1"
+		module="UserCodeModule1">
+		<detail>
+			UserCodeModule1
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.850"
+			timeRelativeToTestModuleStartTime="00:00.850"
+			timeWallClock="12:56:05"
+			time="00:00.850"
+			level="Info"
+			category="Website">
+			<message>
+				Opening web site 'https://tigers.dubber.net/login' with browser 'chrome' in normal mode.
+			</message>
+			<metainfo
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\dubber\UserCodeModule1.cs"
+				codeline="50"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.033"
+			timeRelativeToTestModuleStartTime="00:11.033"
+			timeWallClock="12:56:15"
+			time="00:11.033"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Dubber.DapAreaId' at 164;17.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='tigers.dubber.net']//select[#'dap_area_id']"
+				fullname="dubberrepo.Dubber.DapAreaId"
+				id="e88238dd4fef46b78cbe5052a97aeb68"
+				timeout="60000"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\dubber\UserCodeModule1.cs"
+				codeline="68"
+				itemindex="13"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:42.261"
+			timeRelativeToTestModuleStartTime="00:42.261"
+			timeWallClock="12:56:46"
+			time="00:42.261"
+			level="Info"
+			category="Set Value">
+			<message>
+				Setting attribute TagValue to 'Albania' on item 'Dubber.AreaCountry'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='tigers.dubber.net']//select[#'area_country']"
+				fullname="dubberrepo.Dubber.AreaCountry"
+				id="cfba52f7f9144a9ba8de16f24b6e0f29"
+				timeout="60000"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\dubber\UserCodeModule1.cs"
+				codeline="81"
+				loglvl="Info"/>
+		</item>
+	</activity>
+</report>

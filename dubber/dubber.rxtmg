@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc
+rxversion="6.0">
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="dubber"
+      id="1e0e80b9-aed7-4817-9b45-0eb3aab31195"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="dubber"
+      id="1e0e80b9-aed7-4817-9b45-0eb3aab31195"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>

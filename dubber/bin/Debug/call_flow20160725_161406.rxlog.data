@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="25db71e1bad0956c"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="Damodar Shanbhag"
+		host="HP"
+		rxversion="6.0.1.0"
+		osversion="Windows 8.1 64bit"
+		runtimeversion="4.0.30319.34209"
+		procarch="64bit"
+		language="en-GB"
+		screenresolution="1366x768"
+		timestamp="25-07-2016 16:14:14"
+		timestampiso="2016-07-25T10:44:14"
+		timeoutfactor="1"
+		module="call_flow">
+		<detail>
+			call_flow
+		</detail>
+		<errmsg>
+			Failed to move to location '729;229' within element '{Unknown:None}'.
+		</errmsg>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.713"
+			timeRelativeToTestModuleStartTime="00:00.715"
+			timeWallClock="16:14:14"
+			time="00:00.713"
+			level="Info"
+			category="Mouse"
+			errimg=".\call_flo_63297bd1_62185546_trace.jpg"
+			errthumb=".\call_flo_63297bd1_62185546_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'DubberMozillaFirefox.Grouping.None1' at 729;229.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Dubber - Mozilla Firefox']/container[@accessiblerole='Grouping']/container[@accessiblerole='PropertyPage']/?/?/container[@accessiblename='Dubber']/element[3]/element[4]/element/element[@accessiblerole='None']/element[@accessiblerole='None']/element[@accessiblerole='None']/element[@accessiblerole='None']/element[8]"
+				fullname="dubberRepository.DubberMozillaFirefox.Grouping.None1"
+				id="318eeeecc50a404abca5eb5156caa778"
+				timeout="90000"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\dubber\call_flow.cs"
+				codeline="82"
+				itemindex="11"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.107"
+			timeRelativeToTestModuleStartTime="00:02.109"
+			timeWallClock="16:14:16"
+			time="00:02.107"
+			level="Error"
+			category="Module"
+			errimg=".\call_flo_63297bd1_8777e456_trace.jpg"
+			errthumb=".\call_flo_63297bd1_8777e456_trace_thumb.jpg">
+			<message>
+				Failed to move to location '729;229' within element '{Unknown:None}'.<br/>The pointer cannot be moved to point '{X=1035,Y=983}' since it is outside of the visible desktop.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Mouse.MoveTo(Element element, Location location, Duration moveTime)
+   at Ranorex.Mouse.Click(Element element, MouseButtons buttons, Location location, Int32 times, Duration moveTime)
+   at Ranorex.Adapter.Click(Location location)
+   at dubber.call_flow.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\dubber\call_flow.cs:line 83
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext)"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\dubber\call_flow.cs"
+				codeline="83"
+				type="repoitem"
+				path="/form[@title='Dubber - Mozilla Firefox']/container[@accessiblerole='Grouping']/container[@accessiblerole='PropertyPage']/?/?/container[@accessiblename='Dubber']/element[3]/element[4]/element/element[@accessiblerole='None']/element[@accessiblerole='None']/element[@accessiblerole='None']/element[@accessiblerole='None']/element[8]"
+				fullname="dubberRepository.DubberMozillaFirefox.Grouping.None1"
+				id="318eeeecc50a404abca5eb5156caa778"
+				timeout="90000"
+				loglvl="Error"
+				itemindex="11"/>
+		</item>
+	</activity>
+</report>

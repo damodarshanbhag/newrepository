@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Failed"
+		duration="32.88s"
+		durationms="32876"
+		type="root"
+		rid="f1efa7db2e5cfc8"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="Damodar Shanbhag"
+		host="HP"
+		rxversion="6.0.1.0"
+		osversion="Windows 8.1 64bit"
+		runtimeversion="4.0.30319.34209"
+		procarch="64bit"
+		language="en-GB"
+		screenresolution="1366x768"
+		timestamp="26-07-2016 9.43.45 AM"
+		timestampiso="2016-07-26T04:13:45"
+		timeoutfactor="1"
+		module="dap_creation">
+		<detail>
+			dap_creation
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.690"
+			timeRelativeToTestModuleStartTime="00:00.690"
+			timeWallClock="09:43:45"
+			time="00:00.690"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>area, state, start_end
+			</message>
+			<metainfo
+				loglvl="Warn"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.770"
+			timeRelativeToTestModuleStartTime="00:00.770"
+			timeWallClock="09:43:45"
+			time="00:00.770"
+			level="Info"
+			category="Website">
+			<message>
+				Opening web site 'https://tigers.dubber.net/login' with browser 'firefox' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\dubeer\dap_creation.cs"
+				codeline="121"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.870"
+			timeRelativeToTestModuleStartTime="00:00.870"
+			timeWallClock="09:43:45"
+			time="00:00.870"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'DubberMozillaFirefox.Dubber1.EmailAddress' at 160;18.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Dubber - Mozilla Firefox']/container[@accessiblerole='Grouping']/container[@accessiblerole='PropertyPage']/?/?/container[@accessiblename='Dubber']/element[2]/element[2]/element[1]/element/element[2]/element[@accessiblerole='None']/element[@accessiblerole='None']/element[@accessiblerole='None']/element[1]/?/?/text[@accessiblename='Email Address']"
+				fullname="dubeerRepository.DubberMozillaFirefox.Dubber1.EmailAddress"
+				id="9569c82598af4574909a7055c456ee37"
+				timeout="90000"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\dubeer\dap_creation.cs"
+				codeline="124"
+				itemindex="1"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:32.876"
+			timeRelativeToTestModuleStartTime="00:32.876"
+			timeWallClock="09:44:17"
+			time="00:32.876"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error"/>
+		</item>
+	</activity>
+</report>

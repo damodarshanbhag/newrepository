@@ -1,0 +1,414 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="128e08501fa52e78"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesscount="1"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="Damodar Shanbhag"
+		host="HP"
+		rxversion="6.0.1.0"
+		osversion="Windows 8.1 64bit"
+		runtimeversion="4.0.30319.34209"
+		procarch="32bit"
+		language="en-GB"
+		screenresolution="1366x768"
+		timestamp="25-07-2016 16:58:16"
+		timestampiso="2016-07-25T11:28:16"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Success"
+			duration="34.36s"
+			durationms="34359"
+			type="test suite"
+			rid="12e7c5e5a00c91e8"
+			totalerrorcount="0"
+			totalwarningcount="0"
+			totalsuccesscount="1"
+			totalfailedcount="0"
+			totalblockedcount="0"
+			testsuitename="project1"
+			runconfigname="TestRun"
+			runlabel=""
+			maxchildren="1">
+			<params/>
+			<detail>
+			</detail>
+			<activity
+				result="Success"
+				duration="34.33s"
+				durationms="34328"
+				type="test case"
+				rid="55705fe9520cefc"
+				totalerrorcount="0"
+				totalwarningcount="0"
+				totalsuccesscount="1"
+				totalfailedcount="0"
+				totalblockedcount="0"
+				testcasename="TestCase"
+				testcaseid="96b89d54-c4ef-457b-ad2c-2b9e13ae85c7"
+				maxchildren="0">
+				<params/>
+				<detail>
+				</detail>
+				<activity
+					result="Success"
+					duration="34.27s"
+					durationms="34265"
+					type="test module"
+					rid="343adf6a839d0500"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					modulename="dubber"
+					moduleid="d33bbe73-0bae-425c-929e-db4601788f7c"
+					moduletype="Recording">
+					<detail>
+					</detail>
+					<varbindings/>
+					<item
+						timeRelativeToTestSuiteStartTime="00:00.250"
+						timeRelativeToTestModuleStartTime="00:00.000"
+						timeWallClock="16:58:16"
+						time="00:00.250"
+						level="Info"
+						category="Website">
+						<message>
+							Opening web site 'https://tigers.dubber.net/login' with browser 'chrome' in normal mode.
+						</message>
+						<metainfo
+							itemindex="0"
+							codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\dubber.cs"
+							codeline="82"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:00.468"
+						timeRelativeToTestModuleStartTime="00:00.218"
+						timeWallClock="16:58:16"
+						time="00:00.468"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Down item 'Dubber.UserEmail' at 129;18.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='tigers.dubber.net']//input[#'user_email']"
+							fullname="project1Repository.Dubber.UserEmail"
+							id="32a4a73c5cae4269baaf2415fcc256b9"
+							timeout="60000"
+							codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\dubber.cs"
+							codeline="86"
+							itemindex="1"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:11.848"
+						timeRelativeToTestModuleStartTime="00:11.598"
+						timeWallClock="16:58:28"
+						time="00:11.848"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Up item 'Dubber.UserEmail' at 129;18.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='tigers.dubber.net']//input[#'user_email']"
+							fullname="project1Repository.Dubber.UserEmail"
+							id="32a4a73c5cae4269baaf2415fcc256b9"
+							timeout="60000"
+							codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\dubber.cs"
+							codeline="91"
+							itemindex="2"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:12.662"
+						timeRelativeToTestModuleStartTime="00:12.412"
+						timeWallClock="16:58:28"
+						time="00:12.662"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'Dubber.SubmitButton' at 45;18.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='tigers.dubber.net']//input[#'submit_button']"
+							fullname="project1Repository.Dubber.SubmitButton"
+							id="4b96e28d42ef4ed3b1b87d22321da51e"
+							timeout="60000"
+							codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\dubber.cs"
+							codeline="96"
+							itemindex="3"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:13.598"
+						timeRelativeToTestModuleStartTime="00:13.348"
+						timeWallClock="16:58:29"
+						time="00:13.598"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'Dubber.SearchBox' at 60;19.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='tigers.dubber.net']//input[#'search_box']"
+							fullname="project1Repository.Dubber.SearchBox"
+							id="65c5bdfeb0a54dbdb8086762ef7b1d81"
+							timeout="60000"
+							codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\dubber.cs"
+							codeline="100"
+							itemindex="4"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:16.063"
+						timeRelativeToTestModuleStartTime="00:15.813"
+						timeWallClock="16:58:32"
+						time="00:16.063"
+						level="Info"
+						category="Keyboard">
+						<message>
+							Key sequence 'ranorex1' with focus on 'Dubber.SearchBox'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='tigers.dubber.net']//input[#'search_box']"
+							fullname="project1Repository.Dubber.SearchBox"
+							id="65c5bdfeb0a54dbdb8086762ef7b1d81"
+							timeout="60000"
+							codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\dubber.cs"
+							codeline="104"
+							itemindex="5"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:17.325"
+						timeRelativeToTestModuleStartTime="00:17.075"
+						timeWallClock="16:58:33"
+						time="00:17.325"
+						level="Info"
+						category="Keyboard">
+						<message>
+							Key sequence '{Return}' with focus on 'Dubber.SearchBox'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='tigers.dubber.net']//input[#'search_box']"
+							fullname="project1Repository.Dubber.SearchBox"
+							id="65c5bdfeb0a54dbdb8086762ef7b1d81"
+							timeout="60000"
+							codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\dubber.cs"
+							codeline="108"
+							itemindex="6"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:17.761"
+						timeRelativeToTestModuleStartTime="00:17.511"
+						timeWallClock="16:58:33"
+						time="00:17.761"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'Dubber.CustomerAccountNameRanorex' at 47;10.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='tigers.dubber.net']//a[#'customer_account_name_ranorex']"
+							fullname="project1Repository.Dubber.CustomerAccountNameRanorex"
+							id="63b6a3bfb8ff476aab3710ba5b13fd72"
+							timeout="60000"
+							codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\dubber.cs"
+							codeline="112"
+							itemindex="7"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:19.117"
+						timeRelativeToTestModuleStartTime="00:18.867"
+						timeWallClock="16:58:35"
+						time="00:19.117"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'Dubber.AccountInboundTab' at 40;14.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='tigers.dubber.net']//div[@id='main_body']//ul[@id='sub_tab_navigation']/li[4]/a[@id='account_inbound_tab']"
+							fullname="project1Repository.Dubber.AccountInboundTab"
+							id="034df3386b8c4b9581d89d78d629a8e1"
+							timeout="60000"
+							codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\dubber.cs"
+							codeline="116"
+							itemindex="8"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:21.321"
+						timeRelativeToTestModuleStartTime="00:21.071"
+						timeWallClock="16:58:37"
+						time="00:21.321"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'Dubber.InboundNumberLabelFsdf' at 21;10.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='tigers.dubber.net']//a[#'inbound_number_label_fsdf']"
+							fullname="project1Repository.Dubber.InboundNumberLabelFsdf"
+							id="73ee85d4f8e94385b9b0a7dd02a2ef82"
+							timeout="60000"
+							codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\dubber.UserCode.cs"
+							codeline="37"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:29.731"
+						timeRelativeToTestModuleStartTime="00:29.481"
+						timeWallClock="16:58:45"
+						time="00:29.731"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Down item 'Dubber' at 1351;186.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='tigers.dubber.net']"
+							fullname="project1Repository.Dubber.Self"
+							id="0bc2aa51ab4a46ad9a578890497ce643"
+							timeout="30000"
+							codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\dubber.cs"
+							codeline="123"
+							itemindex="10"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:30.413"
+						timeRelativeToTestModuleStartTime="00:30.163"
+						timeWallClock="16:58:46"
+						time="00:30.413"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Up item 'Dubber' at 1349;488.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='tigers.dubber.net']"
+							fullname="project1Repository.Dubber.Self"
+							id="0bc2aa51ab4a46ad9a578890497ce643"
+							timeout="30000"
+							codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\dubber.cs"
+							codeline="128"
+							itemindex="11"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:31.036"
+						timeRelativeToTestModuleStartTime="00:30.786"
+						timeWallClock="16:58:47"
+						time="00:31.036"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'Dubber.DownloadCallflow' at 93;10.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='tigers.dubber.net']//a[#'download_callflow']"
+							fullname="project1Repository.Dubber.DownloadCallflow"
+							id="ac2c6454031f4093b786fb84bc9019e4"
+							timeout="60000"
+							codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\dubber.cs"
+							codeline="133"
+							itemindex="12"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:31.896"
+						timeRelativeToTestModuleStartTime="00:31.646"
+						timeWallClock="16:58:48"
+						time="00:31.896"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'Dubber.ProfileDdt' at 37;19.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='tigers.dubber.net']//a[#'profile-ddt']"
+							fullname="project1Repository.Dubber.ProfileDdt"
+							id="d107815361664d6da457aba83636893b"
+							timeout="60000"
+							codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\dubber.cs"
+							codeline="137"
+							itemindex="13"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:32.760"
+						timeRelativeToTestModuleStartTime="00:32.510"
+						timeWallClock="16:58:48"
+						time="00:32.760"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'Dubber.DropDownLogout' at 84;17.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='tigers.dubber.net']//a[#'drop_down_logout']"
+							fullname="project1Repository.Dubber.DropDownLogout"
+							id="abe45ef7315f456ea69ecf12dd1870d3"
+							timeout="60000"
+							codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\dubber.cs"
+							codeline="141"
+							itemindex="14"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:33.694"
+						timeRelativeToTestModuleStartTime="00:33.444"
+						timeWallClock="16:58:49"
+						time="00:33.694"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'RanorexWebtestLogInGoogleChrome.Client1' at 1331;11.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@processname='chrome']/container[@accessiblename='Google Chrome']/container[2]/container[2]"
+							fullname="project1Repository.RanorexWebtestLogInGoogleChrome.Client1"
+							id="d660872875ad401bb3d4c56607badf58"
+							timeout="60000"
+							codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\dubber.cs"
+							codeline="145"
+							itemindex="15"
+							loglvl="Info"/>
+					</item>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

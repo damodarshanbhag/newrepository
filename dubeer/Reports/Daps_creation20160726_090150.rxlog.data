@@ -1,0 +1,481 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="12740dabc024d50"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="Damodar Shanbhag"
+		host="HP"
+		rxversion="6.0.1.0"
+		osversion="Windows 8.1 64bit"
+		runtimeversion="4.0.30319.34209"
+		procarch="64bit"
+		language="en-GB"
+		screenresolution="2732x798"
+		timestamp="26-07-2016 9.02.00 AM"
+		timestampiso="2016-07-26T03:32:00"
+		timeoutfactor="1"
+		module="Daps_creation">
+		<detail>
+			Daps_creation
+		</detail>
+		<errmsg>
+			Failed to find item 'dubeerRepository.Dropdown.Self'.
+		</errmsg>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.875"
+			timeRelativeToTestModuleStartTime="00:00.890"
+			timeWallClock="09:02:01"
+			time="00:00.875"
+			level="Info"
+			category="Website">
+			<message>
+				Opening web site 'https://tigers.dubber.net/login' with browser 'firefox' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\dubeer\Daps_creation.cs"
+				codeline="82"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.031"
+			timeRelativeToTestModuleStartTime="00:01.046"
+			timeWallClock="09:02:01"
+			time="00:01.031"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'DubberMozillaFirefox.Dubber1.EmailAddress' at 182;18.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Dubber - Mozilla Firefox']/container[@accessiblerole='Grouping']/container[@accessiblerole='PropertyPage']/?/?/container[@accessiblename='Dubber']/element[2]/element[2]/element[1]/element/element[2]/element[@accessiblerole='None']/element[@accessiblerole='None']/element[@accessiblerole='None']/element[1]/?/?/text[@accessiblename='Email Address']"
+				fullname="dubeerRepository.DubberMozillaFirefox.Dubber1.EmailAddress"
+				id="9569c82598af4574909a7055c456ee37"
+				timeout="90000"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\dubeer\Daps_creation.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.452"
+			timeRelativeToTestModuleStartTime="00:05.468"
+			timeWallClock="09:02:05"
+			time="00:05.452"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'DubberMozillaFirefox.Dubber1.Password' at 130;9.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Dubber - Mozilla Firefox']/container[@accessiblerole='Grouping']/container[@accessiblerole='PropertyPage']/?/?/container[@accessiblename='Dubber']/element[2]/element[2]/element[1]/element/element[2]/element[@accessiblerole='None']/element[@accessiblerole='None']/element[@accessiblerole='None']/element[2]/?/?/text[@accessiblename='Password']"
+				fullname="dubeerRepository.DubberMozillaFirefox.Dubber1.Password"
+				id="11058688e339433e944ab3b33bfbaa1d"
+				timeout="90000"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\dubeer\Daps_creation.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.235"
+			timeRelativeToTestModuleStartTime="00:06.250"
+			timeWallClock="09:02:06"
+			time="00:06.235"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'DubberMozillaFirefox.Dubber1.Login' at 51;4.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Dubber - Mozilla Firefox']/container[@accessiblerole='Grouping']/container[@accessiblerole='PropertyPage']/?/?/container[@accessiblename='Dubber']/element[2]/element[2]/element[1]/element/element[2]/element[@accessiblerole='None']/element[@accessiblerole='None']/element[@accessiblerole='None']/element[3]/button[@accessiblename='Login']"
+				fullname="dubeerRepository.DubberMozillaFirefox.Dubber1.Login"
+				id="c550253a1ee64ab7ae43ef26062402fa"
+				timeout="90000"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\dubeer\Daps_creation.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.032"
+			timeRelativeToTestModuleStartTime="00:07.047"
+			timeWallClock="09:02:07"
+			time="00:07.032"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'DubberMozillaFirefox.Dubber.Daps' at 18;15.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Dubber - Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename='Dubber']/element[3]/element[3]/element/element[1]/element[2]/element[@accessiblerole='None']/element[1]/link[@accessiblename='Daps']/text[@accessiblename='Daps']"
+				fullname="dubeerRepository.DubberMozillaFirefox.Dubber.Daps"
+				id="374d90484ffb49d99720a9cbd7bda5f9"
+				timeout="90000"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\dubeer\Daps_creation.cs"
+				codeline="98"
+				itemindex="4"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.563"
+			timeRelativeToTestModuleStartTime="00:09.579"
+			timeWallClock="09:02:09"
+			time="00:09.563"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'DubberMozillaFirefox.Dubber.TextAddDap' at 7;12.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Dubber - Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename='Dubber']/element[3]/element[4]/element/element[@accessiblerole='None']/element[@accessiblerole='None']/element[@accessiblerole='None']/element[1]/link[@accessiblename='Add Dap']/text[@accessiblename=' Add Dap ']"
+				fullname="dubeerRepository.DubberMozillaFirefox.Dubber.TextAddDap"
+				id="6ff29afd43aa46189cabc18e238a793e"
+				timeout="90000"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\dubeer\Daps_creation.cs"
+				codeline="102"
+				itemindex="5"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.331"
+			timeRelativeToTestModuleStartTime="00:11.347"
+			timeWallClock="09:02:11"
+			time="00:11.331"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'DubberMozillaFirefox.Dubber1.RequiredArea' at 209;13.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Dubber - Mozilla Firefox']/container[@accessiblerole='Grouping']/container[@accessiblerole='PropertyPage']/?/?/container[@accessiblename='Dubber']/element[3]/element[4]/element/element[@accessiblerole='None']/element[@accessiblerole='None']/element[@accessiblerole='None']/element[@accessiblerole='None']/element[@accessiblerole='None']/element[1]/element/element[@accessiblerole='None']/combobox[@accessiblename='required Area']"
+				fullname="dubeerRepository.DubberMozillaFirefox.Dubber1.RequiredArea"
+				id="ccb5cff41def47a6bbbfb89ae4b6381a"
+				timeout="90000"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\dubeer\Daps_creation.cs"
+				codeline="106"
+				itemindex="6"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.363"
+			timeRelativeToTestModuleStartTime="00:13.378"
+			timeWallClock="09:02:13"
+			time="00:13.363"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Down item 'Dropdown' at 530;25.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/container[@caption='dropdown']"
+				fullname="dubeerRepository.Dropdown.Self"
+				id="4778dd5d9da84c798c8f6bd934d5c0d4"
+				timeout="30000"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\dubeer\Daps_creation.cs"
+				codeline="110"
+				itemindex="7"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.050"
+			timeRelativeToTestModuleStartTime="00:14.066"
+			timeWallClock="09:02:14"
+			time="00:14.050"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Up item 'Dropdown' at 531;386.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/container[@caption='dropdown']"
+				fullname="dubeerRepository.Dropdown.Self"
+				id="4778dd5d9da84c798c8f6bd934d5c0d4"
+				timeout="30000"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\dubeer\Daps_creation.cs"
+				codeline="115"
+				itemindex="8"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.597"
+			timeRelativeToTestModuleStartTime="00:14.613"
+			timeWallClock="09:02:14"
+			time="00:14.597"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Dropdown' at 483;382.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/container[@caption='dropdown']"
+				fullname="dubeerRepository.Dropdown.Self"
+				id="4778dd5d9da84c798c8f6bd934d5c0d4"
+				timeout="30000"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\dubeer\Daps_creation.cs"
+				codeline="120"
+				itemindex="9"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.300"
+			timeRelativeToTestModuleStartTime="00:15.316"
+			timeWallClock="09:02:15"
+			time="00:15.300"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'DubberMozillaFirefox.Dubber1.None' at 159;33.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Dubber - Mozilla Firefox']/container[@accessiblerole='Grouping']/container[@accessiblerole='PropertyPage']/?/?/container[@accessiblename='Dubber']/element[3]/element[4]/element/element[@accessiblerole='None']/element[@accessiblerole='None']/element[@accessiblerole='None']/element[2]/element[@accessiblerole='None']/element[1]/element[@accessiblerole='None']"
+				fullname="dubeerRepository.DubberMozillaFirefox.Dubber1.None"
+				id="0e36ded4a5ce4a3a9c0c734153443780"
+				timeout="90000"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\dubeer\Daps_creation.cs"
+				codeline="124"
+				itemindex="10"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:17.307"
+			timeRelativeToTestModuleStartTime="00:17.323"
+			timeWallClock="09:02:17"
+			time="00:17.307"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'DubberMozillaFirefox.Dubber1.RequiredArea1' at 89;12.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Dubber - Mozilla Firefox']/container[@accessiblerole='Grouping']/container[@accessiblerole='PropertyPage']/?/?/container[@accessiblename='Dubber']/element[3]/element[4]/element/element[@accessiblerole='None']/element[@accessiblerole='None']/element[@accessiblerole='None']/element[2]/element/element[2]/element/element[@accessiblerole='None']/element[1]/element/element[@accessiblerole='None']/text[@accessiblename='required Area']"
+				fullname="dubeerRepository.DubberMozillaFirefox.Dubber1.RequiredArea1"
+				id="cd03d944a70f470dbc7beffa8c766823"
+				timeout="90000"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\dubeer\Daps_creation.cs"
+				codeline="128"
+				itemindex="11"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:18.119"
+			timeRelativeToTestModuleStartTime="00:18.135"
+			timeWallClock="09:02:18"
+			time="00:18.119"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'vsd' with focus on 'DubberMozillaFirefox.Dubber1.RequiredArea1'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Dubber - Mozilla Firefox']/container[@accessiblerole='Grouping']/container[@accessiblerole='PropertyPage']/?/?/container[@accessiblename='Dubber']/element[3]/element[4]/element/element[@accessiblerole='None']/element[@accessiblerole='None']/element[@accessiblerole='None']/element[2]/element/element[2]/element/element[@accessiblerole='None']/element[1]/element/element[@accessiblerole='None']/text[@accessiblename='required Area']"
+				fullname="dubeerRepository.DubberMozillaFirefox.Dubber1.RequiredArea1"
+				id="cd03d944a70f470dbc7beffa8c766823"
+				timeout="90000"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\dubeer\Daps_creation.cs"
+				codeline="132"
+				itemindex="12"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:18.676"
+			timeRelativeToTestModuleStartTime="00:18.692"
+			timeWallClock="09:02:19"
+			time="00:18.676"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'DubberMozillaFirefox.State' at 62;5.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Dubber - Mozilla Firefox']/container[@accessiblerole='Grouping']/container[@accessiblerole='PropertyPage']/element[@accessiblerole='None']/container[@accessiblename='Dubber']/element[3]/element[4]/element/element[@accessiblerole='None']/element[@accessiblerole='None']/element[@accessiblerole='None']/element[2]/element/element[2]/element/element[@accessiblerole='None']/element[2]//text[@accessiblename='State']"
+				fullname="dubeerRepository.DubberMozillaFirefox.State"
+				id="0fa45bd0374444bd89ef1297e3a850c9"
+				timeout="60000"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\dubeer\Daps_creation.cs"
+				codeline="136"
+				itemindex="13"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:19.473"
+			timeRelativeToTestModuleStartTime="00:19.489"
+			timeWallClock="09:02:19"
+			time="00:19.473"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'ds' with focus on 'DubberMozillaFirefox.State'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Dubber - Mozilla Firefox']/container[@accessiblerole='Grouping']/container[@accessiblerole='PropertyPage']/element[@accessiblerole='None']/container[@accessiblename='Dubber']/element[3]/element[4]/element/element[@accessiblerole='None']/element[@accessiblerole='None']/element[@accessiblerole='None']/element[2]/element/element[2]/element/element[@accessiblerole='None']/element[2]//text[@accessiblename='State']"
+				fullname="dubeerRepository.DubberMozillaFirefox.State"
+				id="0fa45bd0374444bd89ef1297e3a850c9"
+				timeout="60000"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\dubeer\Daps_creation.cs"
+				codeline="140"
+				itemindex="14"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:19.926"
+			timeRelativeToTestModuleStartTime="00:19.942"
+			timeWallClock="09:02:20"
+			time="00:19.926"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'DubberMozillaFirefox.ComboBox' at 69;9.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Dubber - Mozilla Firefox']/container[@accessiblerole='Grouping']/container[@accessiblerole='PropertyPage']/element[@accessiblerole='None']/container[@accessiblename='Dubber']/element[3]/element[4]/element/element[@accessiblerole='None']/element[@accessiblerole='None']/element[@accessiblerole='None']/element[2]/element/element[2]/element/element[@accessiblerole='None']/element[2]//combobox[@accessiblerole='ComboBox']"
+				fullname="dubeerRepository.DubberMozillaFirefox.ComboBox"
+				id="dc0649b59d0f48f88f455c3fac5970f9"
+				timeout="60000"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\dubeer\Daps_creation.cs"
+				codeline="144"
+				itemindex="15"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:20.723"
+			timeRelativeToTestModuleStartTime="00:20.739"
+			timeWallClock="09:02:21"
+			time="00:20.723"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Dropdown' at 73;34.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/container[@caption='dropdown']"
+				fullname="dubeerRepository.Dropdown.Self"
+				id="4778dd5d9da84c798c8f6bd934d5c0d4"
+				timeout="30000"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\dubeer\Daps_creation.cs"
+				codeline="148"
+				itemindex="16"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:21.489"
+			timeRelativeToTestModuleStartTime="00:21.504"
+			timeWallClock="09:02:21"
+			time="00:21.489"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'DubberMozillaFirefox.Dubber1.TextSaveChanges' at 51;4.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Dubber - Mozilla Firefox']/container[@accessiblerole='Grouping']/container[@accessiblerole='PropertyPage']/?/?/container[@accessiblename='Dubber']/element[3]/element[4]/element/element[@accessiblerole='None']/element[@accessiblerole='None']/element[@accessiblerole='None']/element[2]/element[@accessiblerole='None']/element[3]/?/?/button[@accessiblename='Save Changes']/text[@accessiblename=' Save Changes ']"
+				fullname="dubeerRepository.DubberMozillaFirefox.Dubber1.TextSaveChanges"
+				id="07443326786047a2814bac80e01c35d3"
+				timeout="90000"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\dubeer\Daps_creation.cs"
+				codeline="152"
+				itemindex="17"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:22.287"
+			timeRelativeToTestModuleStartTime="00:22.303"
+			timeWallClock="09:02:22"
+			time="00:22.287"
+			level="Info"
+			category="Mouse"
+			errimg=".\Daps_cre_7ae73b64_35c1c779_trace.jpg"
+			errthumb=".\Daps_cre_7ae73b64_35c1c779_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'DubberMozillaFirefox.Dubber1.ComboBox1' at 40;12.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Dubber - Mozilla Firefox']/container[@accessiblerole='Grouping']/container[@accessiblerole='PropertyPage']/?/?/container[@accessiblename='Dubber']/element[3]/element[4]/element/element[@accessiblerole='None']/element[@accessiblerole='None']/element[@accessiblerole='None']/element[@accessiblerole='None']/element[@accessiblerole='None']/element[2]/element/element[@accessiblerole='None']/combobox[2]"
+				fullname="dubeerRepository.DubberMozillaFirefox.Dubber1.ComboBox1"
+				id="6bb228adf90f42c09f715991d7e00245"
+				timeout="90000"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\dubeer\Daps_creation.cs"
+				codeline="156"
+				itemindex="18"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:23.084"
+			timeRelativeToTestModuleStartTime="00:23.100"
+			timeWallClock="09:02:23"
+			time="00:23.084"
+			level="Info"
+			category="Mouse"
+			errimg=".\Daps_cre_7ae73b64_92cf7a79_trace.jpg"
+			errthumb=".\Daps_cre_7ae73b64_92cf7a79_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'Dropdown' at 29;61.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/container[@caption='dropdown']"
+				fullname="dubeerRepository.Dropdown.Self"
+				id="4778dd5d9da84c798c8f6bd934d5c0d4"
+				timeout="30000"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\dubeer\Daps_creation.cs"
+				codeline="160"
+				itemindex="19"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:53.211"
+			timeRelativeToTestModuleStartTime="00:53.227"
+			timeWallClock="09:02:53"
+			time="00:53.211"
+			level="Error"
+			category="Module"
+			errimg=".\Daps_cre_7ae73b64_8f9a351c_trace.jpg"
+			errthumb=".\Daps_cre_7ae73b64_8f9a351c_trace_thumb.jpg">
+			<message>
+				Failed to find item 'dubeerRepository.Dropdown.Self'.<br/>No element found for path '/container[@caption='dropdown']' within 30s.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)
+   at dubeer.dubeerRepositoryFolders.DropdownAppFolder.get_Self() in c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\dubeer\dubeerRepository.cs:line 778
+   at dubeer.Daps_creation.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\dubeer\Daps_creation.cs:line 161
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext)"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\dubeer\Daps_creation.cs"
+				codeline="161"
+				type="repoitem"
+				path="/container[@caption='dropdown']"
+				fullname="dubeerRepository.Dropdown.Self"
+				id="4778dd5d9da84c798c8f6bd934d5c0d4"
+				timeout="30000"
+				loglvl="Error"
+				itemindex="19"/>
+		</item>
+	</activity>
+</report>

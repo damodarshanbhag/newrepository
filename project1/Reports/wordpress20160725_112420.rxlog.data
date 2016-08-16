@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Failed"
+		duration="32.88s"
+		durationms="32882"
+		type="root"
+		rid="179577e112965349"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="Damodar Shanbhag"
+		host="HP"
+		rxversion="6.0.1.0"
+		osversion="Windows 8.1 64bit"
+		runtimeversion="4.0.30319.34209"
+		procarch="32bit"
+		language="en-GB"
+		screenresolution="1366x768"
+		timestamp="25-07-2016 11:24:23"
+		timestampiso="2016-07-25T05:54:23"
+		timeoutfactor="1"
+		module="wordpress">
+		<detail>
+			wordpress
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.406"
+			timeRelativeToTestModuleStartTime="00:00.406"
+			timeWallClock="11:24:24"
+			time="00:00.406"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse None Move item 'DashboardRanorexWebtestWordPress.DashboardRanorexWebtestWordPress.HowdyRanorexWebtest' at 138;4.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'^Dashboard\ ‹\ Ranorex\ Webte']/container[@accessiblerole='Grouping']//container[@accessiblename~'^Dashboard\ ‹\ Ranorex\ Webte']//element[@accessiblename='Top navigation toolbar.']/list[2]/listitem[@accessiblename~'^Howdy,\ Ranorex\ Webtest\ My']/link[@accessiblename='Howdy, Ranorex Webtest']/text[@accessiblename='Howdy, Ranorex Webtest']"
+				fullname="project1Repository.DashboardRanorexWebtestWordPress.DashboardRanorexWebtestWordPress.HowdyRanorexWebtest"
+				id="78ad9a63cc864f57980a53e9c99cd689"
+				timeout="90000"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\wordpress.cs"
+				codeline="82"
+				itemindex="8"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:32.882"
+			timeRelativeToTestModuleStartTime="00:32.882"
+			timeWallClock="11:24:56"
+			time="00:32.882"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error"/>
+		</item>
+	</activity>
+</report>

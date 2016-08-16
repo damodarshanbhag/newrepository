@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Failed"
+		duration="20.63s"
+		durationms="20632"
+		type="root"
+		rid="b8e4d38a8e2504e"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="Damodar Shanbhag"
+		host="HP"
+		rxversion="6.0.1.0"
+		osversion="Windows 8.1 64bit"
+		runtimeversion="4.0.30319.34209"
+		procarch="32bit"
+		language="en-GB"
+		screenresolution="2732x798"
+		timestamp="25-07-2016 09:53:15"
+		timestampiso="2016-07-25T04:23:15"
+		timeoutfactor="1"
+		module="Recording1">
+		<detail>
+			Recording1
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.424"
+			timeRelativeToTestModuleStartTime="00:00.425"
+			timeWallClock="09:53:15"
+			time="00:00.424"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'DatabaseKdbKeePass.Close' at 21;10.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Database.kdb - KeePass']/?/?/button[@accessiblename='Close']"
+				fullname="project1Repository.DatabaseKdbKeePass.Close"
+				id="0894beba24d748b8bb17cd008cde3503"
+				timeout="60000"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\Recording1.cs"
+				codeline="82"
+				itemindex="23"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:20.631"
+			timeRelativeToTestModuleStartTime="00:20.632"
+			timeWallClock="09:53:35"
+			time="00:20.631"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error"/>
+		</item>
+	</activity>
+</report>

@@ -1,0 +1,1380 @@
+﻿<repository
+name="dubeerRepository"
+id="af88e116-5181-4452-a544-f77c4ec591d1"
+rxversion="6.0">
+	<codegen
+	classname="dubeerRepository"
+	namespace="dubeer"/>
+	<rootfolder
+	name="Root"
+	id="360444f8-fdf2-48c7-bf6d-4dc9c3993978"
+	searchtimeout="0ms"
+	capname="unknown"
+	isrooted="True"
+	usecache="True">
+		<appfolder
+		name="DubberMozillaFirefox"
+		id="9c7778dd-7619-4cc7-8349-9e0b3207a3af"
+		searchtimeout="30000ms"
+		capname="form"
+		refpath="/form[@title='Dubber - Mozilla Firefox']"
+		addcaps="form,nativewindow"
+		refimgid="d021ee7b-0cff-414d-902b-98305e7c3199"
+		isrooted="True"
+		usecache="True">
+			<item
+			name="State"
+			id="0fa45bd0-3744-44bd-89ef-1297e3a850c9"
+			searchtimeout="30000ms"
+			capname="text"
+			refpath="/form[@title='Dubber - Mozilla Firefox']/container/container/element/container/element[3]/element[4]/element/element/element/element/element[2]/element/element[2]/element/element/element[2]/element[1]/element/text[@accessiblename='State']"
+			addcaps="text,accessible"
+			refimgid="24caf484-2959-44d0-a61b-8d54fdb653d3">
+				/form[@title='Dubber - Mozilla Firefox']/container[@accessiblerole='Grouping']/container[@accessiblerole='PropertyPage']/element[@accessiblerole='None']/container[@accessiblename='Dubber']/element[3]/element[4]/element/element[@accessiblerole='None']/element[@accessiblerole='None']/element[@accessiblerole='None']/element[2]/element/element[2]/element/element[@accessiblerole='None']/element[2]//text[@accessiblename='State']
+			</item>
+			<item
+			name="ComboBox"
+			id="dc0649b5-9d0f-48f8-8f45-5c3fac5970f9"
+			searchtimeout="30000ms"
+			capname="combobox"
+			refpath="/form[@title='Dubber - Mozilla Firefox']/container/container/element/container/element[3]/element[4]/element/element/element/element/element[2]/element/element[2]/element/element/element[2]/element[2]/element/combobox[@accessiblerole='ComboBox']"
+			addcaps="combobox,accessible"
+			refimgid="34335c0f-b96e-4194-a96e-2693a29ce144">
+				/form[@title='Dubber - Mozilla Firefox']/container[@accessiblerole='Grouping']/container[@accessiblerole='PropertyPage']/element[@accessiblerole='None']/container[@accessiblename='Dubber']/element[3]/element[4]/element/element[@accessiblerole='None']/element[@accessiblerole='None']/element[@accessiblerole='None']/element[2]/element/element[2]/element/element[@accessiblerole='None']/element[2]//combobox[@accessiblerole='ComboBox']
+			</item>
+			<item
+			name="BrowserTabs"
+			id="e071536c-8505-4932-848a-97df4925c971"
+			searchtimeout="30000ms"
+			capname="toolbar"
+			refpath="/form[@title='Dubber - Mozilla Firefox']/toolbar[@accessiblename='Browser tabs']"
+			addcaps="toolbar,accessible"
+			refimgid="3a1c93cc-51a6-48cc-8e47-933afdd4c342">
+				/form[@title='Dubber - Mozilla Firefox']/toolbar[@accessiblename='Browser tabs']
+			</item>
+			<folder
+			name="Dubber"
+			id="588eb9e8-feba-4e58-b2ab-af06f998283a"
+			searchtimeout="30000ms"
+			capname="container"
+			isrooted="True"
+			usecache="False">
+				<item
+				name="TextLogout"
+				id="f3a1ee0b-839d-4014-8fa7-7954673e60d0"
+				searchtimeout="30000ms"
+				capname="text"
+				refpath="/form[@title='Dubber - Mozilla Firefox']/container/container/element/container/element[3]/element[2]/element/element[2]/contextmenu/element[8]/link/text[@accessiblename=' Logout ']"
+				addcaps="text,accessible"
+				refimgid="a74c131f-6a38-4ffd-9073-6132faf4c8b6">
+					/form[@title='Dubber - Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename='Dubber']/element[3]/element[2]//contextmenu/element[8]/link[@accessiblename='Logout']/text[@accessiblename=' Logout ']
+				</item>
+				<item
+				name="None1"
+				id="1f9c1db9-2468-48b3-b716-1475c97a762a"
+				searchtimeout="30000ms"
+				capname="unknown"
+				refpath="/form[@title='Dubber - Mozilla Firefox']/container/container/element/container/element[3]/element[2]/element/element[2]/link/element[1]"
+				addcaps="unknown,accessible"
+				refimgid="0caca576-bfac-4b4b-be9f-284149f52883">
+					/form[@title='Dubber - Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename='Dubber']/element[3]/element[2]//link/element[1]
+				</item>
+				<item
+				name="Daps"
+				id="374d9048-4ffb-49d9-9720-a9cbd7bda5f9"
+				searchtimeout="30000ms"
+				capname="text"
+				refpath="/form[@title='Dubber - Mozilla Firefox']/container/container/element/container/element[3]/element[3]/element/element[1]/element[2]/element/element[1]/link/text[@accessiblename='Daps']"
+				addcaps="text,accessible"
+				refimgid="03d60db5-2772-4046-b92d-76b8966db67c">
+					/form[@title='Dubber - Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename='Dubber']/element[3]/element[3]/element/element[1]/element[2]/element[@accessiblerole='None']/element[1]/link[@accessiblename='Daps']/text[@accessiblename='Daps']
+				</item>
+				<item
+				name="TextAddDap"
+				id="6ff29afd-43aa-4618-9cab-c18e238a793e"
+				searchtimeout="30000ms"
+				capname="text"
+				refpath="/form[@title='Dubber - Mozilla Firefox']/container/container/element/container/element[3]/element[4]/element/element/element/element/element[1]/link/text[@accessiblename=' Add Dap ']"
+				addcaps="text,accessible"
+				refimgid="b82c9759-18f8-4384-8b2e-3334be2a207d">
+					/form[@title='Dubber - Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename='Dubber']/element[3]/element[4]/element/element[@accessiblerole='None']/element[@accessiblerole='None']/element[@accessiblerole='None']/element[1]/link[@accessiblename='Add Dap']/text[@accessiblename=' Add Dap ']
+				</item>
+				<item
+				name="Link"
+				id="d08d1f9f-ecee-4727-bed4-5f9280cae9d1"
+				searchtimeout="30000ms"
+				capname="link"
+				refpath="/form[@title='Dubber - Mozilla Firefox']/container/container[1]/element/container/element[3]/element[2]/element/element[2]/link[@accessiblerole='Link']"
+				addcaps="link,accessible"
+				refimgid="45e16044-ed8a-435f-a528-1648bce4fd15">
+					/form[@title='Dubber - Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename='Dubber']/element[3]/element[2]//link[@accessiblerole='Link']
+				</item>
+				<item
+				name="Logout"
+				id="ff601480-ede5-41d7-856e-4bbd7560a982"
+				searchtimeout="30000ms"
+				capname="link"
+				refpath="/form[@title='Dubber - Mozilla Firefox']/container/container[1]/element/container/element[3]/element[2]/element/element[2]/contextmenu/element[8]/link[@accessiblename='Logout']"
+				addcaps="link,accessible"
+				refimgid="432cb758-c0c4-42a9-93fc-488320eddf0e">
+					/form[@title='Dubber - Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename='Dubber']/element[3]/element[2]//contextmenu[@accessiblerole='MenuPopup']/element[8]/link[@accessiblename='Logout']
+				</item>
+				<item
+				name="Accounts"
+				id="576dc73f-5f62-4280-a000-5e7f1a6b009d"
+				searchtimeout="30000ms"
+				capname="text"
+				refpath="/form[@title='Dubber - Mozilla Firefox']/container/container/element/container/element[3]/element[3]/element/element[1]/element[1]/element[1]/link/text[@accessiblename='Accounts']"
+				addcaps="text,accessible"
+				refimgid="86043fa0-587c-4ef5-a208-6a0433d62633">
+					/form[@title='Dubber - Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename='Dubber']/element[3]/element[3]//link[@accessiblename='Accounts']/text[@accessiblename='Accounts']
+				</item>
+				<item
+				name="TextSaveChanges"
+				id="e81ffd00-09d9-45f1-a0a4-509e2ca0e509"
+				searchtimeout="30000ms"
+				capname="text"
+				refpath="/form[@title='Dubber - Mozilla Firefox']/container/container/element/container/element[3]/element[4]/element/element/element/element/element/element[16]/button/text[@accessiblename=' Save Changes ']"
+				addcaps="text,accessible"
+				refimgid="3c579cf5-2776-4026-8ed6-1ae4bae6b442">
+					/form[@title='Dubber - Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename='Dubber']/element[3]/element[4]/element/element[@accessiblerole='None']/element[@accessiblerole='None']/element[@accessiblerole='None']/element[@accessiblerole='None']/element[16]/button[@accessiblename='Save Changes']/text[@accessiblename=' Save Changes ']
+				</item>
+				<item
+				name="TextSaveChanges1"
+				id="c9fa6c37-6a8f-401e-a28b-ab994eba9286"
+				searchtimeout="30000ms"
+				capname="text"
+				refpath="/form[@title='Dubber - Mozilla Firefox']/container/container/element/container/element[3]/element[4]/element/element/element/element/element/element[8]/button/text[@accessiblename=' Save Changes ']"
+				addcaps="text,accessible"
+				refimgid="cadf1599-c085-43d7-85c2-05cbd4a2dc72">
+					/form[@title='Dubber - Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename='Dubber']/element[3]/element[4]/element/element[@accessiblerole='None']/element[@accessiblerole='None']/element[@accessiblerole='None']/element[@accessiblerole='None']/element[8]/button[@accessiblename='Save Changes']/text[@accessiblename=' Save Changes ']
+				</item>
+				<item
+				name="Inbound"
+				id="7a16b11f-16e5-4ed4-9594-d53b188e52b3"
+				searchtimeout="30000ms"
+				capname="text"
+				refpath="/form[@title='Dubber - Mozilla Firefox']/container/container/element/container/element[3]/element[4]/element/element/list/listitem[@accessiblename='Inbound']/link/text[@accessiblename='Inbound']"
+				addcaps="text,accessible"
+				refimgid="2d13ecd3-82e3-47f1-a005-286c5db5af9b">
+					/form[@title='Dubber - Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename='Dubber']//list[@accessiblerole='List']/listitem[@accessiblename='Inbound']/link[@accessiblename='Inbound']/text[@accessiblename='Inbound']
+				</item>
+				<item
+				name="Rtre"
+				id="679ddbf1-6e79-45df-8b4f-1649f3b61536"
+				searchtimeout="30000ms"
+				capname="text"
+				refpath="/form[@title='Dubber - Mozilla Firefox']/container/container/element/container/element[3]/element[4]/element/element/element/element/element/table/row/cell[2]/link/text[@accessiblename='rtre']"
+				addcaps="text,accessible"
+				refimgid="f4d04a1a-9f8e-40b5-b74f-23478104640b">
+					/form[@title='Dubber - Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename='Dubber']/element[3]/element[4]//table[@accessiblerole='Table']/row[@accessiblename~'^A\ rtre\ 61776767675\ 617676']/cell[2]/link[@accessiblename='rtre']/text[@accessiblename='rtre']
+				</item>
+				<item
+				name="TextSaveChanges2"
+				id="6f4d74e3-bfd0-4c1f-85e3-6f96cf489877"
+				searchtimeout="30000ms"
+				capname="text"
+				refpath="/form[@title='Dubber - Mozilla Firefox']/container/container/element/container/element[3]/element[4]/element/element/element/element/element/element[9]/button/text[@accessiblename=' Save Changes ']"
+				addcaps="text,accessible"
+				refimgid="47ad56ac-ab30-4588-b6fd-ebde4846883e">
+					/form[@title='Dubber - Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename='Dubber']/element[3]/element[4]/element/element[@accessiblerole='None']/element[@accessiblerole='None']/element[@accessiblerole='None']/element[@accessiblerole='None']/element[9]/button[@accessiblename='Save Changes']/text[@accessiblename=' Save Changes ']
+				</item>
+				<item
+				name="Search"
+				id="cb56633e-c35f-4dfc-a1d4-d7d10c6e9266"
+				searchtimeout="30000ms"
+				capname="text"
+				refpath="/form[@title='Dubber - Mozilla Firefox']/container/container/element/container/element[3]/element[2]/element/element[3]/element/text[@accessiblename='Search']"
+				addcaps="text,accessible"
+				refimgid="25277d22-ed03-4d34-a02d-6f942298ee45">
+					/form[@title='Dubber - Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename='Dubber']/element[3]/element[2]//text[@accessiblename='Search']
+				</item>
+				<item
+				name="Testcomplete2"
+				id="baea8ae5-a1af-4461-8962-fca63308d01c"
+				searchtimeout="30000ms"
+				capname="text"
+				refpath="/form[@title='Dubber - Mozilla Firefox']/container/container/element/container/element[3]/element[4]/element/element/element/element/element/element[2]/table/row/cell[2]/link/text[@accessiblename='testcomplete2']"
+				addcaps="text,accessible"
+				refimgid="0f805d62-9863-4878-91f9-cb8cdd6e2fdb">
+					/form[@title='Dubber - Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename='Dubber']/element[3]/element[4]//table[@accessiblerole='Table']/row[@accessiblename~'^A\ testcomplete2Dubber\ sss']/cell[2]/link[@accessiblename='testcomplete2']/text[@accessiblename='testcomplete2']
+				</item>
+				<item
+				name="TextInb"
+				id="3c159e7d-9f8a-462f-85fa-fc58c961d213"
+				searchtimeout="30000ms"
+				capname="text"
+				refpath="/form[@title='Dubber - Mozilla Firefox']/container/container/element/container/element[3]/element[4]/element/element/element/element/element/table/row/cell[2]/link/text[@accessiblename='inb']"
+				addcaps="text,accessible"
+				refimgid="3d4c04db-9c07-4a16-9a50-0558a8d1ceec">
+					/form[@title='Dubber - Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename='Dubber']/element[3]/element[4]//table[@accessiblerole='Table']/row[@accessiblename~'^A\ inb\ 61486549565\ 6121234']/cell[2]/link[@accessiblename='inb']/text[@accessiblename='inb']
+				</item>
+				<item
+				name="Dubber"
+				id="c36d95a1-d68c-4ee0-9e68-00eb89104309"
+				searchtimeout="30000ms"
+				capname="container"
+				refpath="/form[@title='Dubber - Mozilla Firefox']/container/container/element/container[@accessiblename='Dubber']"
+				addcaps="container,accessible"
+				refimgid="d15526b0-3bcf-4753-8abd-794925146504">
+					/form[@title='Dubber - Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename='Dubber']
+				</item>
+				<item
+				name="None"
+				id="05fd8683-3a22-455e-af95-acf34dd1d6a3"
+				searchtimeout="30000ms"
+				capname="unknown"
+				refpath="/form[@title='Dubber - Mozilla Firefox']/container/container/element/container/element[3]/element[4]/element/element/element[@accessiblerole='None']"
+				addcaps="unknown,accessible"
+				refimgid="be0fb7c6-89a2-4b63-a591-ca5755d6ae75">
+					/form[@title='Dubber - Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename='Dubber']/element[3]/element[4]/element/element[@accessiblerole='None']/element[@accessiblerole='None']
+				</item>
+				<item
+				name="None2"
+				id="0f85d558-ffca-4934-a3be-419e19e3d70f"
+				searchtimeout="30000ms"
+				capname="unknown"
+				refpath="/form[@title='Dubber - Mozilla Firefox']/container/container/element/container/element[3]/element[4]/element/element/element/element/element/element[9]/button/element[@accessiblerole='None']"
+				addcaps="unknown,accessible"
+				refimgid="5c430f08-ba44-4cbc-9f68-d9c6d0c5a50e">
+					/form[@title='Dubber - Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename='Dubber']/element[3]/element[4]/element/element[@accessiblerole='None']/element[@accessiblerole='None']/element[@accessiblerole='None']/element[@accessiblerole='None']/element[9]/button[@accessiblename='Save Changes']/element[@accessiblerole='None']
+				</item>
+				<item
+				name="None3"
+				id="19679538-873b-4006-8237-d38ad99765fb"
+				searchtimeout="30000ms"
+				capname="unknown"
+				refpath="/form[@title='Dubber - Mozilla Firefox' and @processname='firefox' and @class='MozillaWindowClass' and @instance='0']/container/container/element/container/element[5]"
+				addcaps="unknown,accessible"
+				refimgid="02debb85-1d1a-4baa-906a-8c63b18fb438">
+					/form[@title='Dubber - Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename='Dubber']/element[5]
+				</item>
+				<basepath>
+					/form[@title='Dubber - Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename='Dubber']
+				</basepath>
+			</folder>
+			<folder
+			name="Dubber1"
+			id="82c4b457-6c64-4beb-8b57-e1d447879185"
+			searchtimeout="30000ms"
+			capname="container"
+			isrooted="True"
+			usecache="False">
+				<item
+				name="EmailAddress"
+				id="9569c825-98af-4574-909a-7055c456ee37"
+				searchtimeout="30000ms"
+				capname="text"
+				refpath="/form[@title='Dubber - Mozilla Firefox']/container/container/element/container/element[2]/element[2]/element[1]/element/element[2]/element/element/element/element[1]/element/text[@accessiblename='Email Address']"
+				addcaps="text,accessible"
+				refimgid="bc52a5cf-d52c-46d9-b2d9-b2d2369f868e">
+					/form[@title='Dubber - Mozilla Firefox']/container[@accessiblerole='Grouping']/container[@accessiblerole='PropertyPage']/?/?/container[@accessiblename='Dubber']/element[2]/element[2]/element[1]/element/element[2]/element[@accessiblerole='None']/element[@accessiblerole='None']/element[@accessiblerole='None']/element[1]/?/?/text[@accessiblename='Email Address']
+				</item>
+				<item
+				name="Password"
+				id="11058688-e339-433e-944a-b3b33bfbaa1d"
+				searchtimeout="30000ms"
+				capname="text"
+				refpath="/form[@title='Dubber - Mozilla Firefox']/container/container/element/container/element[2]/element[2]/element[1]/element/element[2]/element/element/element/element[2]/element/text[@accessiblename='Password']"
+				addcaps="text,accessible"
+				refimgid="a72acca7-8044-47b0-8c52-cb582d539186">
+					/form[@title='Dubber - Mozilla Firefox']/container[@accessiblerole='Grouping']/container[@accessiblerole='PropertyPage']/?/?/container[@accessiblename='Dubber']/element[2]/element[2]/element[1]/element/element[2]/element[@accessiblerole='None']/element[@accessiblerole='None']/element[@accessiblerole='None']/element[2]/?/?/text[@accessiblename='Password']
+				</item>
+				<item
+				name="Login"
+				id="c550253a-1ee6-4ab7-ae43-ef26062402fa"
+				searchtimeout="30000ms"
+				capname="button"
+				refpath="/form[@title='Dubber - Mozilla Firefox']/container/container/element/container/element[2]/element[2]/element[1]/element/element[2]/element/element/element/element[3]/button[@accessiblename='Login']"
+				addcaps="button,accessible"
+				refimgid="8ecc368d-733f-423e-b603-7bc6aa3c38b8">
+					/form[@title='Dubber - Mozilla Firefox']/container[@accessiblerole='Grouping']/container[@accessiblerole='PropertyPage']/?/?/container[@accessiblename='Dubber']/element[2]/element[2]/element[1]/element/element[2]/element[@accessiblerole='None']/element[@accessiblerole='None']/element[@accessiblerole='None']/element[3]/button[@accessiblename='Login']
+				</item>
+				<item
+				name="RequiredArea1"
+				id="cd03d944-a70f-470d-bc7b-effa8c766823"
+				searchtimeout="30000ms"
+				capname="text"
+				refpath="/form[@title='Dubber - Mozilla Firefox']/container/container/element/container/element[3]/element[4]/element/element/element/element/element[2]/element/element[2]/element/element/element[1]/element/element/text[@accessiblename='required Area']"
+				addcaps="text,accessible"
+				refimgid="f8085a18-9b9c-44e5-8283-3944b48bef1c">
+					/form[@title='Dubber - Mozilla Firefox']/container[@accessiblerole='Grouping']/container[@accessiblerole='PropertyPage']/?/?/container[@accessiblename='Dubber']/element[3]/element[4]/element/element[@accessiblerole='None']/element[@accessiblerole='None']/element[@accessiblerole='None']/element[2]/element/element[2]/element/element[@accessiblerole='None']/element[1]/element/element[@accessiblerole='None']/text[@accessiblename='required Area']
+				</item>
+				<item
+				name="None"
+				id="0e36ded4-a5ce-4a3a-9c0c-734153443780"
+				searchtimeout="30000ms"
+				capname="unknown"
+				refpath="/form[@title='Dubber - Mozilla Firefox']/container/container/element/container/element[3]/element[4]/element/element/element/element/element[2]/element/element[1]/element[@accessiblerole='None']"
+				addcaps="unknown,accessible"
+				refimgid="0f3b3c06-ec9c-44d8-9796-4693fbff36bd">
+					/form[@title='Dubber - Mozilla Firefox']/container[@accessiblerole='Grouping']/container[@accessiblerole='PropertyPage']/?/?/container[@accessiblename='Dubber']/element[3]/element[4]/element/element[@accessiblerole='None']/element[@accessiblerole='None']/element[@accessiblerole='None']/element[2]/element[@accessiblerole='None']/element[1]/element[@accessiblerole='None']
+				</item>
+				<item
+				name="TextSaveChanges"
+				id="07443326-7860-47a2-814b-ac80e01c35d3"
+				searchtimeout="30000ms"
+				capname="text"
+				refpath="/form[@title='Dubber - Mozilla Firefox']/container/container/element/container/element[3]/element[4]/element/element/element/element/element[2]/element/element[3]/element/button/text[@accessiblename=' Save Changes ']"
+				addcaps="text,accessible"
+				refimgid="8dc8dd40-bbc4-4d88-a633-1a7b66ab4001">
+					/form[@title='Dubber - Mozilla Firefox']/container[@accessiblerole='Grouping']/container[@accessiblerole='PropertyPage']/?/?/container[@accessiblename='Dubber']/element[3]/element[4]/element/element[@accessiblerole='None']/element[@accessiblerole='None']/element[@accessiblerole='None']/element[2]/element[@accessiblerole='None']/element[3]/?/?/button[@accessiblename='Save Changes']/text[@accessiblename=' Save Changes ']
+				</item>
+				<item
+				name="RequiredArea"
+				id="ccb5cff4-1def-47a6-bbbf-b89ae4b6381a"
+				searchtimeout="30000ms"
+				capname="combobox"
+				refpath="/form[@title='Dubber - Mozilla Firefox']/container/container/element/container/element[3]/element[4]/element/element/element/element/element/element/element[1]/element/element/combobox[@accessiblename='required Area']"
+				addcaps="combobox,accessible"
+				refimgid="c46a0ae0-5ccf-4dae-9154-678e08493136">
+					/form[@title='Dubber - Mozilla Firefox']/container[@accessiblerole='Grouping']/container[@accessiblerole='PropertyPage']/?/?/container[@accessiblename='Dubber']/element[3]/element[4]/element/element[@accessiblerole='None']/element[@accessiblerole='None']/element[@accessiblerole='None']/element[@accessiblerole='None']/element[@accessiblerole='None']/element[1]/element/element[@accessiblerole='None']/combobox[@accessiblename='required Area']
+				</item>
+				<item
+				name="ComboBox1"
+				id="6bb228ad-f90f-42c0-9f71-5991d7e00245"
+				searchtimeout="30000ms"
+				capname="combobox"
+				refpath="/form[@title='Dubber - Mozilla Firefox']/container/container/element/container/element[3]/element[4]/element/element/element/element/element/element/element[2]/element/element/combobox[2]"
+				addcaps="combobox,accessible"
+				refimgid="3a1d515a-2807-42bd-a71f-0e71fd5f0e8c">
+					/form[@title='Dubber - Mozilla Firefox']/container[@accessiblerole='Grouping']/container[@accessiblerole='PropertyPage']/?/?/container[@accessiblename='Dubber']/element[3]/element[4]/element/element[@accessiblerole='None']/element[@accessiblerole='None']/element[@accessiblerole='None']/element[@accessiblerole='None']/element[@accessiblerole='None']/element[2]/element/element[@accessiblerole='None']/combobox[2]
+				</item>
+				<item
+				name="Text"
+				id="b06c8aa4-827b-40b8-b9d2-6f75609e8bfc"
+				searchtimeout="30000ms"
+				capname="text"
+				refpath="/form[@title='Dubber - Mozilla Firefox']/container/container/element/container/element[3]/element[4]/element/element/element/element/element/element/element[2]/element/element/text[@accessiblerole='Text']"
+				addcaps="text,accessible"
+				refimgid="20107270-b7ca-4d60-a19a-62774f8483de">
+					/form[@title='Dubber - Mozilla Firefox']/container[@accessiblerole='Grouping']/container[@accessiblerole='PropertyPage']/?/?/container[@accessiblename='Dubber']/element[3]/element[4]/element/element[@accessiblerole='None']/element[@accessiblerole='None']/element[@accessiblerole='None']/element[@accessiblerole='None']/element[@accessiblerole='None']/element[2]/element/element[@accessiblerole='None']/text[@accessiblerole='Text']
+				</item>
+				<item
+				name="ComboBox2"
+				id="aeba278d-d43d-4db1-8467-654f49f0a09b"
+				searchtimeout="30000ms"
+				capname="combobox"
+				refpath="/form[@title='Dubber - Mozilla Firefox']/container/container/element/container/element[3]/element[4]/element/element/element/element/element/element/element[3]/element/element/combobox[2]"
+				addcaps="combobox,accessible"
+				refimgid="28f9c5d4-7a57-4caa-b65b-8f53d24b0312">
+					/form[@title='Dubber - Mozilla Firefox']/container[@accessiblerole='Grouping']/container[@accessiblerole='PropertyPage']/?/?/container[@accessiblename='Dubber']/element[3]/element[4]/element/element[@accessiblerole='None']/element[@accessiblerole='None']/element[@accessiblerole='None']/element[@accessiblerole='None']/element[@accessiblerole='None']/element[3]/element/element[@accessiblerole='None']/combobox[2]
+				</item>
+				<item
+				name="Text1"
+				id="068405e6-453c-4bbc-8cc9-5321748b34e3"
+				searchtimeout="30000ms"
+				capname="text"
+				refpath="/form[@title='Dubber - Mozilla Firefox']/container/container/element/container/element[3]/element[4]/element/element/element/element/element/element/element[3]/element/element/text[@accessiblerole='Text']"
+				addcaps="text,accessible"
+				refimgid="0d1107de-2e29-4661-a120-8fd90abe4f9f">
+					/form[@title='Dubber - Mozilla Firefox']/container[@accessiblerole='Grouping']/container[@accessiblerole='PropertyPage']/?/?/container[@accessiblename='Dubber']/element[3]/element[4]/element/element[@accessiblerole='None']/element[@accessiblerole='None']/element[@accessiblerole='None']/element[@accessiblerole='None']/element[@accessiblerole='None']/element[3]/element/element[@accessiblerole='None']/text[@accessiblerole='Text']
+				</item>
+				<item
+				name="TextConfirm"
+				id="82219253-daf2-462c-90ad-eeeca9bdd60f"
+				searchtimeout="30000ms"
+				capname="text"
+				refpath="/form[@title='Dubber - Mozilla Firefox']/container/container/element/container/element[3]/element[4]/element/element/element/element/element/element/element[4]/element[3]/button/text[@accessiblename=' Confirm ']"
+				addcaps="text,accessible"
+				refimgid="e87ae945-79ce-4cec-b57d-7382da162312">
+					/form[@title='Dubber - Mozilla Firefox']/container[@accessiblerole='Grouping']/container[@accessiblerole='PropertyPage']/?/?/container[@accessiblename='Dubber']/element[3]/element[4]/element/element[@accessiblerole='None']/element[@accessiblerole='None']/element[@accessiblerole='None']/element[@accessiblerole='None']/element[@accessiblerole='None']/element[4]/?/?/button[@accessiblename='Confirm']/text[@accessiblename=' Confirm ']
+				</item>
+				<item
+				name="TextCreateDaps"
+				id="536a2d16-1ae7-49d4-97be-1c8f7863596e"
+				searchtimeout="30000ms"
+				capname="text"
+				refpath="/form[@title='Dubber - Mozilla Firefox']/container/container/element/container/element[3]/element[4]/element/element/element/element/element/element/element[4]/button/text[@accessiblename=' Create Daps ']"
+				addcaps="text,accessible"
+				refimgid="e49b9156-aceb-4a44-acb4-29cb502c1600">
+					/form[@title='Dubber - Mozilla Firefox']/container[@accessiblerole='Grouping']/container[@accessiblerole='PropertyPage']/?/?/container[@accessiblename='Dubber']/element[3]/element[4]/element/element[@accessiblerole='None']/element[@accessiblerole='None']/element[@accessiblerole='None']/element[@accessiblerole='None']/element[@accessiblerole='None']/element[4]/button[@accessiblename='Create Daps']/text[@accessiblename=' Create Daps ']
+				</item>
+				<item
+				name="None1"
+				id="b8cfa207-8a40-49cc-93aa-92f9ff02341d"
+				searchtimeout="30000ms"
+				capname="unknown"
+				refpath="/form[@title='Dubber - Mozilla Firefox']/container/container/element/container/element[3]/element[4]/element/element/element/element/element[2]/element/element[1]"
+				addcaps="unknown,accessible"
+				refimgid="a9b1a215-94be-4106-b4a0-aeb296690e19">
+					/form[@title='Dubber - Mozilla Firefox']/container[@accessiblerole='Grouping']/container[@accessiblerole='PropertyPage']/?/?/container[@accessiblename='Dubber']/element[3]/element[4]/element/element[@accessiblerole='None']/element[@accessiblerole='None']/element[@accessiblerole='None']/element[2]/element/element[1]
+				</item>
+				<item
+				name="SaveChanges"
+				id="b658cdb3-e0b5-447a-a840-83b2f9635739"
+				searchtimeout="30000ms"
+				capname="button"
+				refpath="/form[@title='Dubber - Mozilla Firefox']/container/container/element/container/element[3]/element[4]/element/element/element/element/element[2]/element/element[3]/element/button[@accessiblename='Save Changes']"
+				addcaps="button,accessible"
+				refimgid="0d985240-d620-491a-acce-a55799ce76dd">
+					/form[@title='Dubber - Mozilla Firefox']/container[@accessiblerole='Grouping']/container[@accessiblerole='PropertyPage']/?/?/container[@accessiblename='Dubber']/element[3]/element[4]/element/element[@accessiblerole='None']/element[@accessiblerole='None']/element[@accessiblerole='None']/element[2]/element/element[3]/?/?/button[@accessiblename='Save Changes']
+				</item>
+				<item
+				name="None2"
+				id="13b030a8-27fa-4bb2-9c3a-169baca966b1"
+				searchtimeout="30000ms"
+				capname="unknown"
+				refpath="/form[@title='Dubber - Mozilla Firefox']/container/container/element/container/element[3]/element[4]/element/element/element/element/element/element/element[4]/element[2]"
+				addcaps="unknown,accessible"
+				refimgid="45a6951a-9f55-4f01-ab25-ce9fa0b757b1">
+					/form[@title='Dubber - Mozilla Firefox']/container[@accessiblerole='Grouping']/container[@accessiblerole='PropertyPage']/?/?/container[@accessiblename='Dubber']/element[3]/element[4]/element/element[@accessiblerole='None']/element[@accessiblerole='None']/element[@accessiblerole='None']/element[@accessiblerole='None']/element[@accessiblerole='None']/element[4]/element[2]
+				</item>
+				<item
+				name="None3"
+				id="61dd6c50-3748-4a30-b6a2-c069c997c697"
+				searchtimeout="30000ms"
+				capname="unknown"
+				refpath="/form[@title='Dubber - Mozilla Firefox']/container/container/element/container/element[3]/element[4]/element/element/element/element/element[@accessiblerole='None']"
+				addcaps="unknown,accessible"
+				refimgid="6437a952-fcb8-4332-9486-12760933dbcd">
+					/form[@title='Dubber - Mozilla Firefox']/container[@accessiblerole='Grouping']/container[@accessiblerole='PropertyPage']/?/?/container[@accessiblename='Dubber']/element[3]/element[4]/element/element[@accessiblerole='None']/element[@accessiblerole='None']/element[@accessiblerole='None']/element[@accessiblerole='None']
+				</item>
+				<item
+				name="TextAddAccount"
+				id="11724dab-cede-4b1d-a37e-016181776c0f"
+				searchtimeout="30000ms"
+				capname="text"
+				refpath="/form[@title='Dubber - Mozilla Firefox']/container/container/element/container/element[3]/element[4]/element/element/element/element/element/element[1]/link/text[@accessiblename=' Add account ']"
+				addcaps="text,accessible"
+				refimgid="d5372d63-1556-41c0-9046-b31cc6a1a366">
+					/form[@title='Dubber - Mozilla Firefox']/container[@accessiblerole='Grouping']/container[@accessiblerole='PropertyPage']/?/?/container[@accessiblename='Dubber']/element[3]/element[4]//link[@accessiblename='Add account']/text[@accessiblename=' Add account ']
+				</item>
+				<item
+				name="RequiredName"
+				id="7a0219f9-569a-4d5b-8d5b-27b172d31d14"
+				searchtimeout="30000ms"
+				capname="text"
+				refpath="/form[@title='Dubber - Mozilla Firefox']/container/container/element/container/element[3]/element[4]/element/element/element/element/element/element[1]/element/element/text[@accessiblename='required Name']"
+				addcaps="text,accessible"
+				refimgid="d7d10b88-ace4-4ed2-bdb8-64bc3a0c1796">
+					/form[@title='Dubber - Mozilla Firefox']/container[@accessiblerole='Grouping']/container[@accessiblerole='PropertyPage']/?/?/container[@accessiblename='Dubber']/element[3]/element[4]/element/element[@accessiblerole='None']/element[@accessiblerole='None']/element/element[@accessiblerole='None']/element[1]//text[@accessiblename='required Name' and @accessiblerole='Text']
+				</item>
+				<item
+				name="RequiredWebAddress"
+				id="873f0eb4-237f-4a83-98f5-ebc3db0ecba6"
+				searchtimeout="30000ms"
+				capname="text"
+				refpath="/form[@title='Dubber - Mozilla Firefox']/container/container/element/container/element[3]/element[4]/element/element/element/element/element/element[3]/element/element/text[@accessiblename='required Web address']"
+				addcaps="text,accessible"
+				refimgid="2106c73b-5d61-47ba-915f-191fa0f78e33">
+					/form[@title='Dubber - Mozilla Firefox']/container[@accessiblerole='Grouping']/container[@accessiblerole='PropertyPage']/?/?/container[@accessiblename='Dubber']/element[3]/element[4]/element/element[@accessiblerole='None']/element[@accessiblerole='None']/element/element[@accessiblerole='None']/element[3]//text[@accessiblename='required Web address' and @accessiblerole='Text']
+				</item>
+				<item
+				name="ExternalReference"
+				id="440e0491-7718-4c5d-8a17-b0e0819080d4"
+				searchtimeout="30000ms"
+				capname="text"
+				refpath="/form[@title='Dubber - Mozilla Firefox']/container/container/element/container/element[3]/element[4]/element/element/element/element/element/element[4]/element/element/text[@accessiblename='External reference']"
+				addcaps="text,accessible"
+				refimgid="6c480124-107e-49f5-accc-be5c0d44fc08">
+					/form[@title='Dubber - Mozilla Firefox']/container[@accessiblerole='Grouping']/container[@accessiblerole='PropertyPage']/?/?/container[@accessiblename='Dubber']/element[3]/element[4]/element/element[@accessiblerole='None']/element[@accessiblerole='None']/element/element[@accessiblerole='None']/element[4]/?/?/element/text[@accessiblename='External reference']
+				</item>
+				<item
+				name="RequiredAccountTimeZone"
+				id="9bb04540-6d80-4d05-bc5a-153b3e73b586"
+				searchtimeout="30000ms"
+				capname="combobox"
+				refpath="/form[@title='Dubber - Mozilla Firefox']/container/container/element/container/element[3]/element[4]/element/element/element/element/element/element[5]/element/element/combobox[@accessiblename~'^required\ Account\ time\ zon']"
+				addcaps="combobox,accessible"
+				refimgid="829fd770-b312-4f4c-8f4d-83ac2753a7bf">
+					/form[@title='Dubber - Mozilla Firefox']/container[@accessiblerole='Grouping']/container[@accessiblerole='PropertyPage']/?/?/container[@accessiblename='Dubber']/element[3]/element[4]/element/element[@accessiblerole='None']/element[@accessiblerole='None']/element/element[@accessiblerole='None']/element[5]//combobox[@accessiblename~'^required\ Account\ time\ zon']
+				</item>
+				<item
+				name="RequiredAddress"
+				id="a6b6f337-f5f6-4970-a420-8b007626bcca"
+				searchtimeout="30000ms"
+				capname="text"
+				refpath="/form[@title='Dubber - Mozilla Firefox']/container/container/element/container/element[3]/element[4]/element/element/element/element/element/element[6]/element[1]/element/element/text[@accessiblename='required Address']"
+				addcaps="text,accessible"
+				refimgid="69417bc5-00eb-4fd3-91e6-bc4a4042a9e6">
+					/form[@title='Dubber - Mozilla Firefox']/container[@accessiblerole='Grouping']/container[@accessiblerole='PropertyPage']/?/?/container[@accessiblename='Dubber']/element[3]/element[4]/element/element[@accessiblerole='None']/element[@accessiblerole='None']/element[@accessiblerole='None']/element[@accessiblerole='None']/element[6]/element[1]//text[@accessiblename='required Address' and @accessiblerole='Text']
+				</item>
+				<item
+				name="Postcode"
+				id="c274087f-1d59-4de8-9ea0-5ceb2cb0fe5c"
+				searchtimeout="30000ms"
+				capname="text"
+				refpath="/form[@title='Dubber - Mozilla Firefox']/container/container/element/container/element[3]/element[4]/element/element/element/element/element/element[6]/element[5]/element/element/text[@accessiblename='Postcode']"
+				addcaps="text,accessible"
+				refimgid="52cfbf74-a908-4388-8327-7f540d7526fb">
+					/form[@title='Dubber - Mozilla Firefox']/container[@accessiblerole='Grouping']/container[@accessiblerole='PropertyPage']/?/?/container[@accessiblename='Dubber']/element[3]/element[4]/element/element[@accessiblerole='None']/element[@accessiblerole='None']/element[@accessiblerole='None']/element[@accessiblerole='None']/element[6]/element[5]//text[@accessiblename='Postcode']
+				</item>
+				<item
+				name="ComboBox"
+				id="6410dbae-c4b3-4284-8a59-9e316b2a9378"
+				searchtimeout="30000ms"
+				capname="combobox"
+				refpath="/form[@title='Dubber - Mozilla Firefox']/container/container/element/container/element[3]/element[4]/element/element/element/element/element/element[7]/element/element/combobox[3]"
+				addcaps="combobox,accessible"
+				refimgid="4c29d7e9-f0af-4638-a001-9b7651c0ad21">
+					/form[@title='Dubber - Mozilla Firefox']/container[@accessiblerole='Grouping']/container[@accessiblerole='PropertyPage']/?/?/container[@accessiblename='Dubber']/element[3]/element[4]/element/element[@accessiblerole='None']/element[@accessiblerole='None']/element/element[@accessiblerole='None']/element[7]/element/element[@accessiblerole='None']/combobox[3]
+				</item>
+				<item
+				name="Text2"
+				id="17a36223-1607-43fa-bb19-b7d03d7e9669"
+				searchtimeout="30000ms"
+				capname="text"
+				refpath="/form[@title='Dubber - Mozilla Firefox']/container/container/element/container/element[3]/element[4]/element/element/element/element/element/element[7]/element/element/text[@accessiblerole='Text']"
+				addcaps="text,accessible"
+				refimgid="6edbad12-0e1d-44e7-a23b-82e1dff6556c">
+					/form[@title='Dubber - Mozilla Firefox']/container[@accessiblerole='Grouping']/container[@accessiblerole='PropertyPage']/?/?/container[@accessiblename='Dubber']/element[3]/element[4]/element/element[@accessiblerole='None']/element[@accessiblerole='None']/element/element[@accessiblerole='None']/element[7]/element/element[@accessiblerole='None']/text[@accessiblerole='Text']
+				</item>
+				<item
+				name="RequiredUsername"
+				id="ad51ca63-1ee0-4626-828a-a3abf74e210d"
+				searchtimeout="30000ms"
+				capname="text"
+				refpath="/form[@title='Dubber - Mozilla Firefox']/container/container/element/container/element[3]/element[4]/element/element/element/element/element/element[11]/element/element/text[@accessiblename='required Username']"
+				addcaps="text,accessible"
+				refimgid="20d02f19-b8d6-45fb-b95c-dcdd3afad906">
+					/form[@title='Dubber - Mozilla Firefox']/container[@accessiblerole='Grouping']/container[@accessiblerole='PropertyPage']/?/?/container[@accessiblename='Dubber']/element[3]/element[4]/element/element[@accessiblerole='None']/element[@accessiblerole='None']/element/element[@accessiblerole='None']/element[11]//text[@accessiblename='required Username' and @accessiblerole='Text']
+				</item>
+				<item
+				name="RequiredVerifyUsername"
+				id="34b15958-9c51-4c6b-9cb9-9dae44521d40"
+				searchtimeout="30000ms"
+				capname="text"
+				refpath="/form[@title='Dubber - Mozilla Firefox']/container/container/element/container/element[3]/element[4]/element/element/element/element/element/element[12]/element/element/text[@accessiblename='required Verify Username']"
+				addcaps="text,accessible"
+				refimgid="6717ec2e-90db-4b08-90ec-5d8d9fcab8b8">
+					/form[@title='Dubber - Mozilla Firefox']/container[@accessiblerole='Grouping']/container[@accessiblerole='PropertyPage']/?/?/container[@accessiblename='Dubber']/element[3]/element[4]/element/element[@accessiblerole='None']/element[@accessiblerole='None']/element/element[@accessiblerole='None']/element[12]//text[@accessiblename='required Verify Username' and @accessiblerole='Text']
+				</item>
+				<item
+				name="RequiredName1"
+				id="52ff8173-3bb9-4bd1-ba40-9329c0725365"
+				searchtimeout="30000ms"
+				capname="text"
+				refpath="/form[@title='Dubber - Mozilla Firefox']/container/container/element/container/element[3]/element[4]/element/element/element/element/element/element[13]/element/element/text[@accessiblename='required Name']"
+				addcaps="text,accessible"
+				refimgid="159d2de6-066f-48b6-92f4-f6282d70e10d">
+					/form[@title='Dubber - Mozilla Firefox']/container[@accessiblerole='Grouping']/container[@accessiblerole='PropertyPage']/?/?/container[@accessiblename='Dubber']/element[3]/element[4]/element/element[@accessiblerole='None']/element[@accessiblerole='None']/element/element[@accessiblerole='None']/element[13]//text[@accessiblename='required Name' and @accessiblerole='Text']
+				</item>
+				<item
+				name="LastName"
+				id="2924f9b4-ec58-46f3-810d-fea51b4b111a"
+				searchtimeout="30000ms"
+				capname="text"
+				refpath="/form[@title='Dubber - Mozilla Firefox']/container/container/element/container/element[3]/element[4]/element/element/element/element/element/element[13]/element/element/text[@accessiblename='Last Name']"
+				addcaps="text,accessible"
+				refimgid="cdc73451-314a-4087-87f6-e45d7c309594">
+					/form[@title='Dubber - Mozilla Firefox']/container[@accessiblerole='Grouping']/container[@accessiblerole='PropertyPage']/?/?/container[@accessiblename='Dubber']/element[3]/element[4]/element/element[@accessiblerole='None']/element[@accessiblerole='None']/element/element[@accessiblerole='None']/element[13]//text[@accessiblename='Last Name']
+				</item>
+				<item
+				name="RequiredInboundLocation"
+				id="6c18960b-9222-4003-9f71-4d0689ce3bbc"
+				searchtimeout="30000ms"
+				capname="combobox"
+				refpath="/form[@title='Dubber - Mozilla Firefox']/container/container/element/container/element[3]/element[4]/element/element/element/element/element/element[1]/element[1]/element/combobox[@accessiblename='required Inbound location']"
+				addcaps="combobox,accessible"
+				refimgid="4aba5a05-d595-4d4c-915e-155f9be0f2c6">
+					/form[@title='Dubber - Mozilla Firefox']/container[@accessiblerole='Grouping']/container[@accessiblerole='PropertyPage']/?/?/container[@accessiblename='Dubber']/element[3]/element[4]/element/element[@accessiblerole='None']/element[@accessiblerole='None']/element/element[@accessiblerole='None']/element[1]//combobox[@accessiblename='required Inbound location']
+				</item>
+				<item
+				name="DubberAccessPoint"
+				id="c97f7472-ce93-44ef-a3e4-8062fde9bf86"
+				searchtimeout="30000ms"
+				capname="combobox"
+				refpath="/form[@title='Dubber - Mozilla Firefox']/container/container/element/container/element[3]/element[4]/element/element/element/element/element/element[1]/element[2]/element/combobox[@accessiblename='Dubber access point']"
+				addcaps="combobox,accessible"
+				refimgid="c4b446e5-e0c1-4b19-af8a-c045cd7eaa2f">
+					/form[@title='Dubber - Mozilla Firefox']/container[@accessiblerole='Grouping']/container[@accessiblerole='PropertyPage']/?/?/container[@accessiblename='Dubber']/element[3]/element[4]/element/element[@accessiblerole='None']/element[@accessiblerole='None']/element/element[@accessiblerole='None']/element[1]//combobox[@accessiblename='Dubber access point']
+				</item>
+				<item
+				name="ComboBox3"
+				id="434ef801-f498-4c60-9ceb-b7988822d1f8"
+				searchtimeout="30000ms"
+				capname="combobox"
+				refpath="/form[@title='Dubber - Mozilla Firefox']/container/container/element/container/element[3]/element[4]/element/element/element/element/element/element[3]/element/element/combobox[3]"
+				addcaps="combobox,accessible"
+				refimgid="1cca991f-fd7a-43b3-8b4e-33ffd49bbf09">
+					/form[@title='Dubber - Mozilla Firefox']/container[@accessiblerole='Grouping']/container[@accessiblerole='PropertyPage']/?/?/container[@accessiblename='Dubber']/element[3]/element[4]/element/element[@accessiblerole='None']/element[@accessiblerole='None']/element/element[@accessiblerole='None']/element[3]/element/element[@accessiblerole='None']/combobox[3]
+				</item>
+				<item
+				name="Text3"
+				id="2f955762-f36f-41be-bfdf-6ab66af1e57e"
+				searchtimeout="30000ms"
+				capname="text"
+				refpath="/form[@title='Dubber - Mozilla Firefox']/container/container/element/container/element[3]/element[4]/element/element/element/element/element/element[3]/element/element/text[@accessiblerole='Text']"
+				addcaps="text,accessible"
+				refimgid="5d237803-0d48-4de2-863e-17feee4401ab">
+					/form[@title='Dubber - Mozilla Firefox']/container[@accessiblerole='Grouping']/container[@accessiblerole='PropertyPage']/?/?/container[@accessiblename='Dubber']/element[3]/element[4]/element/element[@accessiblerole='None']/element[@accessiblerole='None']/element/element[@accessiblerole='None']/element[3]/element/element[@accessiblerole='None']/text[@accessiblerole='Text']
+				</item>
+				<item
+				name="RequiredLabel"
+				id="b0c131ac-0070-4f84-b071-78bb47c3f184"
+				searchtimeout="30000ms"
+				capname="text"
+				refpath="/form[@title='Dubber - Mozilla Firefox']/container/container/element/container/element[3]/element[4]/element/element/element/element/element/element[4]/element/element/text[@accessiblename='required Label']"
+				addcaps="text,accessible"
+				refimgid="f7181a1a-022b-404f-bb3e-67a23624d678">
+					/form[@title='Dubber - Mozilla Firefox']/container[@accessiblerole='Grouping']/container[@accessiblerole='PropertyPage']/?/?/container[@accessiblename='Dubber']/element[3]/element[4]/element/element[@accessiblerole='None']/element[@accessiblerole='None']/element/element[@accessiblerole='None']/element[4]//text[@accessiblename='required Label' and @accessiblerole='Text']
+				</item>
+				<item
+				name="ComboBox4"
+				id="41b96ca5-1eb7-4848-9132-e44ad797192c"
+				searchtimeout="30000ms"
+				capname="combobox"
+				refpath="/form[@title='Dubber - Mozilla Firefox']/container/container/element/container/element[3]/element[4]/element/element/element/element/element/element[6]/element[1]/element/combobox[2]"
+				addcaps="combobox,accessible"
+				refimgid="686a8111-4843-4963-987b-752e97c168cd">
+					/form[@title='Dubber - Mozilla Firefox']/container[@accessiblerole='Grouping']/container[@accessiblerole='PropertyPage']/?/?/container[@accessiblename='Dubber']/element[3]/element[4]/element/element[@accessiblerole='None']/element[@accessiblerole='None']/element/element[@accessiblerole='None']/element[6]/element[1]/element[@accessiblerole='None']/combobox[2]
+				</item>
+				<item
+				name="Text4"
+				id="61a66c6b-8c2a-4673-baa2-79800ce50c31"
+				searchtimeout="30000ms"
+				capname="text"
+				refpath="/form[@title='Dubber - Mozilla Firefox']/container/container/element/container/element[3]/element[4]/element/element/element/element/element/element[6]/element[1]/element/text[@accessiblerole='Text']"
+				addcaps="text,accessible"
+				refimgid="d904bf51-d706-43a8-8226-70cf23c6ee01">
+					/form[@title='Dubber - Mozilla Firefox']/container[@accessiblerole='Grouping']/container[@accessiblerole='PropertyPage']/?/?/container[@accessiblename='Dubber']/element[3]/element[4]/element/element[@accessiblerole='None']/element[@accessiblerole='None']/element/element[@accessiblerole='None']/element[6]/element[1]/element[@accessiblerole='None']/text[@accessiblerole='Text']
+				</item>
+				<item
+				name="RequiredLabel1"
+				id="d14057e4-20af-4ab3-a9db-787c6c1cdccb"
+				searchtimeout="30000ms"
+				capname="text"
+				refpath="/form[@title='Dubber - Mozilla Firefox']/container/container/element/container/element[3]/element[4]/element/element/element/element/element/element[6]/element[2]/element/text[@accessiblename='required Label']"
+				addcaps="text,accessible"
+				refimgid="0337d876-9033-4b98-994d-4af5e6293fa5">
+					/form[@title='Dubber - Mozilla Firefox']/container[@accessiblerole='Grouping']/container[@accessiblerole='PropertyPage']/?/?/container[@accessiblename='Dubber']/element[3]/element[4]/element/element[@accessiblerole='None']/element[@accessiblerole='None']/element/element[@accessiblerole='None']/element[6]//text[@accessiblename='required Label' and @accessiblerole='Text']
+				</item>
+				<item
+				name="None4"
+				id="3e614a18-5774-4114-bbea-99222bd5ec19"
+				searchtimeout="30000ms"
+				capname="unknown"
+				refpath="/form[@title='Dubber - Mozilla Firefox']/container/container/element/container/element[3]/element[4]/element/element/element/element/element/element[8]"
+				addcaps="unknown,accessible"
+				refimgid="5cd3eb27-17f6-4d3f-8fee-8dd4fee9eb8a">
+					/form[@title='Dubber - Mozilla Firefox']/container[@accessiblerole='Grouping']/container[@accessiblerole='PropertyPage']/?/?/container[@accessiblename='Dubber']/element[3]/element[4]/element/element[@accessiblerole='None']/element[@accessiblerole='None']/element[@accessiblerole='None']/element[@accessiblerole='None']/element[8]
+				</item>
+				<item
+				name="TextDownloadCallflow"
+				id="55cb3477-c4ce-41bd-8350-63f987b8c776"
+				searchtimeout="30000ms"
+				capname="text"
+				refpath="/form[@title='Dubber - Mozilla Firefox']/container/container/element/container/element[3]/element[4]/element/element/element/element/element/link/text[@accessiblename=' Download Callflow ']"
+				addcaps="text,accessible"
+				refimgid="d79bbcb0-c914-48b0-a0e0-169c6e50ace8">
+					/form[@title='Dubber - Mozilla Firefox']/container[@accessiblerole='Grouping']/container[@accessiblerole='PropertyPage']/?/?/container[@accessiblename='Dubber']/element[3]/element[4]//link[@accessiblename='Download Callflow']/text[@accessiblename=' Download Callflow ']
+				</item>
+				<item
+				name="Browse"
+				id="8d32dda4-43d9-4ce9-9517-7afb7deb84a6"
+				searchtimeout="30000ms"
+				capname="button"
+				refpath="/form[@title='Dubber - Mozilla Firefox']/container/container/element/container/element[3]/element[4]/element/element/element/element/element/element[6]/element/element/button[@accessiblename='Browse…']"
+				addcaps="button,accessible"
+				refimgid="30d9c13a-5af6-4113-9475-95b615464729">
+					/form[@title='Dubber - Mozilla Firefox']/container[@accessiblerole='Grouping']/container[@accessiblerole='PropertyPage']/?/?/container[@accessiblename='Dubber']/element[3]/element[4]/element/element[@accessiblerole='None']/element[@accessiblerole='None']/element[@accessiblerole='None']/element[@accessiblerole='None']/element[6]/?/?/element[@accessiblename='Advance callflow']/button[@accessiblename='Browse&#8230;']
+				</item>
+				<item
+				name="TextUpload"
+				id="3d9b9bb7-3f84-4bc8-bf80-44ea95372978"
+				searchtimeout="30000ms"
+				capname="text"
+				refpath="/form[@title='Dubber - Mozilla Firefox']/container/container/element/container/element[3]/element[4]/element/element/element/element/element/element[6]/element/button/text[@accessiblename=' Upload ']"
+				addcaps="text,accessible"
+				refimgid="e89c91a8-5cc3-4c97-aefd-6a53ed224e51">
+					/form[@title='Dubber - Mozilla Firefox']/container[@accessiblerole='Grouping']/container[@accessiblerole='PropertyPage']/?/?/container[@accessiblename='Dubber']/element[3]/element[4]/element/element[@accessiblerole='None']/element[@accessiblerole='None']/element[@accessiblerole='None']/element[@accessiblerole='None']/element[6]/?/?/button[@accessiblename='Upload']/text[@accessiblename=' Upload ']
+				</item>
+				<item
+				name="Upload"
+				id="2baf5f2d-a218-42a4-af6b-20a926e95bf3"
+				searchtimeout="30000ms"
+				capname="button"
+				refpath="/form[@title='Dubber - Mozilla Firefox']/container/container/element/container/element[3]/element[4]/element/element/element/element/element/element[6]/element/button[@accessiblename='Upload']"
+				addcaps="button,accessible"
+				refimgid="9c3bc8fb-54e5-48f3-89e4-5901bce08907">
+					/form[@title='Dubber - Mozilla Firefox']/container[@accessiblerole='Grouping']/container[@accessiblerole='PropertyPage']/?/?/container[@accessiblename='Dubber']/element[3]/element[4]/element/element[@accessiblerole='None']/element[@accessiblerole='None']/element[@accessiblerole='None']/element[@accessiblerole='None']/element[6]/?/?/button[@accessiblename='Upload']
+				</item>
+				<basepath>
+					/form[@title='Dubber - Mozilla Firefox']/container[@accessiblerole='Grouping']/container[@accessiblerole='PropertyPage']/?/?/container[@accessiblename='Dubber']
+				</basepath>
+			</folder>
+			<item
+			name="PropertyPage"
+			id="792aa0c6-395e-4fce-8774-c17c0c839b7e"
+			searchtimeout="30000ms"
+			capname="container"
+			refpath="/form[@title='Dubber - Mozilla Firefox']/container/container[@accessiblerole='PropertyPage']"
+			addcaps="container,accessible"
+			refimgid="7bb516bc-112b-4b1d-8344-83484e5a948f">
+				/form[@title='Dubber - Mozilla Firefox']/?/?/container[@accessiblerole='PropertyPage']
+			</item>
+			<item
+			name="None"
+			id="d861fa46-5676-43d8-89b7-8004c95df6be"
+			searchtimeout="30000ms"
+			capname="unknown"
+			refpath="/form[@title='Dubber - Mozilla Firefox']/container/container/element[@accessiblerole='None']"
+			addcaps="unknown,accessible"
+			refimgid="1a4fbcfd-7599-437f-838d-171ef4bbd7a1">
+				/form[@title='Dubber - Mozilla Firefox']/container[@accessiblerole='Grouping']/?/?/element[@accessiblerole='None']
+			</item>
+			<item
+			name="Downloads"
+			id="a3365a67-6abf-4736-94e6-49718ad3f7ea"
+			searchtimeout="30000ms"
+			capname="button"
+			refpath="/form[@title='Dubber - Mozilla Firefox']/toolbar[@accessiblename='Navigation Toolbar']/button[@accessiblename='Downloads']"
+			addcaps="button,accessible"
+			refimgid="74ff4c64-35d9-4656-b264-3bc33e56ce80">
+				/form[@title='Dubber - Mozilla Firefox']/?/?/button[@accessiblename='Downloads']
+			</item>
+			<basepath>
+				/form[@title='Dubber - Mozilla Firefox']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAMGSURBVDhPrZNZSJRhFIb/osWwCcusnM1m7PtH
+kogyG+sibbF1xiUlHaMsmnEsM2TKtBIVaXOp0EBMUwopmxZcsqwQJjNjEsTU3EpzRh2lsoVIi9D/
+7Rv9L4rqrhfeq+88L+ecj8P8d+2v6ZfsNdnyIk2D/bsfv+d2P/nARZreWvXVvdkBZQ1CvuxPDaTJ
+twcXmLS+uTXDJKcGymtPsfb+ADZXv4dPpQ1+xhYUmts/lRhzjtPySRMUrw6N69zXOulYUmL8mD7V
+gJICNYIzj0J0vQ2yUitmGrsgyTEjmob29DxEfam2ikcnVBEi2dihIeiLY2FLWwRLzkIoEzMgOl+G
+qYXNmJHfBKf0Oiw9VobPQ0/xpS8Tg88Eah5nmNpd4uxeHUHvIRqQzMJySo72OD9cTI2Bc3otXJKr
+seDIPbjqipFfcQcYOos+M3OOxxnm5R6ZzRLJwhrDoj+BxeAFd5zUBYGNM0JsuAuX6JsQaC7BITAL
+tyoLwX3IRWuF3MbjDNMYLhp9s5PAEsWiJZxF8uaVWBJmgGNEPhw1eZimzsR0/1RMV8bix+dicB9P
+oCJ/NZeSwkweD6jbIh57FUrQQ7t4vk6BaxofzPeLgVh1GJu0OjhviIdguR5uKzT41rEeo1YWrdeF
+w+OwXaV+bk0t2wi6wghe02Va9CzeGDxgSWRRtU8BdVAwZnuEIzlhNUbqhBg2O+FFmmsljzPMFaU8
+wbyGoE1N0E0DuncRFG3wRKjCG1L5VrjIAyCXrUXrVXd8vC1C52kZbgSRJB5nmBih0LlymfRdvS8f
+Ek7H2cOidLsnDqzyRuZWL/QdZzGU7g5rPEG5yo17pHLw5fEJZbMLdzzwkHL2Tuzj2HfSHWHfC/3e
+KIL+WDqalqA5UMTV+EuyeOw3zdLPmZNRQmTfa5UEDetpkIqgPZCgM4SCQQS3Voq5g8JZBbT2rzcx
+hXqxnJmSaHAWNBbJpCPlCjFX5inkLivEX8+Qea+CnQS5tGYV9Qw78C/ZHyXUXtTrqP2pfajdqQXU
+vxwSw/wEmUuNDCsjulkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		name="Dropdown"
+		id="4778dd5d-9da8-4c79-8c8f-6bd934d5c0d4"
+		searchtimeout="30000ms"
+		capname="container"
+		refpath="/container[@caption='dropdown']"
+		addcaps="container"
+		refimgid="326b748f-ec10-4b3e-8cf2-a4105285d23c"
+		isrooted="True"
+		usecache="True">
+			<basepath>
+				/container[@caption='dropdown']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAABhUlEQVQ4T8WQvUsCYRzHb++F/oSGiMiiV4qWakiiqWyJGiK0cmxw
+kUhtMHqzTuWC0KKh2ZBqsTSHlt6oNkENBF+OoJZCKlO/PY/PGaIXCQ19jw/3e7787sPdcX/OkCOC
+LiGOVruIZqsIhS2BJj6BFnuCnBOoJ3OdJQYFL6LR+ohOWxS9y7cQ/FHkBNVaL2qmfajUeFFF7nno
+uULNoHOD/gK1uit0zx1hdGwBeuEALpcLnPk4gkAkjrtwDPfheAGF5xiug1HcEC5DInzBJ0zMO8Hz
+PLid82fkky26fupo+me3mGDbL0pVqgw+c1DRgNbOBI6zOClp8gvFD5WSE8zw0id4o6SkkV8uhb5B
+GkrNBhPsnkZISSO3LAcVZKBUrzHBnueBlDRyy3JIgqkVJtj3hEhJ/3ZGIv0LdCeLwcklJnAeBvCa
+TOEl+UF4J7xJszz53W+BevEEPeMC2lUWifWCuZS24VV0qDbRN6JjAhpBEGAymWA0GsvCYDDAbDbD
+7XYzwT+G474AUqqnq7MiKz0AAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		name="Dubber"
+		id="f93d9f96-c446-4b9b-8a0d-c238eff587fc"
+		searchtimeout="30000ms"
+		capname="webdocument"
+		refpath="/dom[@domain='tigers.dubber.net']"
+		addcaps="container,webdocument"
+		refimgid="1559c51a-5f81-4298-a822-de38a423d543"
+		isrooted="True"
+		usecache="False">
+			<item
+			name="UserEmail"
+			id="aa11bdea-ff08-40e4-9d0c-22f5e26f78eb"
+			searchtimeout="30000ms"
+			capname="inputtag"
+			refpath="/dom[@domain='tigers.dubber.net']//input[#'user_email']"
+			addcaps="unknown,webelement,inputtag"
+			refimgid="3f0032ed-cfe9-4fc1-91ed-457549fcca24">
+				/dom[@domain='tigers.dubber.net']//input[#'user_email']
+			</item>
+			<item
+			name="UserPassword"
+			id="72ab068e-8bc4-418a-8e3a-bcf4965a001e"
+			searchtimeout="30000ms"
+			capname="inputtag"
+			refpath="/dom[@domain='tigers.dubber.net']//input[#'user_password']"
+			addcaps="unknown,webelement,inputtag"
+			refimgid="96374a8d-9bf5-4382-85f0-4f6b27b73eaf">
+				/dom[@domain='tigers.dubber.net']//input[#'user_password']
+			</item>
+			<item
+			name="ContentBox"
+			id="2cdb54a3-b717-42f0-a212-0a1a8b98c893"
+			searchtimeout="30000ms"
+			capname="divtag"
+			refpath="/dom[@domain='tigers.dubber.net']//div[#'main_body']/div[1]/div/div[2]"
+			addcaps="unknown,webelement,divtag"
+			refimgid="b11a94ba-f0d6-4d6f-b0df-bbdaff62b546">
+				/dom[@domain='tigers.dubber.net']//div[#'main_body']/div[1]/div/div[2]
+			</item>
+			<item
+			name="SubmitButton"
+			id="b669c98a-33fe-43c0-9162-2672fd701d99"
+			searchtimeout="30000ms"
+			capname="inputtag"
+			refpath="/dom[@domain='tigers.dubber.net']//input[#'submit_button']"
+			addcaps="unknown,webelement,inputtag"
+			refimgid="bea21814-3075-4148-b137-880a6ee5826e">
+				/dom[@domain='tigers.dubber.net']//input[#'submit_button']
+			</item>
+			<item
+			name="SearchBox"
+			id="bc26650a-c34a-4dcf-918b-1b0855288e74"
+			searchtimeout="30000ms"
+			capname="inputtag"
+			refpath="/dom[@domain='tigers.dubber.net']//input[#'search_box']"
+			addcaps="unknown,webelement,inputtag"
+			refimgid="4ae3d565-f03f-4928-b23c-2c8cbc6416c1">
+				/dom[@domain='tigers.dubber.net']//input[#'search_box']
+			</item>
+			<item
+			name="CustomerAccountNameTestcomplete2"
+			id="663e341b-838c-49cc-924c-6b25dffd192f"
+			searchtimeout="30000ms"
+			capname="atag"
+			refpath="/dom[@domain='tigers.dubber.net']//a[#'customer_account_name_testcomplete2']"
+			addcaps="unknown,webelement,atag"
+			refimgid="4c1db4ef-7de2-4643-be35-da29eb8098c0">
+				/dom[@domain='tigers.dubber.net']//a[#'customer_account_name_testcomplete2']
+			</item>
+			<item
+			name="AccountInboundTab"
+			id="09cb1d8a-6372-419f-9a2d-24bb8e77af2f"
+			searchtimeout="30000ms"
+			capname="atag"
+			refpath="/dom[@domain='tigers.dubber.net']//a[#'account_inbound_tab']"
+			addcaps="unknown,webelement,atag"
+			refimgid="ec2a6098-993d-47bc-871b-55c4b0279b51">
+				/dom[@domain='tigers.dubber.net']//a[#'account_inbound_tab']
+			</item>
+			<item
+			name="InboundNumberLabelInb"
+			id="8a169255-3c78-4310-b56c-99e6b93cfeee"
+			searchtimeout="30000ms"
+			capname="atag"
+			refpath="/dom[@domain='tigers.dubber.net']//a[#'inbound_number_label_inb']"
+			addcaps="unknown,webelement,atag"
+			refimgid="dae85aa1-579e-4ac1-b702-b3649a183829">
+				/dom[@domain='tigers.dubber.net']//a[#'inbound_number_label_inb']
+			</item>
+			<item
+			name="CallflowXmlWell"
+			id="ae1c02e3-0256-4d69-9e7e-5e840583f6d8"
+			searchtimeout="30000ms"
+			capname="divtag"
+			refpath="/dom[@domain='tigers.dubber.net']//div[#'callflow_xml_well']"
+			addcaps="unknown,webelement,divtag"
+			refimgid="edea2986-f3f3-4f76-bd16-a6e470fcd72d">
+				/dom[@domain='tigers.dubber.net']//div[#'callflow_xml_well']
+			</item>
+			<item
+			name="InboundNumberSubmitButton"
+			id="970016b1-a9fc-4f33-a7d0-6660907e5555"
+			searchtimeout="30000ms"
+			capname="buttontag"
+			refpath="/dom[@domain='tigers.dubber.net']//button[#'inbound_number_submit_button']"
+			addcaps="unknown,webelement,buttontag"
+			refimgid="da798704-d63c-4a86-8fd1-856434076e6a">
+				/dom[@domain='tigers.dubber.net']//button[#'inbound_number_submit_button']
+			</item>
+			<item
+			name="ProfileDdt"
+			id="e3ece16c-090f-4b3a-ab70-e9b5d8fd9811"
+			searchtimeout="30000ms"
+			capname="atag"
+			refpath="/dom[@domain='tigers.dubber.net']//a[#'profile-ddt']"
+			addcaps="unknown,webelement,atag"
+			refimgid="b7619df5-9037-4476-9c97-d6f1532a7acf">
+				/dom[@domain='tigers.dubber.net']//a[#'profile-ddt']
+			</item>
+			<item
+			name="Caret"
+			id="3c40bd2d-dbc2-4ade-b292-7825d4cb622b"
+			searchtimeout="30000ms"
+			capname="spantag"
+			refpath="/dom[@domain='tigers.dubber.net']//a[#'profile-ddt']/span"
+			addcaps="unknown,webelement,spantag"
+			refimgid="ac70f411-d8b5-46be-9a19-b759f25aed2a">
+				/dom[@domain='tigers.dubber.net']//a[#'profile-ddt']/span
+			</item>
+			<item
+			name="DropDownLogout"
+			id="e49146b1-a68c-4cc9-8786-80eef72dbc2a"
+			searchtimeout="30000ms"
+			capname="atag"
+			refpath="/dom[@domain='tigers.dubber.net']//a[#'drop_down_logout']"
+			addcaps="unknown,webelement,atag"
+			refimgid="dc4f8b0a-20e6-4348-b116-ef83c492c480">
+				/dom[@domain='tigers.dubber.net']//a[#'drop_down_logout']
+			</item>
+			<item
+			name="DownloadCallflow"
+			id="c4866f49-cdd8-42e3-857b-96d80e5d8a37"
+			searchtimeout="30000ms"
+			capname="atag"
+			refpath="/dom[@domain='tigers.dubber.net']//a[#'download_callflow']"
+			addcaps="unknown,webelement,atag"
+			refimgid="c51b7f79-7df6-442e-ad70-f58ccedc55f6">
+				/dom[@domain='tigers.dubber.net']//a[#'download_callflow']
+			</item>
+			<item
+			name="InboundNumberAdvancedXml"
+			id="c451dcf9-c86d-42aa-8c84-aafc1df9a7cf"
+			searchtimeout="30000ms"
+			capname="inputtag"
+			refpath="/dom[@domain='tigers.dubber.net']//input[#'inbound_number_advanced_xml']"
+			addcaps="unknown,webelement,inputtag"
+			refimgid="103f623a-e85c-489e-94d8-0b1cf24feacf">
+				/dom[@domain='tigers.dubber.net']//input[#'inbound_number_advanced_xml']
+			</item>
+			<item
+			name="UploadCallflowButton"
+			id="f676c0df-d24b-4826-b7e0-6724f66ba68d"
+			searchtimeout="30000ms"
+			capname="buttontag"
+			refpath="/dom[@domain='tigers.dubber.net']//button[#'upload_callflow_button']"
+			addcaps="unknown,webelement,buttontag"
+			refimgid="182060ac-7938-48dc-8f43-f5d59f5cc696">
+				/dom[@domain='tigers.dubber.net']//button[#'upload_callflow_button']
+			</item>
+			<item
+			name="SomeCenterTag"
+			id="6c52e75e-49dc-47a1-88bb-363cb5112e5e"
+			searchtimeout="30000ms"
+			capname="centertag"
+			refpath="/dom[@domain='tigers.dubber.net']/body/div[5]/center"
+			addcaps="unknown,webelement,centertag"
+			refimgid="3255b5b4-4676-43e6-b10e-895f504acc3c">
+				/dom[@domain='tigers.dubber.net']/body/div[5]/center
+			</item>
+			<basepath>
+				/dom[@domain='tigers.dubber.net']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		name="DubberGoogleChrome"
+		id="986027c4-ca2f-4181-b932-f183c914e4f2"
+		searchtimeout="30000ms"
+		capname="form"
+		refpath="/form[@title='Dubber - Google Chrome']"
+		addcaps="form,nativewindow"
+		isrooted="True"
+		usecache="True">
+			<item
+			name="Client"
+			id="62daa285-2ffb-456a-9771-48f879b1e56c"
+			searchtimeout="30000ms"
+			capname="container"
+			refpath="/form[@title='Dubber - Google Chrome']/container/container[2]/container[2]"
+			addcaps="container,accessible"
+			refimgid="418dc905-dc82-4a8b-9629-6be90b95d1cb">
+				/form[@title='Dubber - Google Chrome']/container[@accessiblename='Google Chrome']/container[2]/container[2]
+			</item>
+			<item
+			name="Close"
+			id="94c1a3a1-359e-49fa-8d5c-58dd45c2c8f2"
+			searchtimeout="30000ms"
+			capname="button"
+			refpath="/form[@title='Dubber - Google Chrome']/container/container[2]/container[2]/tabpagelist/tabpage[@accessiblename='Dubber']/button[@accessiblename='Close']"
+			addcaps="button,accessible"
+			refimgid="1c3fc4ea-b2da-4fea-83e1-774bec296a9e">
+				/form[@title='Dubber - Google Chrome']/container[@accessiblename='Google Chrome']//tabpage[@accessiblename='Dubber']/button[@accessiblename='Close']
+			</item>
+			<basepath>
+				/form[@title='Dubber - Google Chrome']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAKFSURBVDhPrZJdSFNhHMaXQUFEBaZTZiV1EUQX
+FkRJ6c6m07lvdVPYlujSuygSlOiiEYSQfd10sZp2nFtiu7GPmyBtaoua86smltNzLKQIhGB5BurG
+eXrPOpqjj6se+PHe/H/P/+Xllfz3wCnJmDdrK5lazT3WrB5gK1XDbFWZn5znpk0lmeLYnzNjURWw
+NuMUEcFWl4NIYEylYIwlYAwKsCZljDGVOcTx9AyqC49EqlXfZ81EXCuoKksrYPQU5nQKzBmo86Im
+xunMuHDRvBDWyzEtCH+5AaMjBVo5ZrXFyXmNvEC0JZIDPU2Go676ZK+hCG/Jlg9k86duN16OLPDP
+wos8M/Ec8z4jvnhO4FvvcXB9hYg/LhoUdVLga3Ttf9CI2ktVGKo4CdbjxmU/B+PNOAwE25043s9E
+kQgokQwUIzlUhGSweBl+y+ZUQb6vsT/fdwYH6QbcqqEQGP26LutuEK7H0faIw3KkFXxICX5ECYQJ
+o7ptqYI8T31wr9eBfT4H9NfseBJegl4QRVlLaO3hsBK9CoyrCKWEEvBv1DtSBbKuur493gYICEWv
+J6dXKm//kjXtHPzBGJKRBlEuBT9GbhJVb00V5NL2Vll3PdZQP3ViILKIZi+HJvcSPIEYJibvp21P
+hBSzKVmIzGvLy+2yr+Z66rDG4d6zaBnuxJWgD00PW5AYq1iXMU4eM0Q1i/rPZHdYnTlElHad3oAd
+0rtWRF7o0uREiBrDlGWLqIqBZJO00+qS0nZkE1Egi7bBQRvAj5dvkBXv+AmlTLR+T1aH1ZLttkZ3
+01Zkumrw+ZVmWRBXR6jYSohqw5R8uzj67+ykjbuOtasKPvafOsSF5DnrnyYtEskPM43KINSheKEA
+AAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		name="Downloads"
+		id="da0b5f48-3ca2-4725-b693-e233bb1ace3b"
+		searchtimeout="30000ms"
+		capname="form"
+		refpath="/form[@title='Downloads']"
+		addcaps="form,nativewindow"
+		isrooted="True"
+		usecache="True">
+			<item
+			name="SystemItemNameDisplay"
+			id="03a68a92-a53f-4724-8efb-c1928f6d56eb"
+			searchtimeout="30000ms"
+			capname="text"
+			refpath="/form[@title='Downloads']/element[@class='ShellTabWindowClass']/element[@class='DUIViewWndClassName']/container/element[@class='CtrlNotifySink' and @instance='1']/container/container/listitem[@automationid='29']/text[@automationid='System.ItemNameDisplay']"
+			addcaps="text,uiautomation,uiautomationvalue"
+			refimgid="ffc3880a-366c-42d6-b092-682e418019f3">
+				/form[@title='Downloads']/element[@class='ShellTabWindowClass']//container[@caption='ShellView']/?/?/listitem[@automationid='29']/text[@automationid='System.ItemNameDisplay']
+			</item>
+			<item
+			name="ListItem29"
+			id="f8c04c07-5f31-4e4a-b767-e4efacf265d2"
+			searchtimeout="30000ms"
+			capname="listitem"
+			refpath="/form[@title='Downloads']/element[@class='ShellTabWindowClass']/element[@class='DUIViewWndClassName']/container/element[@class='CtrlNotifySink' and @instance='1']/container/container/listitem[@automationid='29']"
+			addcaps="listitem,uiautomation,uiautomationinvoke,uiautomationvalue"
+			refimgid="09e2d7ba-c0d6-4335-9df2-c533cb7902eb">
+				/form[@title='Downloads']/element[@class='ShellTabWindowClass']//element[@instance='1']/container[@caption='ShellView']/?/?/listitem[@automationid='29']
+			</item>
+			<item
+			name="Close"
+			id="8669879a-ab37-4fcc-8f94-76acc1602112"
+			searchtimeout="30000ms"
+			capname="button"
+			refpath="/form[@title='Downloads']/titlebar[@automationid='TitleBar']/button[@automationid='Close']"
+			addcaps="button,uiautomation,uiautomationinvoke"
+			refimgid="afdf9883-3842-46a8-ba96-6e06c5b478d1">
+				/form[@title='Downloads']/?/?/button[@automationid='Close']
+			</item>
+			<basepath>
+				/form[@title='Downloads']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAALdSURBVDhPbZNJTBNhGIY5amJEjRhP6knjRc8Y
+DJHGJSQmikbDIoRCMBpxCRYRIZSGVYHggggGUVkLhUILKJYCQllroeyblNJSutN9VfM6HapA4E3e
+08zzfP8/mc/HE/1oplI3mqXRiBhQC9OgGkrB6sBTrPTRIOt5BGn3fSzx7+InL04y106lkdDm6MXZ
+sMrLoJ/IhVacBeNSKSQTRXDbO/HH3fO/ThMX861REi+2EY/gl6OFrMNQB/1CIRZ5cZgSvoJJy8Vv
+VxfxjAe39QtmWyPgxTayWeC2NcNpacRCOxVj/XmYHMwnQZe5mZCzMMMN3S4g7g+3gwuXrQlOcwPs
+Ribm2iIhFmRjvC+bBG26KljUHzDVfGMHwUgGXFY2HGYW7IZaWHWVmGkJh6g7DeKeNBI0K4phlBVi
+kn19u0BLfH2HqR42Qw0sugqYVMQkzk0IOxIhIhpT2oDTdN7/XsqoWvai61EL6bCtVcOi/UTAZTCs
+vCMmXcPQ13gIiR5J6sCZJj38uSZE9FhxitG59RSq4VSYNR9hVL7HmvwtdNKXGG+4ggFOLIa4MaTg
+BMsI31obInrt2wXKwWQYV0uhlxdBu1QI9cJziOsvo7cxDP3sMFJwvMmKAw1ORAp2ECj6k6CXvYFW
+UgDVQi5WZzIwygzG97qrENSHkIJ9LCf8Gp2I2kmwIngMzWI+VPM5UEwzIJ9IhajmIgIe5IBCKyAF
++5l2+FZZEMozkYJ/JQWe/105lwXFVDpk4ymQjjzBj+rzyMyLRkB8Ji58s2FvpQV7yo3YVaIBXaDD
+sWddOJrATSAFy8SyrEzSIRtLhlREg2T4IYSVQeB/DkJ2QSwO3mODwl3D7mIPrN0Ke7LUSWxa523M
+8WMwy6ditouK4Ypz4BQGoPV1IFILEklJuhcOZ+RyvOh65tui/abbbgVONIbcGWEGlwgrKL2D5Wct
+qXEnKS8S/A953vFMPEzjbZ3s4+PzF4/bYcSFJEuFAAAAAElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<appfolder
+		name="FileUpload"
+		id="7c3d8009-6b32-407f-8e3d-16ab431a9c6b"
+		searchtimeout="30000ms"
+		capname="form"
+		refpath="/form[@title='File Upload']"
+		addcaps="form,nativewindow"
+		refimgid="15f70cf3-a038-47b1-aa7f-2f3777432b2a"
+		isrooted="True"
+		usecache="True">
+			<item
+			name="Text1148"
+			id="27d95202-887b-49c6-9347-26b5ebb9097a"
+			searchtimeout="30000ms"
+			capname="text"
+			refpath="/form[@title='File Upload']/combobox[@controlid='1148']/text[@controlid='1148']"
+			addcaps="text,nativewindow"
+			refimgid="39d0a911-bb90-4d20-a977-44afcd370501">
+				/form[@title='File Upload']/?/?/text[@controlid='1148']
+			</item>
+			<item
+			name="ButtonOpen"
+			id="51487d86-8263-480c-ade8-a01f118250aa"
+			searchtimeout="30000ms"
+			capname="button"
+			refpath="/form[@title='File Upload']/button[@text='&amp;Open']"
+			addcaps="button,nativewindow"
+			refimgid="8361b7cd-608b-49a3-898f-e1294096e242">
+				/form[@title='File Upload']/button[@text='&amp;Open']
+			</item>
+			<item
+			name="SystemItemNameDisplay"
+			id="eb686fdb-7cdb-4654-98b1-59899dd7f2d9"
+			searchtimeout="30000ms"
+			capname="text"
+			refpath="/form[@title='File Upload']/element[@class='DUIViewWndClassName']/container/element[@class='CtrlNotifySink' and @instance='1']/container/container/listitem[@automationid='5']/text[@automationid='System.ItemNameDisplay']"
+			addcaps="text,uiautomation,uiautomationvalue"
+			refimgid="54612e49-006c-4e00-9532-386ee66d467a">
+				/form[@title='File Upload']/element[@class='DUIViewWndClassName']//container[@caption='ShellView']/?/?/listitem[@automationid='5']/text[@automationid='System.ItemNameDisplay']
+			</item>
+			<item
+			name="Cancel"
+			id="81ccd6e5-cbf0-4c2d-a423-c3e28ac6707c"
+			searchtimeout="30000ms"
+			capname="button"
+			refpath="/form[@title='File Upload']/button[@text='Cancel']"
+			addcaps="button,nativewindow"
+			refimgid="d048dfa0-2320-4101-855c-7c8391a2d833">
+				/form[@title='File Upload']/button[@text='Cancel']
+			</item>
+			<basepath>
+				/form[@title='File Upload']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAMGSURBVDhPrZNZSJRhFIb/osWwCcusnM1m7PtH
+kogyG+sibbF1xiUlHaMsmnEsM2TKtBIVaXOp0EBMUwopmxZcsqwQJjNjEsTU3EpzRh2lsoVIi9D/
+7Rv9L4rqrhfeq+88L+ecj8P8d+2v6ZfsNdnyIk2D/bsfv+d2P/nARZreWvXVvdkBZQ1CvuxPDaTJ
+twcXmLS+uTXDJKcGymtPsfb+ADZXv4dPpQ1+xhYUmts/lRhzjtPySRMUrw6N69zXOulYUmL8mD7V
+gJICNYIzj0J0vQ2yUitmGrsgyTEjmob29DxEfam2ikcnVBEi2dihIeiLY2FLWwRLzkIoEzMgOl+G
+qYXNmJHfBKf0Oiw9VobPQ0/xpS8Tg88Eah5nmNpd4uxeHUHvIRqQzMJySo72OD9cTI2Bc3otXJKr
+seDIPbjqipFfcQcYOos+M3OOxxnm5R6ZzRLJwhrDoj+BxeAFd5zUBYGNM0JsuAuX6JsQaC7BITAL
+tyoLwX3IRWuF3MbjDNMYLhp9s5PAEsWiJZxF8uaVWBJmgGNEPhw1eZimzsR0/1RMV8bix+dicB9P
+oCJ/NZeSwkweD6jbIh57FUrQQ7t4vk6BaxofzPeLgVh1GJu0OjhviIdguR5uKzT41rEeo1YWrdeF
+w+OwXaV+bk0t2wi6wghe02Va9CzeGDxgSWRRtU8BdVAwZnuEIzlhNUbqhBg2O+FFmmsljzPMFaU8
+wbyGoE1N0E0DuncRFG3wRKjCG1L5VrjIAyCXrUXrVXd8vC1C52kZbgSRJB5nmBih0LlymfRdvS8f
+Ek7H2cOidLsnDqzyRuZWL/QdZzGU7g5rPEG5yo17pHLw5fEJZbMLdzzwkHL2Tuzj2HfSHWHfC/3e
+KIL+WDqalqA5UMTV+EuyeOw3zdLPmZNRQmTfa5UEDetpkIqgPZCgM4SCQQS3Voq5g8JZBbT2rzcx
+hXqxnJmSaHAWNBbJpCPlCjFX5inkLivEX8+Qea+CnQS5tGYV9Qw78C/ZHyXUXtTrqP2pfajdqQXU
+vxwSw/wEmUuNDCsjulkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		name="Explorer"
+		id="d0a1cadf-b7c3-41e4-8b4d-fea300381461"
+		searchtimeout="30000ms"
+		capname="menubar"
+		refpath="/menubar[@processname='explorer']"
+		addcaps="menubar,nativewindow"
+		isrooted="True"
+		usecache="True">
+			<basepath>
+				/menubar[@processname='explorer']
+			</basepath>
+			<icon>
+				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
+VZB4/J8BADyZI3kwAy98AAAAAElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<appfolder
+		name="Open"
+		id="040922b5-ca13-4efc-a8e6-a31c1cb22505"
+		searchtimeout="30000ms"
+		capname="form"
+		refpath="/form[@title='Open']"
+		addcaps="form,nativewindow"
+		isrooted="True"
+		usecache="True">
+			<item
+			name="SystemItemNameDisplay"
+			id="d7967adc-a2d2-49ec-b091-a7dce85dc233"
+			searchtimeout="30000ms"
+			capname="text"
+			refpath="/form[@title='Open']/element[@class='DUIViewWndClassName']/container/element[@class='CtrlNotifySink' and @instance='1']/container/container/listitem[@automationid='8']/text[@automationid='System.ItemNameDisplay']"
+			addcaps="text,uiautomation,uiautomationvalue"
+			refimgid="0cf9d6d8-8d9a-4a3a-b221-1183ccce3611">
+				/form[@title='Open']/element[@class='DUIViewWndClassName']//container[@caption='ShellView']/?/?/listitem[@automationid='8']/text[@automationid='System.ItemNameDisplay']
+			</item>
+			<item
+			name="ButtonOpen"
+			id="e831cb52-bca1-4428-a3be-857ca13c0585"
+			searchtimeout="30000ms"
+			capname="button"
+			refpath="/form[@title='Open']/button[@text='&amp;Open']"
+			addcaps="button,nativewindow"
+			refimgid="ef5ac83c-3d73-4008-9f28-2e64c36df8dc">
+				/form[@title='Open']/button[@text='&amp;Open']
+			</item>
+			<item
+			name="ButtonOK"
+			id="7832792d-b2f0-45f0-9af2-c515fc93e09a"
+			searchtimeout="30000ms"
+			capname="button"
+			refpath="/form[@title='Open' and @processname='chrome' and @class='#32770' and @instance='1']/container/element[@class='CtrlNotifySink' and @instance='0']/button[@text='OK']"
+			addcaps="button,nativewindow"
+			refimgid="e9c2edef-f0a3-4f93-8d31-575a4ee3913b">
+				/form[@title='Open']/?/?/element[@instance='0']/button[@text='OK']
+			</item>
+			<item
+			name="Text1148"
+			id="0c2ee644-a50b-411a-9416-f239d2be6582"
+			searchtimeout="30000ms"
+			capname="text"
+			refpath="/form[@title='Open']/combobox[@controlid='1148']/text[@controlid='1148']"
+			addcaps="text,nativewindow"
+			refimgid="e64c7655-5445-4089-b50a-bce0b08b7d0e">
+				/form[@title='Open']/?/?/text[@controlid='1148']
+			</item>
+			<basepath>
+				/form[@title='Open']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAKFSURBVDhPrZJdSFNhHMaXQUFEBaZTZiV1EUQX
+FkRJ6c6m07lvdVPYlujSuygSlOiiEYSQfd10sZp2nFtiu7GPmyBtaoua86smltNzLKQIhGB5BurG
+eXrPOpqjj6se+PHe/H/P/+Xllfz3wCnJmDdrK5lazT3WrB5gK1XDbFWZn5znpk0lmeLYnzNjURWw
+NuMUEcFWl4NIYEylYIwlYAwKsCZljDGVOcTx9AyqC49EqlXfZ81EXCuoKksrYPQU5nQKzBmo86Im
+xunMuHDRvBDWyzEtCH+5AaMjBVo5ZrXFyXmNvEC0JZIDPU2Go676ZK+hCG/Jlg9k86duN16OLPDP
+wos8M/Ec8z4jvnhO4FvvcXB9hYg/LhoUdVLga3Ttf9CI2ktVGKo4CdbjxmU/B+PNOAwE25043s9E
+kQgokQwUIzlUhGSweBl+y+ZUQb6vsT/fdwYH6QbcqqEQGP26LutuEK7H0faIw3KkFXxICX5ECYQJ
+o7ptqYI8T31wr9eBfT4H9NfseBJegl4QRVlLaO3hsBK9CoyrCKWEEvBv1DtSBbKuur493gYICEWv
+J6dXKm//kjXtHPzBGJKRBlEuBT9GbhJVb00V5NL2Vll3PdZQP3ViILKIZi+HJvcSPIEYJibvp21P
+hBSzKVmIzGvLy+2yr+Z66rDG4d6zaBnuxJWgD00PW5AYq1iXMU4eM0Q1i/rPZHdYnTlElHad3oAd
+0rtWRF7o0uREiBrDlGWLqIqBZJO00+qS0nZkE1Egi7bBQRvAj5dvkBXv+AmlTLR+T1aH1ZLttkZ3
+01Zkumrw+ZVmWRBXR6jYSohqw5R8uzj67+ykjbuOtasKPvafOsSF5DnrnyYtEskPM43KINSheKEA
+AAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		name="HttpsTigersDubberNetLoginIntern"
+		id="d2e5726d-487f-4b15-9722-df18dcd082a9"
+		searchtimeout="30000ms"
+		capname="form"
+		refpath="/form[@title='https://tigers.dubber.net/login - Internet Explorer']"
+		addcaps="form,nativewindow"
+		isrooted="True"
+		usecache="True">
+			<item
+			name="ClientCaption"
+			id="27261160-c3b1-4210-a3fb-cf10cc7568c1"
+			searchtimeout="30000ms"
+			capname="unknown"
+			refpath="/form[@title~'^https://tigers\.dubber\.net']/element[@class='Client Caption']"
+			addcaps="unknown,nativewindow"
+			refimgid="b5827135-b3c0-4160-94b8-abc860f2319e">
+				/form[@title~'^https://tigers\.dubber\.net']/element[@class='Client Caption']
+			</item>
+			<basepath>
+				/form[@title~'^https://tigers\.dubber\.net']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAOWSURBVDhPjZJtTFtVGMdPRUL8QIIouI63Dcmy
+bjayTRHJ5qYzum8m2+pm4qLZnNmbG6wtb6JlGwOHWjcC6DaivEx0hVEu1BXalW5tE14Lcy1Lh5S2
+t+1GSym03Aq94nm898IHv+kv+eec5Dz/5znPcw76L/IumeIDPYk588aEk/Rk/BQ1EEfN9/LocC/P
+FlShjNWwfyHTP72+WC0SntP8cqTppr1v+MMl3yMhTRkSIKSJXZrriqnxXEGHfTfQSX8zsq26Vkgq
+ILI2lmsN+5us7qbx6YjjiRjTngTwtSbizubD0ZKGBp9Apqpki7Dxj2vRDGdkSc5vz9wk09gK7vqi
+Gu8EDs++DdiOwNG6C4jf+6BiPAwf6bx4a5XRn3xKUSsSKWK8tahpxc1k3CjTmgr6ntBDfjNEZ4WA
++xGY5Hl/7b1mCu6QG70H26Zcn1sW6GP3/PiNOvN88um2euflmN2cP71YJdr705hb436A6YAAsB7B
+kDw3WK3Wvofx7bg14vaMdaVq6faaQfNZY5D+uNeLsy/esfPFym1cAuF59a8/Wx5GqNnXAQ8iePSt
+cBpj7QaAkVguYJXsC3fGjvXMTB3p88HO+pHptJKuq9zBnhrdhMv7KcYOBFbFIfig0YwF5Rp31he9
+ZCaj9WVqMqPkN/LlKqO7bIjCp4wB2NNijaRKiREuQedQNYW9z4Dr+haoG/dAlZ2GSkYXWU3SUMHo
+wh9ROD+xBDJLBI4bArC70bKUWqS0IvynYEfYvW452JKAax56oNy2iF/9bsDHVlyRimRmRKYXqci0
+wm4ytZAgU6Sd5FqJ0sk/e6sR/e1P/HpxGMGNxjPRMgsFktFIOLvS8IC72v9heRL1P26JCx/60eA9
+oHJiqXlhWaSwzQnO6dpeKOjIYZ/4OWln/POnFdvWijvaGTn4kg6Sv7IeRQt6XmiWiK3bXK7q31pt
+iHyi90Hh/YXlozpv6DW5yZVWTLg2yNTOvG8MjuO6mbn8wRB+v5uMpkuVo9yPDPXwguxNMiSKNS8W
+EbZcuZHaR7jwif45EI9FQHI/wq2fDYfhwG0Sv3N9dDGztMv+bH7bZq6FsIbX4mtGRez+rdKKlNyy
+awMvfaly5FTfndl+dSS6q9mK32wYpXZ+PxB4pUrrTCsk9EknbmZxZhbqHuL7W5HecxkBeQlN2r9C
+xVsk9fuYHn9gJj2YIrk1niJWdjP7K0ln2t9FMtlTq1YGhP4B4PYIf3slspsAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		name="DubberInternetExplorer"
+		id="525d1599-ed84-465b-8b3c-3a8d25cd6e2a"
+		searchtimeout="30000ms"
+		capname="form"
+		refpath="/form[@title='Dubber - Internet Explorer']"
+		addcaps="form,nativewindow"
+		isrooted="True"
+		usecache="True">
+			<item
+			name="ClientCaption"
+			id="d0162564-1e7a-4b2b-8831-600c84d86495"
+			searchtimeout="30000ms"
+			capname="unknown"
+			refpath="/form[@title~'^Dubber\ -\ Internet\ Explore']/element[@class='Client Caption']"
+			addcaps="unknown,nativewindow"
+			refimgid="dbae6675-a44f-481d-989e-d29719c1aaa7">
+				/form[@title~'^Dubber\ -\ Internet\ Explore']/element[@class='Client Caption']
+			</item>
+			<basepath>
+				/form[@title~'^Dubber\ -\ Internet\ Explore']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAOWSURBVDhPjZJtTFtVGMdPRUL8QIIouI63Dcmy
+bjayTRHJ5qYzum8m2+pm4qLZnNmbG6wtb6JlGwOHWjcC6DaivEx0hVEu1BXalW5tE14Lcy1Lh5S2
+t+1GSym03Aq94nm898IHv+kv+eec5Dz/5znPcw76L/IumeIDPYk588aEk/Rk/BQ1EEfN9/LocC/P
+FlShjNWwfyHTP72+WC0SntP8cqTppr1v+MMl3yMhTRkSIKSJXZrriqnxXEGHfTfQSX8zsq26Vkgq
+ILI2lmsN+5us7qbx6YjjiRjTngTwtSbizubD0ZKGBp9Apqpki7Dxj2vRDGdkSc5vz9wk09gK7vqi
+Gu8EDs++DdiOwNG6C4jf+6BiPAwf6bx4a5XRn3xKUSsSKWK8tahpxc1k3CjTmgr6ntBDfjNEZ4WA
++xGY5Hl/7b1mCu6QG70H26Zcn1sW6GP3/PiNOvN88um2euflmN2cP71YJdr705hb436A6YAAsB7B
+kDw3WK3Wvofx7bg14vaMdaVq6faaQfNZY5D+uNeLsy/esfPFym1cAuF59a8/Wx5GqNnXAQ8iePSt
+cBpj7QaAkVguYJXsC3fGjvXMTB3p88HO+pHptJKuq9zBnhrdhMv7KcYOBFbFIfig0YwF5Rp31he9
+ZCaj9WVqMqPkN/LlKqO7bIjCp4wB2NNijaRKiREuQedQNYW9z4Dr+haoG/dAlZ2GSkYXWU3SUMHo
+wh9ROD+xBDJLBI4bArC70bKUWqS0IvynYEfYvW452JKAax56oNy2iF/9bsDHVlyRimRmRKYXqci0
+wm4ytZAgU6Sd5FqJ0sk/e6sR/e1P/HpxGMGNxjPRMgsFktFIOLvS8IC72v9heRL1P26JCx/60eA9
+oHJiqXlhWaSwzQnO6dpeKOjIYZ/4OWln/POnFdvWijvaGTn4kg6Sv7IeRQt6XmiWiK3bXK7q31pt
+iHyi90Hh/YXlozpv6DW5yZVWTLg2yNTOvG8MjuO6mbn8wRB+v5uMpkuVo9yPDPXwguxNMiSKNS8W
+EbZcuZHaR7jwif45EI9FQHI/wq2fDYfhwG0Sv3N9dDGztMv+bH7bZq6FsIbX4mtGRez+rdKKlNyy
+awMvfaly5FTfndl+dSS6q9mK32wYpXZ+PxB4pUrrTCsk9EknbmZxZhbqHuL7W5HecxkBeQlN2r9C
+xVsk9fuYHn9gJj2YIrk1niJWdjP7K0ln2t9FMtlTq1YGhP4B4PYIf3slspsAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<basepath/>
+	</rootfolder>
+	<variables/>
+</repository>

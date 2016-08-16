@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Failed"
+		duration="30.4s"
+		durationms="30403"
+		type="root"
+		rid="e69b4ad55bde590"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="Damodar Shanbhag"
+		host="HP"
+		rxversion="6.0.1.0"
+		osversion="Windows 8.1 64bit"
+		runtimeversion="4.0.30319.34209"
+		procarch="64bit"
+		language="en-GB"
+		screenresolution="2732x798"
+		timestamp="27-07-2016 9.03.12 AM"
+		timestampiso="2016-07-27T03:33:12"
+		timeoutfactor="1"
+		module="trail4">
+		<detail>
+			trail4
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.968"
+			timeRelativeToTestModuleStartTime="00:00.968"
+			timeWallClock="09:03:13"
+			time="00:00.968"
+			level="Info"
+			category="Website">
+			<message>
+				Opening web site 'https://tigers.dubber.net/login' with browser 'firefox' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\dubeer\trail4.cs"
+				codeline="82"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.124"
+			timeRelativeToTestModuleStartTime="00:01.124"
+			timeWallClock="09:03:13"
+			time="00:01.124"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Down item 'DubberMozillaFirefox.None' at 1352;385.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Dubber - Mozilla Firefox']/container[@accessiblerole='Grouping']/?/?/element[@accessiblerole='None']"
+				fullname="dubeerRepository.DubberMozillaFirefox.None"
+				id="d861fa46567643d889b78004c95df6be"
+				timeout="60000"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\dubeer\trail4.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.671"
+			timeRelativeToTestModuleStartTime="00:05.671"
+			timeWallClock="09:03:18"
+			time="00:05.671"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Up item 'DubberMozillaFirefox.None' at 1351;300.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Dubber - Mozilla Firefox']/container[@accessiblerole='Grouping']/?/?/element[@accessiblerole='None']"
+				fullname="dubeerRepository.DubberMozillaFirefox.None"
+				id="d861fa46567643d889b78004c95df6be"
+				timeout="60000"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\dubeer\trail4.cs"
+				codeline="91"
+				itemindex="2"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.265"
+			timeRelativeToTestModuleStartTime="00:06.265"
+			timeWallClock="09:03:19"
+			time="00:06.265"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'DubberMozillaFirefox.Dubber1.Browse' at 52;19.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Dubber - Mozilla Firefox']/container[@accessiblerole='Grouping']/container[@accessiblerole='PropertyPage']/?/?/container[@accessiblename='Dubber']/element[3]/element[4]/element/element[@accessiblerole='None']/element[@accessiblerole='None']/element[@accessiblerole='None']/element[@accessiblerole='None']/element[6]/?/?/element[@accessiblename='Advance callflow']/button[@accessiblename='Browse…']"
+				fullname="dubeerRepository.DubberMozillaFirefox.Dubber1.Browse"
+				id="8d32dda443d94ce995177afb7deb84a6"
+				timeout="90000"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\dubeer\trail4.cs"
+				codeline="96"
+				itemindex="3"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:30.403"
+			timeRelativeToTestModuleStartTime="00:30.403"
+			timeWallClock="09:03:43"
+			time="00:30.403"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error"/>
+		</item>
+	</activity>
+</report>

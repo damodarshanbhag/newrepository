@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="c77fd37844859cc"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="1"
+		totalblockedcount="0"
+		user="Damodar Shanbhag"
+		host="HP"
+		rxversion="6.0.1.0"
+		osversion="Windows 8.1 64bit"
+		runtimeversion="4.0.30319.34209"
+		procarch="32bit"
+		language="en-GB"
+		screenresolution="2732x798"
+		timestamp="28-07-2016 9.26.11 AM"
+		timestampiso="2016-07-28T03:56:11"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Failed"
+			duration="187ms"
+			durationms="187"
+			type="test suite"
+			rid="296330c2143540ba"
+			totalerrorcount="1"
+			totalwarningcount="0"
+			totalsuccesscount="0"
+			totalfailedcount="1"
+			totalblockedcount="0"
+			testsuitename="project1"
+			runconfigname="TestRun"
+			runlabel=""
+			maxchildren="1">
+			<params/>
+			<detail>
+			</detail>
+			<activity
+				result="Failed"
+				duration="171ms"
+				durationms="171"
+				type="test case"
+				rid="17edf7bfb25757c"
+				totalerrorcount="1"
+				totalwarningcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="1"
+				totalblockedcount="0"
+				testcasename="TestCase"
+				testcaseid="c8ddd203-c684-418b-b21e-7e026773756a"
+				maxchildren="0">
+				<params>
+					<param
+						name="NewParameter">
+					</param>
+				</params>
+				<detail>
+				</detail>
+				<activity
+					result="Failed"
+					duration="124ms"
+					durationms="124"
+					type="test module"
+					rid="129eaa9c40433e6"
+					totalerrorcount="1"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					modulename="Trail1_s"
+					moduleid="7e19d9d2-e460-4504-9d63-0965b53ddc5e"
+					moduletype="Recording">
+					<detail>
+					</detail>
+					<errmsg>
+						The module 'Trail1_s' (with ID {7e19d9d2-e460-4504-9d63-0965b53ddc5e}) could not be found. The following errors occurred loading the assemblies: Could not load file or assembly 'file:///C:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\bin\Debug\dubber.csproj' or one of its dependencies. The system cannot find the file specified., Could not load file or assembly 'file:///C:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\bin\Debug\dubeer.csproj' or one of its dependencies. The system cannot find the file specified..
+					</errmsg>
+					<item
+						timeRelativeToTestSuiteStartTime="00:00.218"
+						timeRelativeToTestModuleStartTime="00:00.000"
+						timeWallClock="09:26:12"
+						time="00:00.218"
+						level="Error"
+						category="Module"
+						errimg="images_project1_fd2b2852\project1_fd2b2852_d634cf8a_trace.jpg"
+						errthumb="images_project1_fd2b2852\project1_fd2b2852_d634cf8a_trace_thumb.jpg">
+						<message>
+							The module 'Trail1_s' (with ID {7e19d9d2-e460-4504-9d63-0965b53ddc5e}) could not be found. The following errors occurred loading the assemblies: Could not load file or assembly 'file:///C:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\bin\Debug\dubber.csproj' or one of its dependencies. The system cannot find the file specified., Could not load file or assembly 'file:///C:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\bin\Debug\dubeer.csproj' or one of its dependencies. The system cannot find the file specified..
+						</message>
+						<metainfo
+							stacktrace="   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext)"
+							loglvl="Error"/>
+					</item>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

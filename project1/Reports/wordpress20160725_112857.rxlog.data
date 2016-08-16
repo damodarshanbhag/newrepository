@@ -1,0 +1,320 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="2c5a29117628670b"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="Damodar Shanbhag"
+		host="HP"
+		rxversion="6.0.1.0"
+		osversion="Windows 8.1 64bit"
+		runtimeversion="4.0.30319.34209"
+		procarch="32bit"
+		language="en-GB"
+		screenresolution="1366x768"
+		timestamp="25-07-2016 11:29:01"
+		timestampiso="2016-07-25T05:59:01"
+		timeoutfactor="1"
+		module="wordpress">
+		<detail>
+			wordpress
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.406"
+			timeRelativeToTestModuleStartTime="00:00.406"
+			timeWallClock="11:29:01"
+			time="00:00.406"
+			level="Info"
+			category="Website">
+			<message>
+				Opening web site 'http://webtest.ranorex.org/wp-login.php?redirect_to=http%3A%2F%2Fwebtest.ranorex.org%2Fwp-admin%2Findex.php&amp;reauth=1' with browser 'IE' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\wordpress.cs"
+				codeline="82"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.546"
+			timeRelativeToTestModuleStartTime="00:00.546"
+			timeWallClock="11:29:01"
+			time="00:00.546"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'RanorexWebtestLogIn.UserLogin' at 107;21.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='webtest.ranorex.org']//input[#'user_login']"
+				fullname="project1Repository.RanorexWebtestLogIn.UserLogin"
+				id="946882053f0b4e09a2b62a2f58cef6bf"
+				timeout="60000"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\wordpress.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.134"
+			timeRelativeToTestModuleStartTime="00:03.134"
+			timeWallClock="11:29:04"
+			time="00:03.134"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'RanorexWebtestLogIn.UserLogin' at 107;21.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='webtest.ranorex.org']//input[#'user_login']"
+				fullname="project1Repository.RanorexWebtestLogIn.UserLogin"
+				id="946882053f0b4e09a2b62a2f58cef6bf"
+				timeout="60000"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\wordpress.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.072"
+			timeRelativeToTestModuleStartTime="00:04.072"
+			timeWallClock="11:29:05"
+			time="00:04.072"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'r' with focus on 'RanorexWebtestLogIn.UserLogin'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='webtest.ranorex.org']//input[#'user_login']"
+				fullname="project1Repository.RanorexWebtestLogIn.UserLogin"
+				id="946882053f0b4e09a2b62a2f58cef6bf"
+				timeout="60000"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\wordpress.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.573"
+			timeRelativeToTestModuleStartTime="00:04.573"
+			timeWallClock="11:29:05"
+			time="00:04.573"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{Back}{Capital}R{Capital}ao{Back}norex' with focus on 'RanorexWebtestLogIn.UserLogin'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='webtest.ranorex.org']//input[#'user_login']"
+				fullname="project1Repository.RanorexWebtestLogIn.UserLogin"
+				id="946882053f0b4e09a2b62a2f58cef6bf"
+				timeout="60000"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\wordpress.cs"
+				codeline="98"
+				itemindex="4"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.417"
+			timeRelativeToTestModuleStartTime="00:06.417"
+			timeWallClock="11:29:07"
+			time="00:06.417"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{Space}webtest' with focus on 'RanorexWebtestLogIn.UserLogin'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='webtest.ranorex.org']//input[#'user_login']"
+				fullname="project1Repository.RanorexWebtestLogIn.UserLogin"
+				id="946882053f0b4e09a2b62a2f58cef6bf"
+				timeout="60000"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\wordpress.cs"
+				codeline="102"
+				itemindex="5"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.624"
+			timeRelativeToTestModuleStartTime="00:07.624"
+			timeWallClock="11:29:08"
+			time="00:07.624"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'RanorexWebtestLogIn.UserPass' at 125;14.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='webtest.ranorex.org']//input[#'user_pass']"
+				fullname="project1Repository.RanorexWebtestLogIn.UserPass"
+				id="159727dbe274446988f0ff5f29c91beb"
+				timeout="60000"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\wordpress.cs"
+				codeline="106"
+				itemindex="6"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.608"
+			timeRelativeToTestModuleStartTime="00:08.608"
+			timeWallClock="11:29:09"
+			time="00:08.608"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'ranorex' with focus on 'RanorexWebtestLogIn.UserPass'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='webtest.ranorex.org']//input[#'user_pass']"
+				fullname="project1Repository.RanorexWebtestLogIn.UserPass"
+				id="159727dbe274446988f0ff5f29c91beb"
+				timeout="60000"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\wordpress.cs"
+				codeline="110"
+				itemindex="7"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.686"
+			timeRelativeToTestModuleStartTime="00:09.686"
+			timeWallClock="11:29:10"
+			time="00:09.686"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{Return}' with focus on 'RanorexWebtestLogIn.UserPass'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='webtest.ranorex.org']//input[#'user_pass']"
+				fullname="project1Repository.RanorexWebtestLogIn.UserPass"
+				id="159727dbe274446988f0ff5f29c91beb"
+				timeout="60000"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\wordpress.cs"
+				codeline="114"
+				itemindex="8"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.281"
+			timeRelativeToTestModuleStartTime="00:10.281"
+			timeWallClock="11:29:11"
+			time="00:10.281"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating Exists on item 'RanorexWebtestLogIn.Posts'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='webtest.ranorex.org']//li[#'menu-posts']/?/?/div[@innertext='Posts']"
+				fullname="project1Repository.RanorexWebtestLogIn.Posts"
+				id="af584ca5225b4958982e0cf5fb0b7cdb"
+				timeout="60000"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\wordpress.cs"
+				codeline="118"
+				itemindex="9"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.843"
+			timeRelativeToTestModuleStartTime="00:11.843"
+			timeWallClock="11:29:12"
+			time="00:11.843"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'Posts' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='webtest.ranorex.org']//li[#'menu-posts']/?/?/div[@innertext='Posts']"
+				fullname="project1Repository.RanorexWebtestLogIn.Posts"
+				id="af584ca5225b4958982e0cf5fb0b7cdb"
+				timeout="60000"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\wordpress.cs"
+				codeline="119"
+				loglvl="Success"
+				itemindex="9"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.953"
+			timeRelativeToTestModuleStartTime="00:11.953"
+			timeWallClock="11:29:13"
+			time="00:11.953"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse None Move item 'RanorexWebtestLogIn.MyAccount' at 87;17.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='webtest.ranorex.org']//li[#'wp-admin-bar-my-account']/a[@innertext='Howdy, Ranorex Webtest']"
+				fullname="project1Repository.RanorexWebtestLogIn.MyAccount"
+				id="d3cbb79cd707411a833017229e0f7fca"
+				timeout="60000"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\wordpress.cs"
+				codeline="122"
+				itemindex="10"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.796"
+			timeRelativeToTestModuleStartTime="00:12.796"
+			timeWallClock="11:29:13"
+			time="00:12.796"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'RanorexWebtestLogIn.LogOut' at 23;12.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='webtest.ranorex.org']//li[#'wp-admin-bar-logout']/a[@innertext='Log Out']"
+				fullname="project1Repository.RanorexWebtestLogIn.LogOut"
+				id="4a46cc88fe964b71be872e5c8b81499d"
+				timeout="60000"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\wordpress.cs"
+				codeline="126"
+				itemindex="11"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.828"
+			timeRelativeToTestModuleStartTime="00:13.828"
+			timeWallClock="11:29:14"
+			time="00:13.828"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'RanorexWebtestLogInMozillaFirefo.ClientCaption' at 1345;16.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'^Ranorex\ Webtest\ ›\ Log\ In\ ']/element[@class='Client Caption']"
+				fullname="project1Repository.RanorexWebtestLogInMozillaFirefo.ClientCaption"
+				id="12a0d7011b8a48a9aa9245cd7e315f14"
+				timeout="60000"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\wordpress.cs"
+				codeline="130"
+				itemindex="12"
+				loglvl="Info"/>
+		</item>
+	</activity>
+</report>

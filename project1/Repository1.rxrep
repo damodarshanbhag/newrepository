@@ -1,0 +1,347 @@
+﻿<repository
+name="Repository1"
+id="166c7acc-8dd3-44ba-9714-982ca47f9c64"
+rxversion="6.0">
+	<codegen
+	classname="Repository1"
+	namespace="project1"/>
+	<rootfolder
+	name="Root"
+	id="4ad8ce1f-e9fd-4bc1-9e08-44a24bd02189"
+	searchtimeout="0ms"
+	capname="unknown"
+	isrooted="True"
+	usecache="True">
+		<appfolder
+		name="Calculator"
+		id="9e839a28-966f-49b0-9218-97d7d3ac4df2"
+		searchtimeout="30000ms"
+		capname="form"
+		refpath="/form[@title='Calculator']"
+		isrooted="True"
+		usecache="True">
+			<folder
+			name="Calc"
+			id="d0d9a3bc-9367-4a98-968f-2a16dfc5586d"
+			searchtimeout="30000ms"
+			capname="container"
+			refpath="/form[@title='Calculator']/element[@class='CalcFrame']/container[@class='#32770' and @instance='1']"
+			isrooted="True"
+			usecache="False">
+				<item
+				name="ContainerHash32770"
+				id="43ff849d-9add-455c-81f4-02dc72e9d511"
+				searchtimeout="30000ms"
+				capname="container"
+				refpath="/form[@title='Calculator']/element/container[@class='#32770' and @instance='1']"
+				addcaps="container,nativewindow"
+				refimgid="80da450b-aac7-4e9d-82b8-48d925635a6d">
+					/form[@title='Calculator']/?/?/container[@instance='1']
+				</item>
+				<item
+				name="Button9"
+				id="f316b4a4-688c-498a-86cc-ebcd34d3e042"
+				searchtimeout="30000ms"
+				capname="button"
+				refpath="/form[@title='Calculator']/element/container[@class='#32770' and @instance='1']/button[@text='' and @controlid='110']"
+				addcaps="button,nativewindow"
+				refimgid="02f77754-b4fa-4abb-8cc3-5cbe9ce59a30">
+					/form[@title='Calculator']/?/?/container[@instance='1']/button[@controlid='110']
+				</item>
+				<item
+				name="Button19"
+				id="cf4aa2f9-fcde-45f2-9810-03e21e6e34be"
+				searchtimeout="30000ms"
+				capname="button"
+				refpath="/form[@title='Calculator']/element/container[@class='#32770' and @instance='1']/button[@text='' and @controlid='114']"
+				addcaps="button,nativewindow"
+				refimgid="83fb9261-f6fb-4b91-ab54-3a82c83f5897">
+					/form[@title='Calculator']/?/?/container[@instance='1']/button[@controlid='114']
+				</item>
+				<item
+				name="Button14"
+				id="f6fd56c8-41c4-400c-b0e3-ac072ff26271"
+				searchtimeout="30000ms"
+				capname="button"
+				refpath="/form[@title='Calculator']/element/container[@class='#32770' and @instance='1']/button[@text='' and @controlid='118']"
+				addcaps="button,nativewindow"
+				refimgid="6017c6e4-2509-447e-96e9-ff6ac95bd5a4">
+					/form[@title='Calculator']/?/?/container[@instance='1']/button[@controlid='118']
+				</item>
+				<item
+				name="Button24"
+				id="c5762a71-20c2-4281-9d0d-46d11e5ffbfc"
+				searchtimeout="30000ms"
+				capname="button"
+				refpath="/form[@title='Calculator']/element/container[@class='#32770' and @instance='1']/button[@text='' and @controlid='121']"
+				addcaps="button,nativewindow"
+				refimgid="934538b2-f07a-471e-ae00-bd92ad9a7fb7">
+					/form[@title='Calculator']/?/?/container[@instance='1']/button[@controlid='121']
+				</item>
+				<item
+				name="Button1"
+				id="6febac9f-4d34-49ec-8727-33326f734323"
+				searchtimeout="30000ms"
+				capname="button"
+				refpath="/form[@title='Calculator']/element/container[@class='#32770' and @instance='1']/button[@text='' and @controlid='123']"
+				addcaps="button,nativewindow"
+				refimgid="c042ef6e-3d25-46b1-a2b8-814efa85e2e6">
+					/form[@title='Calculator']/?/?/container[@instance='1']/button[@controlid='123']
+				</item>
+				<item
+				name="Button"
+				id="6304ec8b-3f79-46f7-b4c1-48eb419aa8ea"
+				searchtimeout="30000ms"
+				capname="button"
+				refpath="/form[@title='Calculator']/element/container[@class='#32770' and @instance='1']/button[@text='' and @controlid='122']"
+				addcaps="button,nativewindow"
+				refimgid="3a12b4f5-d7aa-4da7-81fc-d1bbd0ce2196">
+					/form[@title='Calculator']/?/?/container[@instance='1']/button[@controlid='122']
+				</item>
+				<item
+				name="Button2"
+				id="4fadc255-42ea-40ae-819b-1d3d1087a3e7"
+				searchtimeout="30000ms"
+				capname="button"
+				refpath="/form[@title='Calculator']/element/container[@class='#32770' and @instance='1']/button[@text='' and @controlid='124']"
+				addcaps="button,nativewindow"
+				refimgid="fdb13777-d5df-479d-8f59-7934678cd9ec">
+					/form[@title='Calculator']/?/?/container[@instance='1']/button[@controlid='124']
+				</item>
+				<item
+				name="Button3"
+				id="5e937874-3836-4865-a269-3ad3ec507440"
+				searchtimeout="30000ms"
+				capname="button"
+				refpath="/form[@title='Calculator']/element/container[@class='#32770' and @instance='1']/button[@text='' and @controlid='125']"
+				addcaps="button,nativewindow"
+				refimgid="7a94bd43-2317-4c39-9bb8-2ecf470d8a59">
+					/form[@title='Calculator']/?/?/container[@instance='1']/button[@controlid='125']
+				</item>
+				<item
+				name="Button4"
+				id="3aa107c4-141c-4664-96b0-5772c34b35d5"
+				searchtimeout="30000ms"
+				capname="button"
+				refpath="/form[@title='Calculator']/element/container[@class='#32770' and @instance='1']/button[@text='' and @controlid='126']"
+				addcaps="button,nativewindow"
+				refimgid="4a5d9b05-ce8a-4ee6-89f0-dc75a97dbe0f">
+					/form[@title='Calculator']/?/?/container[@instance='1']/button[@controlid='126']
+				</item>
+				<item
+				name="Button20"
+				id="890cfac9-911b-47bc-84ec-f8ea1e64ad39"
+				searchtimeout="30000ms"
+				capname="button"
+				refpath="/form[@title='Calculator']/element/container[@class='#32770' and @instance='1']/button[@text='' and @controlid='131']"
+				addcaps="button,nativewindow"
+				refimgid="17e64134-b510-406a-a7d6-d36b9299200d">
+					/form[@title='Calculator']/?/?/container[@instance='1']/button[@controlid='131']
+				</item>
+				<item
+				name="Button21"
+				id="6b6ce2cf-0cf2-4d5c-898f-4879ed877881"
+				searchtimeout="30000ms"
+				capname="button"
+				refpath="/form[@title='Calculator']/element/container[@class='#32770' and @instance='1']/button[@text='' and @controlid='132']"
+				addcaps="button,nativewindow"
+				refimgid="935180b3-7881-44e4-8c0a-094a2f13a779">
+					/form[@title='Calculator']/?/?/container[@instance='1']/button[@controlid='132']
+				</item>
+				<item
+				name="Button22"
+				id="25697f02-520c-4522-a51c-41379440970b"
+				searchtimeout="30000ms"
+				capname="button"
+				refpath="/form[@title='Calculator']/element/container[@class='#32770' and @instance='1']/button[@text='' and @controlid='133']"
+				addcaps="button,nativewindow"
+				refimgid="64801b6d-9bf7-4579-9b0b-91b3980019af">
+					/form[@title='Calculator']/?/?/container[@instance='1']/button[@controlid='133']
+				</item>
+				<item
+				name="Button15"
+				id="631289d4-c066-4e4d-a65c-a7d5516e8218"
+				searchtimeout="30000ms"
+				capname="button"
+				refpath="/form[@title='Calculator']/element/container[@class='#32770' and @instance='1']/button[@text='' and @controlid='134']"
+				addcaps="button,nativewindow"
+				refimgid="90c12341-5acd-4526-91ec-e3518e5d7425">
+					/form[@title='Calculator']/?/?/container[@instance='1']/button[@controlid='134']
+				</item>
+				<item
+				name="Button16"
+				id="61867b6d-8abc-44ba-908a-163bcb39828f"
+				searchtimeout="30000ms"
+				capname="button"
+				refpath="/form[@title='Calculator']/element/container[@class='#32770' and @instance='1']/button[@text='' and @controlid='135']"
+				addcaps="button,nativewindow"
+				refimgid="edc56345-89f2-4d35-957c-2875d332914f">
+					/form[@title='Calculator']/?/?/container[@instance='1']/button[@controlid='135']
+				</item>
+				<item
+				name="Button17"
+				id="e65f7f1c-839d-417c-a252-9357fd6bb43d"
+				searchtimeout="30000ms"
+				capname="button"
+				refpath="/form[@title='Calculator']/element/container[@class='#32770' and @instance='1']/button[@text='' and @controlid='136']"
+				addcaps="button,nativewindow"
+				refimgid="74e5730b-e4e1-430b-8e3d-bc52c1d04c40">
+					/form[@title='Calculator']/?/?/container[@instance='1']/button[@controlid='136']
+				</item>
+				<item
+				name="Button10"
+				id="73c30c9f-db70-435f-ac96-6bde3a108f51"
+				searchtimeout="30000ms"
+				capname="button"
+				refpath="/form[@title='Calculator']/element/container[@class='#32770' and @instance='1']/button[@text='' and @controlid='137']"
+				addcaps="button,nativewindow"
+				refimgid="8fec63ab-efd8-4a4a-8e61-4d8a29bd64e0">
+					/form[@title='Calculator']/?/?/container[@instance='1']/button[@controlid='137']
+				</item>
+				<item
+				name="Button11"
+				id="e40e36de-5984-46b0-b6e2-06e6a8bd7431"
+				searchtimeout="30000ms"
+				capname="button"
+				refpath="/form[@title='Calculator']/element/container[@class='#32770' and @instance='1']/button[@text='' and @controlid='138']"
+				addcaps="button,nativewindow"
+				refimgid="1b3764f4-5682-457c-b482-6a587bde254d">
+					/form[@title='Calculator']/?/?/container[@instance='1']/button[@controlid='138']
+				</item>
+				<item
+				name="Button12"
+				id="e6f94270-8127-4d9c-a6a6-85d8c5677087"
+				searchtimeout="30000ms"
+				capname="button"
+				refpath="/form[@title='Calculator']/element/container[@class='#32770' and @instance='1']/button[@text='' and @controlid='139']"
+				addcaps="button,nativewindow"
+				refimgid="f8e89e00-4720-4f3a-8ce3-32588f753ba5">
+					/form[@title='Calculator']/?/?/container[@instance='1']/button[@controlid='139']
+				</item>
+				<item
+				name="Button8"
+				id="78b8cbdd-7c5a-4b48-8869-d7791b0c54a3"
+				searchtimeout="30000ms"
+				capname="button"
+				refpath="/form[@title='Calculator']/element/container[@class='#32770' and @instance='1']/button[@text='' and @controlid='80']"
+				addcaps="button,nativewindow"
+				refimgid="392e52c3-2b6c-47fa-aee2-1396eebaff27">
+					/form[@title='Calculator']/?/?/container[@instance='1']/button[@controlid='80']
+				</item>
+				<item
+				name="Button7"
+				id="66610eb6-4df1-4920-ad91-fe9018c531f0"
+				searchtimeout="30000ms"
+				capname="button"
+				refpath="/form[@title='Calculator']/element/container[@class='#32770' and @instance='1']/button[@text='' and @controlid='81']"
+				addcaps="button,nativewindow"
+				refimgid="d73eebfc-88b9-462a-8b58-e48055691923">
+					/form[@title='Calculator']/?/?/container[@instance='1']/button[@controlid='81']
+				</item>
+				<item
+				name="Button6"
+				id="b8972015-19de-4077-b45b-d2a217c58665"
+				searchtimeout="30000ms"
+				capname="button"
+				refpath="/form[@title='Calculator']/element/container[@class='#32770' and @instance='1']/button[@text='' and @controlid='82']"
+				addcaps="button,nativewindow"
+				refimgid="2bdaab5e-a7bf-4925-8a85-aea3eb06e54c">
+					/form[@title='Calculator']/?/?/container[@instance='1']/button[@controlid='82']
+				</item>
+				<item
+				name="Button5"
+				id="b51e7166-a7da-4bfe-8113-3925104e9f14"
+				searchtimeout="30000ms"
+				capname="button"
+				refpath="/form[@title='Calculator']/element/container[@class='#32770' and @instance='1']/button[@text='' and @controlid='83']"
+				addcaps="button,nativewindow"
+				refimgid="fd83a463-3419-4f9e-9981-2551996b36f5">
+					/form[@title='Calculator']/?/?/container[@instance='1']/button[@controlid='83']
+				</item>
+				<item
+				name="Button26"
+				id="ca0505c8-914b-4540-9f9f-67dd584a15b2"
+				searchtimeout="30000ms"
+				capname="button"
+				refpath="/form[@title='Calculator']/element/container[@class='#32770' and @instance='1']/button[@text='' and @controlid='84']"
+				addcaps="button,nativewindow"
+				refimgid="41c940d2-385e-49be-89de-215385bf3c06">
+					/form[@title='Calculator']/?/?/container[@instance='1']/button[@controlid='84']
+				</item>
+				<item
+				name="Button13"
+				id="b846f02e-bddd-408e-8dc4-e0d77683e5c9"
+				searchtimeout="30000ms"
+				capname="button"
+				refpath="/form[@title='Calculator']/element/container[@class='#32770' and @instance='1']/button[@text='' and @controlid='91']"
+				addcaps="button,nativewindow"
+				refimgid="b4f90266-9fba-4d23-b18e-55156ab2ce5e">
+					/form[@title='Calculator']/?/?/container[@instance='1']/button[@controlid='91']
+				</item>
+				<item
+				name="Button18"
+				id="9ff8f4d5-4e26-45b3-94e5-0def007918fb"
+				searchtimeout="30000ms"
+				capname="button"
+				refpath="/form[@title='Calculator']/element/container[@class='#32770' and @instance='1']/button[@text='' and @controlid='92']"
+				addcaps="button,nativewindow"
+				refimgid="8ad118f1-3c13-43dc-8116-03230f644b2e">
+					/form[@title='Calculator']/?/?/container[@instance='1']/button[@controlid='92']
+				</item>
+				<item
+				name="Button27"
+				id="804fc7f5-d4f6-4877-bb6d-7862dc8f42f0"
+				searchtimeout="30000ms"
+				capname="button"
+				refpath="/form[@title='Calculator']/element/container[@class='#32770' and @instance='1']/button[@text='' and @controlid='93']"
+				addcaps="button,nativewindow"
+				refimgid="c0af3d18-1c94-429b-aebe-7db3b3505f98">
+					/form[@title='Calculator']/?/?/container[@instance='1']/button[@controlid='93']
+				</item>
+				<item
+				name="Button23"
+				id="5bc3a93c-81c0-40d8-9db7-0aaa2485c60d"
+				searchtimeout="30000ms"
+				capname="button"
+				refpath="/form[@title='Calculator']/element/container[@class='#32770' and @instance='1']/button[@text='' and @controlid='94']"
+				addcaps="button,nativewindow"
+				refimgid="9395fb75-8566-45ec-9ffc-13af6818f064">
+					/form[@title='Calculator']/?/?/container[@instance='1']/button[@controlid='94']
+				</item>
+				<basepath>
+					/form[@title='Calculator']/?/?/container[@instance='1']
+				</basepath>
+			</folder>
+			<item
+			name="Close"
+			id="0e3fb469-3b3c-45c8-8dcf-98e1f85b81e1"
+			searchtimeout="30000ms"
+			capname="button"
+			refpath="/form[@title='Calculator']/titlebar/button[@accessiblename='Close']"
+			addcaps="button,accessible"
+			refimgid="0b7258cb-5877-4055-90fd-e9f5ddfcb3c9">
+				/form[@title='Calculator']/?/?/button[@accessiblename='Close']
+			</item>
+			<basepath>
+				/form[@title='Calculator']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlz
+AAAOxAAADsQBlSsOGwAAAodJREFUOE91k/tLU2EYx9ff1S+llVlkQUWEEFFUIBKZ3YmMBCUQb82s
+kHljztscSRlLaxcVt+nmNjOxoeeyzU2X7mw7ZzubZ357z9lkPxx74Mv3/eX7eZ7nvOfVHFa9aaX5
+gXGFuz/uR82oD3cNXtzSe3BjYAnVvS5c63Hgysc5XNJamKr26WfFWKnqJn5x7J6A9Z0UAkT0bgZB
+TgQbF0GR85+YgNVoEr+JLrR8Y4qxUpHuMPnCkCYrkTceP1qmE9AvBXH+7VcUY6WSR5/wbUHI5bGf
+P0BSzCOSlBD4m4MnLMJGZcBnJQy6WJxr+qwG1I75YSSANAEIuQPEeAnU3j78kSzmmQzMgTRSooR+
+Ajj7ZkINqBnxYdxbmCCezpP997G2k4MrKOLHRhqTawKZSkKfi0FFw5gacG/YqwDkLjyBKMrmkSJj
+y5LDiYyEXieDMy8NasAdwzJGCaDHGUL3PIv3RF2zDLSzNDptNDqsFNqtm9A5GJx+rlcDbpM7p+NZ
+uMJp2GieKAUrnYSFSsCymSBrcJha34WLTeDUkwE14OagGxsEUDvixnyQV9xx6GxScXMgDieTQPmj
+PjVA/uNWdkSyxjb07iiGPFEYPBEMF2VcjmCGTLEYTKLsoU4NqO5bxEJIQJsthN1YDK1WVnGtveBD
+SyFwncfgjwpHA67rnLAwAhqnGbyYovDaTKNphkHLTwYdNgYj7i0kOjVY3U4fDZAfyzTF4+kUrXSs
+/0Ip3mAuuM5RmMAX/Q/g6qc5zsqSFewhtJI1OmZD0M6F8GEhjB5HmHyXLdgZHt6IgJN1Oq4YK9Xl
+bnvzxXcWrqrtu/JYKhtNqHg1qtx5+eN+passOVxWp2supDSaf1fdalmWrdMeAAAAAElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<basepath/>
+	</rootfolder>
+	<variables/>
+</repository>

@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Failed"
+		duration="15.44s"
+		durationms="15441"
+		type="root"
+		rid="51253a6b9509900"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="Damodar Shanbhag"
+		host="HP"
+		rxversion="6.0.1.0"
+		osversion="Windows 8.1 64bit"
+		runtimeversion="4.0.30319.34209"
+		procarch="64bit"
+		language="en-GB"
+		screenresolution="2732x798"
+		timestamp="27-07-2016 9.04.14 AM"
+		timestampiso="2016-07-27T03:34:14"
+		timeoutfactor="1"
+		module="trail4">
+		<detail>
+			trail4
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.718"
+			timeRelativeToTestModuleStartTime="00:00.718"
+			timeWallClock="09:04:15"
+			time="00:00.718"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Down item 'DubberMozillaFirefox.None' at 1352;385.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Dubber - Mozilla Firefox']/container[@accessiblerole='Grouping']/?/?/element[@accessiblerole='None']"
+				fullname="dubeerRepository.DubberMozillaFirefox.None"
+				id="d861fa46567643d889b78004c95df6be"
+				timeout="60000"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\dubeer\trail4.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.441"
+			timeRelativeToTestModuleStartTime="00:15.441"
+			timeWallClock="09:04:30"
+			time="00:15.441"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error"/>
+		</item>
+	</activity>
+</report>

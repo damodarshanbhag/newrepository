@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Failed"
+		duration="33.72s"
+		durationms="33716"
+		type="root"
+		rid="31975ce387577068"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="Damodar Shanbhag"
+		host="HP"
+		rxversion="6.0.1.0"
+		osversion="Windows 8.1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-GB"
+		screenresolution="1366x768"
+		timestamp="16-08-2016 12.23.26 PM"
+		timestampiso="2016-08-16T06:53:26"
+		timeoutfactor="1"
+		module="Uploading_callflow">
+		<detail>
+			Uploading_callflow
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.623"
+			timeRelativeToTestModuleStartTime="00:00.623"
+			timeWallClock="12:23:27"
+			time="00:00.623"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>C__Users_Damodar_Shanbhag_Downloads_inb_Callflow_xml
+			</message>
+			<metainfo
+				loglvl="Warn"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.648"
+			timeRelativeToTestModuleStartTime="00:00.648"
+			timeWallClock="12:23:27"
+			time="00:00.648"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Down item 'Dubber' at 1353;427.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='tigers.dubber.net']"
+				fullname="dubeerRepository.Dubber.Self"
+				id="f93d9f96c4464b9b8a0dc238eff587fc"
+				timeout="30000"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\dubeer\uploading_callflow.cs"
+				codeline="95"
+				itemindex="0"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.680"
+			timeRelativeToTestModuleStartTime="00:11.680"
+			timeWallClock="12:23:38"
+			time="00:11.680"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Up item 'Dubber' at 1361;266.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='tigers.dubber.net']"
+				fullname="dubeerRepository.Dubber.Self"
+				id="f93d9f96c4464b9b8a0dc238eff587fc"
+				timeout="30000"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\dubeer\uploading_callflow.cs"
+				codeline="100"
+				itemindex="1"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.457"
+			timeRelativeToTestModuleStartTime="00:12.457"
+			timeWallClock="12:23:39"
+			time="00:12.457"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Dubber.InboundNumberAdvancedXml' at 52;14.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='tigers.dubber.net']//input[#'inbound_number_advanced_xml']"
+				fullname="dubeerRepository.Dubber.InboundNumberAdvancedXml"
+				id="c451dcf9c86d42aa8c84aafc1df9a7cf"
+				timeout="60000"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\dubeer\uploading_callflow.cs"
+				codeline="105"
+				itemindex="2"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:33.716"
+			timeRelativeToTestModuleStartTime="00:33.716"
+			timeWallClock="12:24:00"
+			time="00:33.716"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error"/>
+		</item>
+	</activity>
+</report>

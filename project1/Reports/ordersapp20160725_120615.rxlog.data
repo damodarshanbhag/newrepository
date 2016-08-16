@@ -1,0 +1,543 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="17d0237d3361647e"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="Damodar Shanbhag"
+		host="HP"
+		rxversion="6.0.1.0"
+		osversion="Windows 8.1 64bit"
+		runtimeversion="4.0.30319.34209"
+		procarch="32bit"
+		language="en-GB"
+		screenresolution="1366x768"
+		timestamp="25-07-2016 12:06:19"
+		timestampiso="2016-07-25T06:36:19"
+		timeoutfactor="1"
+		module="ordersapp">
+		<detail>
+			ordersapp
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.734"
+			timeRelativeToTestModuleStartTime="00:00.734"
+			timeWallClock="12:06:20"
+			time="00:00.734"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>customer, city, street, state, zip, cardno
+			</message>
+			<metainfo
+				loglvl="Warn"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.765"
+			timeRelativeToTestModuleStartTime="00:00.765"
+			timeWallClock="12:06:20"
+			time="00:00.765"
+			level="Info"
+			category="Application">
+			<message>
+				Run application 'C:\Users\Public\Documents\TestComplete 11 Samples\Desktop\Orders\C#\bin\Release\Orders.exe' with arguments '' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\ordersapp.cs"
+				codeline="160"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.812"
+			timeRelativeToTestModuleStartTime="00:00.812"
+			timeWallClock="12:06:20"
+			time="00:00.812"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'MainForm.Orders' at 13;10.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='MainForm']/?/?/menuitem[@accessiblename='Orders']"
+				fullname="project1Repository.MainForm.Orders"
+				id="f5196fcec80b4c7f87a5ea04020b486c"
+				timeout="60000"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\ordersapp.cs"
+				codeline="164"
+				itemindex="1"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.906"
+			timeRelativeToTestModuleStartTime="00:02.906"
+			timeWallClock="12:06:22"
+			time="00:02.906"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Orders.NewOrderCtrlPlusIns' at 43;13.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/contextmenu[@processname='Orders']/?/?/menuitem[@accessiblename='New order...Ctrl+Ins']"
+				fullname="project1Repository.Orders.NewOrderCtrlPlusIns"
+				id="d718ca8a58a5473e96ea0c7da58e5714"
+				timeout="60000"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\ordersapp.cs"
+				codeline="168"
+				itemindex="2"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.734"
+			timeRelativeToTestModuleStartTime="00:03.734"
+			timeWallClock="12:06:23"
+			time="00:03.734"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'OrderForm.ProductNames' at 58;15.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='OrderForm']/?/?/combobox[@controlname='ProductNames']"
+				fullname="project1Repository.OrderForm.ProductNames"
+				id="a651e4cf089c4f29a81b1478e86033f3"
+				timeout="60000"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\ordersapp.cs"
+				codeline="172"
+				itemindex="3"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.937"
+			timeRelativeToTestModuleStartTime="00:05.937"
+			timeWallClock="12:06:25"
+			time="00:05.937"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'List1000.FamilyAlbum' at 46;12.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/list[@controlid='1000']/listitem[@text='FamilyAlbum']"
+				fullname="project1Repository.List1000.FamilyAlbum"
+				id="cf9495bb9656411bb4254fc10b696542"
+				timeout="60000"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\ordersapp.cs"
+				codeline="176"
+				itemindex="4"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.750"
+			timeRelativeToTestModuleStartTime="00:06.750"
+			timeWallClock="12:06:26"
+			time="00:06.750"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'OrderForm.UpDownEdit' at 21;4.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='OrderForm']/?/?/container[@controlname='Quantity']/text[@controlname='upDownEdit']"
+				fullname="project1Repository.OrderForm.UpDownEdit"
+				id="9546a12d92854dd2868f6a097bba0b0a"
+				timeout="60000"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\ordersapp.cs"
+				codeline="180"
+				itemindex="5"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.640"
+			timeRelativeToTestModuleStartTime="00:08.640"
+			timeWallClock="12:06:28"
+			time="00:08.640"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '2' with focus on 'OrderForm.UpDownEdit'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='OrderForm']/?/?/container[@controlname='Quantity']/text[@controlname='upDownEdit']"
+				fullname="project1Repository.OrderForm.UpDownEdit"
+				id="9546a12d92854dd2868f6a097bba0b0a"
+				timeout="60000"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\ordersapp.cs"
+				codeline="184"
+				itemindex="6"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.109"
+			timeRelativeToTestModuleStartTime="00:10.109"
+			timeWallClock="12:06:30"
+			time="00:10.109"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'OrderForm.Text' at 59;7.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='OrderForm']/?/?/text[@controlname='Customer']/text[@accessiblerole='Text']"
+				fullname="project1Repository.OrderForm.Text"
+				id="55e517c7b7904c72b08494a909f3513c"
+				timeout="60000"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\ordersapp.cs"
+				codeline="188"
+				itemindex="7"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.094"
+			timeRelativeToTestModuleStartTime="00:12.094"
+			timeWallClock="12:06:31"
+			time="00:12.094"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence from variable '$customer' with focus on 'OrderForm.Text'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='OrderForm']/?/?/text[@controlname='Customer']/text[@accessiblerole='Text']"
+				fullname="project1Repository.OrderForm.Text"
+				id="55e517c7b7904c72b08494a909f3513c"
+				timeout="60000"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\ordersapp.cs"
+				codeline="192"
+				itemindex="8"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.282"
+			timeRelativeToTestModuleStartTime="00:14.282"
+			timeWallClock="12:06:34"
+			time="00:14.282"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'OrderForm.Date' at 45;3.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='OrderForm']/?/?/text[@controlname='Street']/text[@accessiblename='Date:']"
+				fullname="project1Repository.OrderForm.Date"
+				id="742d3ca252044ad4b676861cc120384e"
+				timeout="60000"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\ordersapp.cs"
+				codeline="196"
+				itemindex="9"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:16.141"
+			timeRelativeToTestModuleStartTime="00:16.141"
+			timeWallClock="12:06:36"
+			time="00:16.141"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence from variable '$street' with focus on 'OrderForm.Date'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='OrderForm']/?/?/text[@controlname='Street']/text[@accessiblename='Date:']"
+				fullname="project1Repository.OrderForm.Date"
+				id="742d3ca252044ad4b676861cc120384e"
+				timeout="60000"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\ordersapp.cs"
+				codeline="200"
+				itemindex="10"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:18.157"
+			timeRelativeToTestModuleStartTime="00:18.157"
+			timeWallClock="12:06:38"
+			time="00:18.157"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'OrderForm.Text1' at 22;6.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='OrderForm']/?/?/text[@controlname='City']/text[@accessiblerole='Text']"
+				fullname="project1Repository.OrderForm.Text1"
+				id="9bf42b61de1f445ba7d7434c4e1681ca"
+				timeout="60000"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\ordersapp.cs"
+				codeline="204"
+				itemindex="11"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:20.121"
+			timeRelativeToTestModuleStartTime="00:20.121"
+			timeWallClock="12:06:40"
+			time="00:20.121"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence from variable '$city' with focus on 'OrderForm.Text1'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='OrderForm']/?/?/text[@controlname='City']/text[@accessiblerole='Text']"
+				fullname="project1Repository.OrderForm.Text1"
+				id="9bf42b61de1f445ba7d7434c4e1681ca"
+				timeout="60000"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\ordersapp.cs"
+				codeline="208"
+				itemindex="12"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:21.762"
+			timeRelativeToTestModuleStartTime="00:21.762"
+			timeWallClock="12:06:41"
+			time="00:21.762"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'OrderForm.Text2' at 90;5.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='OrderForm']/?/?/text[@controlname='State']/text[@accessiblerole='Text']"
+				fullname="project1Repository.OrderForm.Text2"
+				id="1e01c27f52fd4e80a92767259219f938"
+				timeout="60000"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\ordersapp.cs"
+				codeline="212"
+				itemindex="13"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:23.715"
+			timeRelativeToTestModuleStartTime="00:23.715"
+			timeWallClock="12:06:43"
+			time="00:23.715"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence from variable '$state' with focus on 'OrderForm.Text2'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='OrderForm']/?/?/text[@controlname='State']/text[@accessiblerole='Text']"
+				fullname="project1Repository.OrderForm.Text2"
+				id="1e01c27f52fd4e80a92767259219f938"
+				timeout="60000"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\ordersapp.cs"
+				codeline="216"
+				itemindex="14"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:25.324"
+			timeRelativeToTestModuleStartTime="00:25.324"
+			timeWallClock="12:06:45"
+			time="00:25.324"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'OrderForm.Text3' at 28;7.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='OrderForm']/?/?/text[@controlname='Zip']/text[@accessiblerole='Text']"
+				fullname="project1Repository.OrderForm.Text3"
+				id="cd78210b967b48c499ae7a949b612916"
+				timeout="60000"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\ordersapp.cs"
+				codeline="220"
+				itemindex="15"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:27.215"
+			timeRelativeToTestModuleStartTime="00:27.215"
+			timeWallClock="12:06:47"
+			time="00:27.215"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence from variable '$zip' with focus on 'OrderForm.Text3'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='OrderForm']/?/?/text[@controlname='Zip']/text[@accessiblerole='Text']"
+				fullname="project1Repository.OrderForm.Text3"
+				id="cd78210b967b48c499ae7a949b612916"
+				timeout="60000"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\ordersapp.cs"
+				codeline="224"
+				itemindex="16"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:29.121"
+			timeRelativeToTestModuleStartTime="00:29.121"
+			timeWallClock="12:06:49"
+			time="00:29.121"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'OrderForm.MasterCard' at 6;10.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='OrderForm']/?/?/radiobutton[@controlname='MasterCard']"
+				fullname="project1Repository.OrderForm.MasterCard"
+				id="396e59afd50445278998c9ee1bbc4e07"
+				timeout="60000"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\ordersapp.cs"
+				codeline="228"
+				itemindex="17"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:31.027"
+			timeRelativeToTestModuleStartTime="00:31.027"
+			timeWallClock="12:06:50"
+			time="00:31.027"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'OrderForm.Street' at 34;7.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='OrderForm']/?/?/text[@controlname='CardNo']/text[@accessiblename='Street:']"
+				fullname="project1Repository.OrderForm.Street"
+				id="8525a6d33204497cabcc1e41c25fd1ff"
+				timeout="60000"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\ordersapp.cs"
+				codeline="232"
+				itemindex="18"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:32.637"
+			timeRelativeToTestModuleStartTime="00:32.637"
+			timeWallClock="12:06:52"
+			time="00:32.637"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence from variable '$cardno' with focus on 'OrderForm.Street'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='OrderForm']/?/?/text[@controlname='CardNo']/text[@accessiblename='Street:']"
+				fullname="project1Repository.OrderForm.Street"
+				id="8525a6d33204497cabcc1e41c25fd1ff"
+				timeout="60000"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\ordersapp.cs"
+				codeline="236"
+				itemindex="19"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:35.027"
+			timeRelativeToTestModuleStartTime="00:35.027"
+			timeWallClock="12:06:54"
+			time="00:35.027"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'OrderForm.ButtonOK' at 34;11.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='OrderForm']/button[@controlname='ButtonOK']"
+				fullname="project1Repository.OrderForm.ButtonOK"
+				id="402e4260712945c786262b8c69669ea3"
+				timeout="60000"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\ordersapp.cs"
+				codeline="240"
+				itemindex="20"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:35.840"
+			timeRelativeToTestModuleStartTime="00:35.840"
+			timeWallClock="12:06:55"
+			time="00:35.840"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'MainForm.PushButton' at 9;10.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='MainForm']/toolbar[@controlname='ToolBar']/toolbar/button[3]"
+				fullname="project1Repository.MainForm.PushButton"
+				id="3c27b2c816bc49d0bec98c3110a0c4fe"
+				timeout="60000"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\ordersapp.cs"
+				codeline="244"
+				itemindex="21"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:36.688"
+			timeRelativeToTestModuleStartTime="00:36.688"
+			timeWallClock="12:06:56"
+			time="00:36.688"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SaveAs.ButtonSave' at 29;8.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Save As']/button[@text='&amp;Save']"
+				fullname="project1Repository.SaveAs.ButtonSave"
+				id="353f0bf050544fbbb65dd73bfd51eb09"
+				timeout="60000"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\ordersapp.cs"
+				codeline="248"
+				itemindex="22"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:37.582"
+			timeRelativeToTestModuleStartTime="00:37.582"
+			timeWallClock="12:06:57"
+			time="00:37.582"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'MainForm.Close' at 17;13.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='MainForm']/?/?/button[@accessiblename='Close']"
+				fullname="project1Repository.MainForm.Close"
+				id="b13308316d8f48aaa3d67e111245d658"
+				timeout="60000"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\ordersapp.cs"
+				codeline="252"
+				itemindex="23"
+				loglvl="Info"/>
+		</item>
+	</activity>
+</report>

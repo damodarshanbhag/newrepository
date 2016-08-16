@@ -1,0 +1,313 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="16cce6831ceeb952"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="Damodar Shanbhag"
+		host="HP"
+		rxversion="6.0.1.0"
+		osversion="Windows 8.1 64bit"
+		runtimeversion="4.0.30319.34209"
+		procarch="64bit"
+		language="en-GB"
+		screenresolution="1366x768"
+		timestamp="25-07-2016 16:12:29"
+		timestampiso="2016-07-25T10:42:29"
+		timeoutfactor="1"
+		module="call_flow">
+		<detail>
+			call_flow
+		</detail>
+		<errmsg>
+			Failed to move to location '729;229' within element '{Unknown:None}'.
+		</errmsg>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.273"
+			timeRelativeToTestModuleStartTime="00:01.274"
+			timeWallClock="16:12:30"
+			time="00:01.273"
+			level="Info"
+			category="Website">
+			<message>
+				Opening web site 'https://tigers.dubber.net/login' with browser 'firefox' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\dubber\call_flow.cs"
+				codeline="82"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.419"
+			timeRelativeToTestModuleStartTime="00:01.420"
+			timeWallClock="16:12:30"
+			time="00:01.419"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'DubberMozillaFirefox.Grouping.EmailAddress' at 148;15.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Dubber - Mozilla Firefox']/container[@accessiblerole='Grouping']/container[@accessiblerole='PropertyPage']/?/?/container[@accessiblename='Dubber']/element[2]/element[2]/element[1]/element/element[2]/element[@accessiblerole='None']/element[@accessiblerole='None']/element[@accessiblerole='None']/element[1]/?/?/text[@accessiblename='Email Address']"
+				fullname="dubberRepository.DubberMozillaFirefox.Grouping.EmailAddress"
+				id="caeb1993f69a43d6ba1c4d724ca3766c"
+				timeout="90000"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\dubber\call_flow.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.756"
+			timeRelativeToTestModuleStartTime="00:04.757"
+			timeWallClock="16:12:33"
+			time="00:04.756"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'DubberMozillaFirefox.Grouping.Password' at 134;6.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Dubber - Mozilla Firefox']/container[@accessiblerole='Grouping']/container[@accessiblerole='PropertyPage']/?/?/container[@accessiblename='Dubber']/element[2]/element[2]/element[1]/element/element[2]/element[@accessiblerole='None']/element[@accessiblerole='None']/element[@accessiblerole='None']/element[2]/?/?/text[@accessiblename='Password']"
+				fullname="dubberRepository.DubberMozillaFirefox.Grouping.Password"
+				id="5eac186efb624414a28cd872a67d2dea"
+				timeout="90000"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\dubber\call_flow.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.521"
+			timeRelativeToTestModuleStartTime="00:05.522"
+			timeWallClock="16:12:34"
+			time="00:05.521"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'DubberMozillaFirefox.Grouping.Login' at 29;22.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Dubber - Mozilla Firefox']/container[@accessiblerole='Grouping']/container[@accessiblerole='PropertyPage']/?/?/container[@accessiblename='Dubber']/element[2]/element[2]/element[1]/element/element[2]/element[@accessiblerole='None']/element[@accessiblerole='None']/element[@accessiblerole='None']/element[3]/button[@accessiblename='Login']"
+				fullname="dubberRepository.DubberMozillaFirefox.Grouping.Login"
+				id="5ce8da4f47bc4a0cb75d9d45f9fd9f54"
+				timeout="90000"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\dubber\call_flow.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.266"
+			timeRelativeToTestModuleStartTime="00:06.267"
+			timeWallClock="16:12:35"
+			time="00:06.266"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'DubberMozillaFirefox.Dubber1.Search' at 16;20.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Dubber - Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename='Dubber']/element[3]/element[2]//text[@accessiblename='Search']"
+				fullname="dubberRepository.DubberMozillaFirefox.Dubber1.Search"
+				id="5654184a642b4c6e994630f935738117"
+				timeout="90000"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\dubber\call_flow.cs"
+				codeline="98"
+				itemindex="4"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.030"
+			timeRelativeToTestModuleStartTime="00:10.031"
+			timeWallClock="16:12:39"
+			time="00:10.030"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'testcomplete2{Return}' with focus on 'DubberMozillaFirefox.Dubber1.Search'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Dubber - Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename='Dubber']/element[3]/element[2]//text[@accessiblename='Search']"
+				fullname="dubberRepository.DubberMozillaFirefox.Dubber1.Search"
+				id="5654184a642b4c6e994630f935738117"
+				timeout="90000"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\dubber\call_flow.cs"
+				codeline="102"
+				itemindex="5"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.791"
+			timeRelativeToTestModuleStartTime="00:11.792"
+			timeWallClock="16:12:40"
+			time="00:11.791"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'DubberMozillaFirefox.Dubber1.Testcomplete2' at 71;10.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Dubber - Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename='Dubber']/element[3]/element[4]//table[@accessiblerole='Table']/row[@accessiblename~'^A\ testcomplete2Dubber\ sss']/cell[2]/link[@accessiblename='testcomplete2']/text[@accessiblename='testcomplete2']"
+				fullname="dubberRepository.DubberMozillaFirefox.Dubber1.Testcomplete2"
+				id="c3c098a304fa4e9ab9caefd5f5f0a11c"
+				timeout="90000"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\dubber\call_flow.cs"
+				codeline="106"
+				itemindex="6"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:20.856"
+			timeRelativeToTestModuleStartTime="00:20.857"
+			timeWallClock="16:12:50"
+			time="00:20.856"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'DubberMozillaFirefox.Dubber1.Inbound' at 33;5.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Dubber - Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename='Dubber']//list[@accessiblerole='List']/listitem[@accessiblename='Inbound']/link[@accessiblename='Inbound']/text[@accessiblename='Inbound']"
+				fullname="dubberRepository.DubberMozillaFirefox.Dubber1.Inbound"
+				id="d25acde3d84c4886b4b926ed1f037573"
+				timeout="90000"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\dubber\call_flow.cs"
+				codeline="110"
+				itemindex="7"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:52.333"
+			timeRelativeToTestModuleStartTime="00:52.334"
+			timeWallClock="16:13:21"
+			time="00:52.333"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'DubberMozillaFirefox.Dubber1.TextInb' at 14;11.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Dubber - Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename='Dubber']/element[3]/element[4]//table[@accessiblerole='Table']/row[@accessiblename~'^A\ inb\ 61486549565\ 6121234']/cell[2]/link[@accessiblename='inb']/text[@accessiblename='inb']"
+				fullname="dubberRepository.DubberMozillaFirefox.Dubber1.TextInb"
+				id="2a5a3d7ef8f04a5ead2a8df95fc2eb0e"
+				timeout="90000"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\dubber\call_flow.cs"
+				codeline="114"
+				itemindex="8"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:54.156"
+			timeRelativeToTestModuleStartTime="00:54.157"
+			timeWallClock="16:13:23"
+			time="00:54.156"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'DubberMozillaFirefox.Dubber1.Dubber' at 1335;298.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Dubber - Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename='Dubber']"
+				fullname="dubberRepository.DubberMozillaFirefox.Dubber1.Dubber"
+				id="ff31c1aa114d45e8ad33df62e1a5c61f"
+				timeout="90000"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\dubber\call_flow.cs"
+				codeline="118"
+				itemindex="9"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:54.877"
+			timeRelativeToTestModuleStartTime="00:54.878"
+			timeWallClock="16:13:24"
+			time="00:54.877"
+			level="Info"
+			category="Mouse"
+			errimg=".\call_flo_afae172a_d04c2810_trace.jpg"
+			errthumb=".\call_flo_afae172a_d04c2810_trace_thumb.jpg">
+			<message>
+				Mouse Left Down item 'DubberMozillaFirefox.Grouping.None' at 1350;297.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Dubber - Mozilla Firefox']/container[@accessiblerole='Grouping']/?/?/element[@accessiblerole='None']"
+				fullname="dubberRepository.DubberMozillaFirefox.Grouping.None"
+				id="013aff50ca1d4229b35d5e1dde8e1476"
+				timeout="90000"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\dubber\call_flow.cs"
+				codeline="122"
+				itemindex="10"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:55.472"
+			timeRelativeToTestModuleStartTime="00:55.473"
+			timeWallClock="16:13:24"
+			time="00:55.472"
+			level="Info"
+			category="Mouse"
+			errimg=".\call_flo_afae172a_da436769_trace.jpg"
+			errthumb=".\call_flo_afae172a_da436769_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'DubberMozillaFirefox.Grouping.None1' at 729;229.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Dubber - Mozilla Firefox']/container[@accessiblerole='Grouping']/container[@accessiblerole='PropertyPage']/?/?/container[@accessiblename='Dubber']/element[3]/element[4]/element/element[@accessiblerole='None']/element[@accessiblerole='None']/element[@accessiblerole='None']/element[@accessiblerole='None']/element[8]"
+				fullname="dubberRepository.DubberMozillaFirefox.Grouping.None1"
+				id="318eeeecc50a404abca5eb5156caa778"
+				timeout="90000"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\dubber\call_flow.cs"
+				codeline="127"
+				itemindex="11"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:59.924"
+			timeRelativeToTestModuleStartTime="00:59.925"
+			timeWallClock="16:13:29"
+			time="00:59.924"
+			level="Error"
+			category="Module"
+			errimg=".\call_flo_afae172a_2ac03eef_trace.jpg"
+			errthumb=".\call_flo_afae172a_2ac03eef_trace_thumb.jpg">
+			<message>
+				Failed to move to location '729;229' within element '{Unknown:None}'.<br/>The pointer cannot be moved to point '{X=1035,Y=983}' since it is outside of the visible desktop.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Mouse.MoveTo(Element element, Location location, Duration moveTime)
+   at Ranorex.Mouse.Click(Element element, MouseButtons buttons, Location location, Int32 times, Duration moveTime)
+   at Ranorex.Adapter.Click(Location location)
+   at dubber.call_flow.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\dubber\call_flow.cs:line 128
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext)"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\dubber\call_flow.cs"
+				codeline="128"
+				type="repoitem"
+				path="/form[@title='Dubber - Mozilla Firefox']/container[@accessiblerole='Grouping']/container[@accessiblerole='PropertyPage']/?/?/container[@accessiblename='Dubber']/element[3]/element[4]/element/element[@accessiblerole='None']/element[@accessiblerole='None']/element[@accessiblerole='None']/element[@accessiblerole='None']/element[8]"
+				fullname="dubberRepository.DubberMozillaFirefox.Grouping.None1"
+				id="318eeeecc50a404abca5eb5156caa778"
+				timeout="90000"
+				loglvl="Error"
+				itemindex="11"/>
+		</item>
+	</activity>
+</report>

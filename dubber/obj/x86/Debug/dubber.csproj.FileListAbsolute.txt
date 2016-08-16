@@ -1,0 +1,9 @@
+C:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\dubber\bin\Debug\dubber.rxtmg
+C:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\dubber\bin\Debug\dubber.dll
+C:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\dubber\bin\Debug\dubber.pdb
+C:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\dubber\bin\Debug\Ranorex.Core.WinApi.dll
+C:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\dubber\bin\Debug\Ranorex.Core.Injector.dll
+C:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\dubber\bin\Debug\Ranorex.Libs.WinForms.dll
+C:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\dubber\obj\x86\Debug\dubber.csprojResolveAssemblyReference.cache
+C:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\dubber\obj\x86\Debug\dubber.dll
+C:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\dubber\obj\x86\Debug\dubber.pdb

@@ -1,0 +1,249 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Failed"
+		duration="34.72s"
+		durationms="34724"
+		type="root"
+		rid="1f1a5a21a1b36d2a"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="Damodar Shanbhag"
+		host="HP"
+		rxversion="6.0.1.0"
+		osversion="Windows 8.1 64bit"
+		runtimeversion="4.0.30319.34209"
+		procarch="32bit"
+		language="en-GB"
+		screenresolution="1366x768"
+		timestamp="25-07-2016 10:43:23"
+		timestampiso="2016-07-25T05:13:23"
+		timeoutfactor="1"
+		module="exceltest">
+		<detail>
+			exceltest
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.696"
+			timeRelativeToTestModuleStartTime="00:00.697"
+			timeWallClock="10:43:24"
+			time="00:00.696"
+			level="Info"
+			category="Application">
+			<message>
+				Run application 'C:\Windows\System32\calc.exe' with arguments '' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\exceltest.cs"
+				codeline="82"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.769"
+			timeRelativeToTestModuleStartTime="00:00.770"
+			timeWallClock="10:43:24"
+			time="00:00.769"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left DoubleClick item 'Explorer.Accountdata' at 47;43.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/desktop[@processname='explorer']/?/?/list[@controlid='1']/listitem[@text='accountdata']"
+				fullname="project1Repository.Explorer.Accountdata"
+				id="5816065fc9df4ee4a9576051be28defe"
+				timeout="60000"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\exceltest.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.545"
+			timeRelativeToTestModuleStartTime="00:02.546"
+			timeWallClock="10:43:26"
+			time="00:02.545"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'MicrosoftExcelAccountdataCompatib.EXCEL' at 68;10.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@processname='EXCEL']/element[@class='EXCEL&lt;']"
+				fullname="project1Repository.MicrosoftExcelAccountdataCompatib.EXCEL"
+				id="b70ae194d880496981a4852caeea4995"
+				timeout="60000"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\exceltest.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.457"
+			timeRelativeToTestModuleStartTime="00:03.458"
+			timeWallClock="10:43:27"
+			time="00:03.457"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{Back}{Back}{Back}' with focus on 'MicrosoftExcelAccountdataCompatib.EXCEL'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@processname='EXCEL']/element[@class='EXCEL&lt;']"
+				fullname="project1Repository.MicrosoftExcelAccountdataCompatib.EXCEL"
+				id="b70ae194d880496981a4852caeea4995"
+				timeout="60000"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\exceltest.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.912"
+			timeRelativeToTestModuleStartTime="00:03.913"
+			timeWallClock="10:43:27"
+			time="00:03.912"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'hhhhhhhhhh' with focus on 'MicrosoftExcelAccountdataCompatib.EXCEL'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@processname='EXCEL']/element[@class='EXCEL&lt;']"
+				fullname="project1Repository.MicrosoftExcelAccountdataCompatib.EXCEL"
+				id="b70ae194d880496981a4852caeea4995"
+				timeout="60000"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\exceltest.cs"
+				codeline="98"
+				itemindex="4"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.068"
+			timeRelativeToTestModuleStartTime="00:05.069"
+			timeWallClock="10:43:28"
+			time="00:05.068"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{Return}' with focus on 'MicrosoftExcelAccountdataCompatib.EXCEL'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@processname='EXCEL']/element[@class='EXCEL&lt;']"
+				fullname="project1Repository.MicrosoftExcelAccountdataCompatib.EXCEL"
+				id="b70ae194d880496981a4852caeea4995"
+				timeout="60000"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\exceltest.cs"
+				codeline="102"
+				itemindex="5"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.300"
+			timeRelativeToTestModuleStartTime="00:05.301"
+			timeWallClock="10:43:29"
+			time="00:05.300"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'MicrosoftExcelAccountdataCompatib.Insert' at 35;11.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@processname='EXCEL']/element[2]//container[@name='Ribbon']/tabpagelist[@name='Ribbon Tabs']/tabpage[@name='Insert']"
+				fullname="project1Repository.MicrosoftExcelAccountdataCompatib.Insert"
+				id="cabfa89fe6094798b11d19b797ad5289"
+				timeout="60000"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\exceltest.cs"
+				codeline="106"
+				itemindex="6"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.915"
+			timeRelativeToTestModuleStartTime="00:06.916"
+			timeWallClock="10:43:30"
+			time="00:06.915"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'MicrosoftExcelAccountdataCompatib.PageLayout' at 41;13.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@processname='EXCEL']/element[2]//container[@name='Ribbon']/tabpagelist[@name='Ribbon Tabs']/tabpage[@name='Page Layout']"
+				fullname="project1Repository.MicrosoftExcelAccountdataCompatib.PageLayout"
+				id="4f30e742a20c4f5d860e158a269d4bff"
+				timeout="60000"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\exceltest.cs"
+				codeline="110"
+				itemindex="7"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.980"
+			timeRelativeToTestModuleStartTime="00:08.981"
+			timeWallClock="10:43:32"
+			time="00:08.980"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'MicrosoftExcelAccountdataCompatib.Ribbon' at 968;2.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@processname='EXCEL']/element[2]/container[@caption='Ribbon']//container[@name='Ribbon']"
+				fullname="project1Repository.MicrosoftExcelAccountdataCompatib.Ribbon"
+				id="aa53cddafcea48dc8a9d27dc284d2857"
+				timeout="60000"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\exceltest.cs"
+				codeline="114"
+				itemindex="8"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.176"
+			timeRelativeToTestModuleStartTime="00:10.177"
+			timeWallClock="10:43:34"
+			time="00:10.176"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'MicrosoftExcelAccountdataCompatib.Save' at 55;11.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@processname='EXCEL']/?/?/element[@name='Microsoft Excel']/button[@name='Save']"
+				fullname="project1Repository.MicrosoftExcelAccountdataCompatib.Save"
+				id="cd63a1baa37b4a6da5756975ebd27392"
+				timeout="60000"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\exceltest.cs"
+				codeline="118"
+				itemindex="9"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:34.723"
+			timeRelativeToTestModuleStartTime="00:34.724"
+			timeWallClock="10:43:58"
+			time="00:34.723"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error"/>
+		</item>
+	</activity>
+</report>

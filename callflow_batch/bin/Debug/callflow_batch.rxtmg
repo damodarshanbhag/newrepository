@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc
+rxversion="6.0">
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="callflow_batch"
+      id="c3faac54-ac98-4939-aad9-0fbbc9add62e"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="callflow_batch"
+      id="c3faac54-ac98-4939-aad9-0fbbc9add62e"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>

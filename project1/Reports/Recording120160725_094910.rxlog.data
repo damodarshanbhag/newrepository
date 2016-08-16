@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Failed"
+		duration="6.01s"
+		durationms="6008"
+		type="root"
+		rid="313235cfa4656378"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="Damodar Shanbhag"
+		host="HP"
+		rxversion="6.0.1.0"
+		osversion="Windows 8.1 64bit"
+		runtimeversion="4.0.30319.34209"
+		procarch="32bit"
+		language="en-GB"
+		screenresolution="2732x798"
+		timestamp="25-07-2016 09:49:13"
+		timestampiso="2016-07-25T04:19:13"
+		timeoutfactor="1"
+		module="Recording1">
+		<detail>
+			Recording1
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.410"
+			timeRelativeToTestModuleStartTime="00:00.410"
+			timeWallClock="09:49:14"
+			time="00:00.410"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'KeePass' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='KeePass']"
+				fullname="project1Repository.KeePass.Self"
+				id="a247b844df014e38b2627bc4fa2436c6"
+				timeout="30000"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\Recording1.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.008"
+			timeRelativeToTestModuleStartTime="00:06.008"
+			timeWallClock="09:49:19"
+			time="00:06.008"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error"/>
+		</item>
+	</activity>
+</report>

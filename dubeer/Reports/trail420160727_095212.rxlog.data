@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="e2519ddaf53b8c8"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="Damodar Shanbhag"
+		host="HP"
+		rxversion="6.0.1.0"
+		osversion="Windows 8.1 64bit"
+		runtimeversion="4.0.30319.34209"
+		procarch="64bit"
+		language="en-GB"
+		screenresolution="2732x798"
+		timestamp="27-07-2016 9.52.19 AM"
+		timestampiso="2016-07-27T04:22:19"
+		timeoutfactor="1"
+		module="trail4">
+		<detail>
+			trail4
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.745"
+			timeRelativeToTestModuleStartTime="00:00.745"
+			timeWallClock="09:52:20"
+			time="00:00.745"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>C__Users_Damodar_Shanbhag_Downloads_inb_Callflow_xml
+			</message>
+			<metainfo
+				loglvl="Warn"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.807"
+			timeRelativeToTestModuleStartTime="00:00.807"
+			timeWallClock="09:52:20"
+			time="00:00.807"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Dubber.InboundNumberSubmitButton' at 88;8.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='tigers.dubber.net']//button[#'inbound_number_submit_button']"
+				fullname="dubeerRepository.Dubber.InboundNumberSubmitButton"
+				id="970016b1a9fc4f33a7d06660907e5555"
+				timeout="60000"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\dubeer\trail4.cs"
+				codeline="95"
+				itemindex="19"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.924"
+			timeRelativeToTestModuleStartTime="00:02.924"
+			timeWallClock="09:52:22"
+			time="00:02.924"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Dubber.ProfileDdt' at 41;15.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='tigers.dubber.net']//a[#'profile-ddt']"
+				fullname="dubeerRepository.Dubber.ProfileDdt"
+				id="e3ece16c090f4b3aab70e9b5d8fd9811"
+				timeout="60000"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\dubeer\trail4.cs"
+				codeline="99"
+				itemindex="20"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.750"
+			timeRelativeToTestModuleStartTime="00:03.750"
+			timeWallClock="09:52:23"
+			time="00:03.750"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Dubber.DropDownLogout' at 93;7.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='tigers.dubber.net']//a[#'drop_down_logout']"
+				fullname="dubeerRepository.Dubber.DropDownLogout"
+				id="e49146b1a68c4cc9878680eef72dbc2a"
+				timeout="60000"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\dubeer\trail4.cs"
+				codeline="103"
+				itemindex="21"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.644"
+			timeRelativeToTestModuleStartTime="00:04.644"
+			timeWallClock="09:52:24"
+			time="00:04.644"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'DubberGoogleChrome.Close' at 9;15.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Dubber - Google Chrome']/container[@accessiblename='Google Chrome']//tabpage[@accessiblename='Dubber']/button[@accessiblename='Close']"
+				fullname="dubeerRepository.DubberGoogleChrome.Close"
+				id="94c1a3a1359e49fa8d5c58dd45c2c8f2"
+				timeout="60000"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\dubeer\trail4.cs"
+				codeline="107"
+				itemindex="22"
+				loglvl="Info"/>
+		</item>
+	</activity>
+</report>

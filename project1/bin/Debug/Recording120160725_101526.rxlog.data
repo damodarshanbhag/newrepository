@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="241263817da6389b"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="Damodar Shanbhag"
+		host="HP"
+		rxversion="6.0.1.0"
+		osversion="Windows 8.1 64bit"
+		runtimeversion="4.0.30319.34209"
+		procarch="32bit"
+		language="en-GB"
+		screenresolution="1366x768"
+		timestamp="25-07-2016 10:15:31"
+		timestampiso="2016-07-25T04:45:31"
+		timeoutfactor="1"
+		module="Recording1">
+		<detail>
+			Recording1
+		</detail>
+		<errmsg>
+			Failed to find item 'project1Repository.Calculator.Calc.Button17'.
+		</errmsg>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.714"
+			timeRelativeToTestModuleStartTime="00:00.716"
+			timeWallClock="10:15:32"
+			time="00:00.714"
+			level="Info"
+			category="Mouse"
+			errimg=".\Recordin_91441cd0_5a8df41b_trace.jpg"
+			errthumb=".\Recordin_91441cd0_5a8df41b_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'Calculator.Calc.Button17' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Calculator']/?/?/container[@instance='1']/button[@controlid='136']"
+				fullname="project1Repository.Calculator.Calc.Button17"
+				id="8b90f40bd6514961a87398a11de3175e"
+				timeout="90000"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\Recording1.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:30.981"
+			timeRelativeToTestModuleStartTime="01:30.983"
+			timeWallClock="10:17:02"
+			time="01:30.981"
+			level="Error"
+			category="Module"
+			errimg=".\Recordin_91441cd0_5c2243d4_trace.jpg"
+			errthumb=".\Recordin_91441cd0_5c2243d4_trace_thumb.jpg">
+			<message>
+				Failed to find item 'project1Repository.Calculator.Calc.Button17'.<br/>No element found for path '/form[@title='Calculator']/?/?/container[@instance='1']/button[@controlid='136']' within 1.5m.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)
+   at project1.project1RepositoryFolders.CalcFolder.get_Button17() in c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\project1Repository.cs:line 1991
+   at project1.Recording1.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\Recording1.cs:line 83
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext)"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\Recording1.cs"
+				codeline="83"
+				type="repoitem"
+				path="/form[@title='Calculator']/?/?/container[@instance='1']/button[@controlid='136']"
+				fullname="project1Repository.Calculator.Calc.Button17"
+				id="8b90f40bd6514961a87398a11de3175e"
+				timeout="90000"
+				loglvl="Error"
+				itemindex="0"/>
+		</item>
+	</activity>
+</report>

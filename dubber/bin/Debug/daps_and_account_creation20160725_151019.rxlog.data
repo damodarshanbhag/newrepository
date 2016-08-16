@@ -1,0 +1,313 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="12949a5fdd511a6c"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="Damodar Shanbhag"
+		host="HP"
+		rxversion="6.0.1.0"
+		osversion="Windows 8.1 64bit"
+		runtimeversion="4.0.30319.34209"
+		procarch="64bit"
+		language="en-GB"
+		screenresolution="1366x768"
+		timestamp="25-07-2016 15:10:27"
+		timestampiso="2016-07-25T09:40:27"
+		timeoutfactor="1"
+		module="daps_and_account_creation">
+		<detail>
+			daps_and_account_creation
+		</detail>
+		<errmsg>
+			Failed to move to location '263;382' within element '{Container:dropdown}'.
+		</errmsg>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.796"
+			timeRelativeToTestModuleStartTime="00:00.796"
+			timeWallClock="15:10:28"
+			time="00:00.796"
+			level="Info"
+			category="Website">
+			<message>
+				Opening web site 'https://tigers.dubber.net/login' with browser 'chrome' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\dubber\daps_and_account_creation.cs"
+				codeline="82"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.937"
+			timeRelativeToTestModuleStartTime="00:00.937"
+			timeWallClock="15:10:28"
+			time="00:00.937"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Dubber.UserEmail' at 140;13.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='tigers.dubber.net']//input[#'user_email']"
+				fullname="dubberRepository.Dubber.UserEmail"
+				id="6e78a8ffda4942c9a85d440991663d28"
+				timeout="60000"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\dubber\daps_and_account_creation.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.373"
+			timeRelativeToTestModuleStartTime="00:03.373"
+			timeWallClock="15:10:31"
+			time="00:03.373"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Dropdown' at 115;12.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/container[@caption='dropdown']"
+				fullname="dubberRepository.Dropdown.Self"
+				id="632a8c84947c4c0e905edce67a1a3125"
+				timeout="30000"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\dubber\daps_and_account_creation.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.189"
+			timeRelativeToTestModuleStartTime="00:04.189"
+			timeWallClock="15:10:31"
+			time="00:04.189"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Dubber.UserPassword' at 100;21.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='tigers.dubber.net']//input[#'user_password']"
+				fullname="dubberRepository.Dubber.UserPassword"
+				id="3c65f661633b43d1855515e973055266"
+				timeout="60000"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\dubber\daps_and_account_creation.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.079"
+			timeRelativeToTestModuleStartTime="00:05.079"
+			timeWallClock="15:10:32"
+			time="00:05.079"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Dubber.ContentBox' at 181;189.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='tigers.dubber.net']//div[#'main_body']/div[1]/div/div[2]"
+				fullname="dubberRepository.Dubber.ContentBox"
+				id="1ca7f69e73c449f7a883b5062e6b91d2"
+				timeout="60000"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\dubber\daps_and_account_creation.cs"
+				codeline="98"
+				itemindex="4"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.892"
+			timeRelativeToTestModuleStartTime="00:05.892"
+			timeWallClock="15:10:33"
+			time="00:05.892"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Dubber.SubmitButton' at 23;22.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='tigers.dubber.net']//input[#'submit_button']"
+				fullname="dubberRepository.Dubber.SubmitButton"
+				id="26e98c0164a54b1f82647cc26ccd1bbf"
+				timeout="60000"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\dubber\daps_and_account_creation.cs"
+				codeline="102"
+				itemindex="5"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.746"
+			timeRelativeToTestModuleStartTime="00:06.746"
+			timeWallClock="15:10:34"
+			time="00:06.746"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Dubber.ManageDapsButton' at 20;11.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='tigers.dubber.net']//a[#'manage_daps_button']"
+				fullname="dubberRepository.Dubber.ManageDapsButton"
+				id="df6c723970f14d4dbca4c237ee3ef11e"
+				timeout="60000"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\dubber\daps_and_account_creation.cs"
+				codeline="106"
+				itemindex="6"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.906"
+			timeRelativeToTestModuleStartTime="00:10.906"
+			timeWallClock="15:10:38"
+			time="00:10.906"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Dubber.NewDap' at 56;10.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='tigers.dubber.net']//a[#'new_dap']"
+				fullname="dubberRepository.Dubber.NewDap"
+				id="1b9c7dfdea23464ea58beb23cab8aeef"
+				timeout="60000"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\dubber\daps_and_account_creation.cs"
+				codeline="110"
+				itemindex="7"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.760"
+			timeRelativeToTestModuleStartTime="00:12.760"
+			timeWallClock="15:10:40"
+			time="00:12.760"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Dubber.DapAreaId' at 203;14.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='tigers.dubber.net']//select[#'dap_area_id']"
+				fullname="dubberRepository.Dubber.DapAreaId"
+				id="3b9ee07ffdc64707bb0e93619b3c7ae3"
+				timeout="60000"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\dubber\daps_and_account_creation.cs"
+				codeline="114"
+				itemindex="8"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.963"
+			timeRelativeToTestModuleStartTime="00:14.963"
+			timeWallClock="15:10:42"
+			time="00:14.963"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Down item 'Dropdown' at 358;24.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/container[@caption='dropdown']"
+				fullname="dubberRepository.Dropdown.Self"
+				id="632a8c84947c4c0e905edce67a1a3125"
+				timeout="30000"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\dubber\daps_and_account_creation.cs"
+				codeline="118"
+				itemindex="9"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.550"
+			timeRelativeToTestModuleStartTime="00:15.550"
+			timeWallClock="15:10:43"
+			time="00:15.550"
+			level="Info"
+			category="Mouse"
+			errimg=".\daps_and_570ccee9_f7cd1279_trace.jpg"
+			errthumb=".\daps_and_570ccee9_f7cd1279_trace_thumb.jpg">
+			<message>
+				Mouse Left Up item 'Dropdown' at 352;381.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/container[@caption='dropdown']"
+				fullname="dubberRepository.Dropdown.Self"
+				id="632a8c84947c4c0e905edce67a1a3125"
+				timeout="30000"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\dubber\daps_and_account_creation.cs"
+				codeline="123"
+				itemindex="10"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:16.065"
+			timeRelativeToTestModuleStartTime="00:16.065"
+			timeWallClock="15:10:43"
+			time="00:16.065"
+			level="Info"
+			category="Mouse"
+			errimg=".\daps_and_570ccee9_fb253c35_trace.jpg"
+			errthumb=".\daps_and_570ccee9_fb253c35_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'Dropdown' at 263;382.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/container[@caption='dropdown']"
+				fullname="dubberRepository.Dropdown.Self"
+				id="632a8c84947c4c0e905edce67a1a3125"
+				timeout="30000"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\dubber\daps_and_account_creation.cs"
+				codeline="128"
+				itemindex="11"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:23.170"
+			timeRelativeToTestModuleStartTime="00:23.170"
+			timeWallClock="15:10:50"
+			time="00:23.170"
+			level="Error"
+			category="Module"
+			errimg=".\daps_and_570ccee9_c0df45d8_trace.jpg"
+			errthumb=".\daps_and_570ccee9_c0df45d8_trace_thumb.jpg">
+			<message>
+				Failed to move to location '263;382' within element '{Container:dropdown}'.<br/>The pointer cannot be moved to point '{X=262,Y=1088}' since it is outside of the visible desktop.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Mouse.MoveTo(Element element, Location location, Duration moveTime)
+   at Ranorex.Mouse.Click(Element element, MouseButtons buttons, Location location, Int32 times, Duration moveTime)
+   at Ranorex.Adapter.Click(Location location)
+   at dubber.daps_and_account_creation.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\dubber\daps_and_account_creation.cs:line 129
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext)"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\dubber\daps_and_account_creation.cs"
+				codeline="129"
+				type="repoitem"
+				path="/container[@caption='dropdown']"
+				fullname="dubberRepository.Dropdown.Self"
+				id="632a8c84947c4c0e905edce67a1a3125"
+				timeout="30000"
+				loglvl="Error"
+				itemindex="11"/>
+		</item>
+	</activity>
+</report>

@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Failed"
+		duration="17.96s"
+		durationms="17964"
+		type="root"
+		rid="13db872d04b31886"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="1"
+		totalblockedcount="0"
+		user="Damodar Shanbhag"
+		host="HP"
+		rxversion="6.0.1.0"
+		osversion="Windows 8.1 64bit"
+		runtimeversion="4.0.30319.34209"
+		procarch="32bit"
+		language="en-GB"
+		screenresolution="1366x768"
+		timestamp="26-07-2016 4.08.15 PM"
+		timestampiso="2016-07-26T10:38:15"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Failed"
+			duration="17.78s"
+			durationms="17777"
+			type="test suite"
+			rid="58aaab3eba34f66"
+			totalerrorcount="1"
+			totalwarningcount="0"
+			totalsuccesscount="0"
+			totalfailedcount="1"
+			totalblockedcount="0"
+			testsuitename="project1"
+			runconfigname="TestRun"
+			runlabel=""
+			maxchildren="1">
+			<params/>
+			<detail>
+			</detail>
+			<activity
+				result="Failed"
+				duration="17.42s"
+				durationms="17418"
+				type="test case"
+				rid="2d7c943a6ca2c48"
+				totalerrorcount="1"
+				totalwarningcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="1"
+				totalblockedcount="0"
+				testcasename="TestCase1"
+				testcaseid="ab265b02-7cae-44bf-8d2b-07a6a56faa45"
+				datasource="NewConnector"
+				iterationcount="30"
+				maxchildren="0">
+				<params/>
+				<detail>
+				</detail>
+				<activity
+					result="Failed"
+					duration="17.42s"
+					durationms="17418"
+					type="test case iteration"
+					rid="233b1216bd0a80a"
+					totalerrorcount="1"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					testcasename="TestCase1"
+					iteration="1">
+					<datarow>
+						<field
+							name="area">
+							rPXHvT
+						</field>
+						<field
+							name="state">
+							Maine
+						</field>
+						<field
+							name="start_end">
+							45340002
+						</field>
+					</datarow>
+					<detail>
+					</detail>
+					<activity
+						result="Failed"
+						duration="17.32s"
+						durationms="17324"
+						type="test module"
+						rid="e806154305e10cc"
+						totalerrorcount="1"
+						totalwarningcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						modulename="Trail1_s (dubeer)"
+						moduleid="7e19d9d2-e460-4504-9d63-0965b53ddc5e"
+						moduletype="Recording">
+						<detail>
+						</detail>
+						<varbindings/>
+						<item
+							timeRelativeToTestSuiteStartTime="00:00.656"
+							timeRelativeToTestModuleStartTime="00:00.015"
+							timeWallClock="16:08:15"
+							time="00:00.656"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'Dubber.DownloadCallflow' at 132;9.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='tigers.dubber.net']//a[#'download_callflow']"
+								fullname="dubeerRepository.Dubber.DownloadCallflow"
+								id="c4866f49cdd842e3857b96d80e5d8a37"
+								timeout="60000"
+								codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\dubeer\trail1_s.cs"
+								codeline="82"
+								itemindex="0"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:17.964"
+							timeRelativeToTestModuleStartTime="00:17.324"
+							timeWallClock="16:08:33"
+							time="00:17.964"
+							level="Error"
+							category="Module">
+							<message>
+								The test run has been aborted by the user.
+							</message>
+							<metainfo
+								loglvl="Error"/>
+						</item>
+					</activity>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

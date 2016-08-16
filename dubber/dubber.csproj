@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectGuid>{DFFC6EB2-446B-461E-B9B6-3F7DE448358D}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Library</OutputType>
+    <RootNamespace>dubber</RootNamespace>
+    <AssemblyName>dubber</AssemblyName>
+    <RanorexVersion>6.0</RanorexVersion>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <projectdefaultrepository>9606a666-bcd1-4bde-8aa5-c67397d3b57f</projectdefaultrepository>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Ranorex.Core" />
+    <Reference Include="Ranorex.Plugin.ChromeWeb" />
+    <Reference Include="Ranorex.Plugin.Flex" />
+    <Reference Include="Ranorex.Plugin.Java" />
+    <Reference Include="Ranorex.Plugin.Mobile" />
+    <Reference Include="Ranorex.Plugin.MozillaWeb" />
+    <Reference Include="Ranorex.Plugin.Msaa" />
+    <Reference Include="Ranorex.Plugin.Office" />
+    <Reference Include="Ranorex.Plugin.Qt" />
+    <Reference Include="Ranorex.Plugin.RawText" />
+    <Reference Include="Ranorex.Plugin.Sap" />
+    <Reference Include="Ranorex.Plugin.Uia" />
+    <Reference Include="Ranorex.Plugin.Web" />
+    <Reference Include="Ranorex.Plugin.Win32" />
+    <Reference Include="Ranorex.Plugin.WinForms" />
+    <Reference Include="Ranorex.Plugin.Wpf" />
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <id>b8d8e829-dc1c-4603-bb56-388573944bad</id>
+    </Compile>
+    <Compile Include="Recording2.cs">
+      <BoundTo>50a8801a-db1e-42f5-9be1-915afcfcb361</BoundTo>
+      <DependentUpon>Recording2.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>ea9acf2a-b7db-42c0-99f0-7ab052bf7702</id>
+    </Compile>
+    <Compile Include="Recording2.UserCode.cs">
+      <BoundTo>50a8801a-db1e-42f5-9be1-915afcfcb361</BoundTo>
+      <DependentUpon>Recording2.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>b1cde1ce-27b0-418b-95ae-6e9a7c905da1</id>
+    </Compile>
+    <Compile Include="dubberrepo.cs">
+      <BoundTo>1ACE5BC9-5295-4AAB-A661-7CD5127ACEC6</BoundTo>
+      <DependentUpon>dubberrepo.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>31bc23a2-4127-4587-a34c-3cd67497e423</id>
+    </Compile>
+    <Compile Include="dubberRepository.cs">
+      <BoundTo>9606a666-bcd1-4bde-8aa5-c67397d3b57f</BoundTo>
+      <DependentUpon>dubberRepository.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>2145697e-43e4-45ac-9232-25d3e17203e8</id>
+    </Compile>
+    <Compile Include="Recording1.cs">
+      <BoundTo>a602ee24-e1af-4ba9-a9c0-bcec75fc49ef</BoundTo>
+      <DependentUpon>Recording1.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>939dd0e4-9dab-457c-8093-f016a16151da</id>
+    </Compile>
+    <Compile Include="Recording1.UserCode.cs">
+      <BoundTo>a602ee24-e1af-4ba9-a9c0-bcec75fc49ef</BoundTo>
+      <DependentUpon>Recording1.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>21547ae6-d1d4-4280-a660-350f41f2d745</id>
+    </Compile>
+    <Compile Include="UserCodeModule1.cs">
+      <id>bb8243cf-65c7-41a9-b2bf-a16f731a6871</id>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Recording2.rxrec">
+      <BoundTo>9606a666-bcd1-4bde-8aa5-c67397d3b57f</BoundTo>
+      <id>50a8801a-db1e-42f5-9be1-915afcfcb361</id>
+      <recordtableid>a53171e8-2354-4b7d-80be-b939f59a2c16</recordtableid>
+    </None>
+    <None Include="dubberrepo.rximg">
+      <BoundTo>1ACE5BC9-5295-4AAB-A661-7CD5127ACEC6</BoundTo>
+      <DependentUpon>dubberrepo.rxrep</DependentUpon>
+      <imageblob>true</imageblob>
+      <id>6af82154-2ed6-453b-8437-52d8e3cd5d9e</id>
+    </None>
+    <None Include="dubberrepo.rxrep">
+      <id>1ACE5BC9-5295-4AAB-A661-7CD5127ACEC6</id>
+      <repoid>1c04b43e-a4e5-4f1e-8e4a-81bfa1543efa</repoid>
+      <reporootid>dddd0643-c8d0-451b-9916-cdf49139cdd5</reporootid>
+    </None>
+    <None Include="dubberRepository.rximg">
+      <BoundTo>9606a666-bcd1-4bde-8aa5-c67397d3b57f</BoundTo>
+      <DependentUpon>dubberRepository.rxrep</DependentUpon>
+      <imageblob>true</imageblob>
+      <id>0e439a03-f6f8-449d-8d4e-b2051ab90677</id>
+    </None>
+    <None Include="dubberRepository.rxrep">
+      <id>9606a666-bcd1-4bde-8aa5-c67397d3b57f</id>
+      <repoid>8ab236d2-debb-4e76-94f7-d67f727dfdd2</repoid>
+      <reporootid>679e61dd-5cc8-44ae-9478-e0b7f37f4fa9</reporootid>
+    </None>
+    <None Include="Recording1.rxrec">
+      <id>a602ee24-e1af-4ba9-a9c0-bcec75fc49ef</id>
+      <recordtableid>c1a07f67-5eeb-4e0f-8d73-97d58c6e00e4</recordtableid>
+      <BoundTo>9606a666-bcd1-4bde-8aa5-c67397d3b57f</BoundTo>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="dubber.rxtmg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>51320d55-d359-4970-a8f3-951fe565d892</id>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Ranorex$(RanorexVersion)\Ranorex.MSBuild.Targets" Condition="Exists('$(MSBuildExtensionsPath)\Ranorex$(RanorexVersion)\Ranorex.MSBuild.Targets')" />
+</Project>

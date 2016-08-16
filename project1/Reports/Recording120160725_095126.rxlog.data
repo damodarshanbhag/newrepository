@@ -1,0 +1,545 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="55f9d0e7d9b4584"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="Damodar Shanbhag"
+		host="HP"
+		rxversion="6.0.1.0"
+		osversion="Windows 8.1 64bit"
+		runtimeversion="4.0.30319.34209"
+		procarch="32bit"
+		language="en-GB"
+		screenresolution="2732x798"
+		timestamp="25-07-2016 09:51:30"
+		timestampiso="2016-07-25T04:21:30"
+		timeoutfactor="1"
+		module="Recording1">
+		<detail>
+			Recording1
+		</detail>
+		<errmsg>
+			Failed to find item 'project1Repository.DatabaseKdbKeePass.CellSec'.
+		</errmsg>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.407"
+			timeRelativeToTestModuleStartTime="00:00.408"
+			timeWallClock="09:51:31"
+			time="00:00.407"
+			level="Info"
+			category="Application">
+			<message>
+				Run application 'C:\Program Files (x86)\KeePass Password Safe\KeePass.exe' with arguments '' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\Recording1.cs"
+				codeline="82"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.467"
+			timeRelativeToTestModuleStartTime="00:00.468"
+			timeWallClock="09:51:31"
+			time="00:00.467"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'OpenDatabaseDatabaseKdb.Text1008' at 95;10.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'^Open\ Database\ -\ Database\.']/text[@controlid='1008']"
+				fullname="project1Repository.OpenDatabaseDatabaseKdb.Text1008"
+				id="4e2fe39bfa344fedacf8ab04aa93a3ea"
+				timeout="60000"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\Recording1.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.806"
+			timeRelativeToTestModuleStartTime="00:01.807"
+			timeWallClock="09:51:32"
+			time="00:01.806"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'rx{Return}' with focus on 'OpenDatabaseDatabaseKdb.Text1008'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'^Open\ Database\ -\ Database\.']/text[@controlid='1008']"
+				fullname="project1Repository.OpenDatabaseDatabaseKdb.Text1008"
+				id="4e2fe39bfa344fedacf8ab04aa93a3ea"
+				timeout="60000"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\Recording1.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.261"
+			timeRelativeToTestModuleStartTime="00:02.262"
+			timeWallClock="09:51:33"
+			time="00:02.261"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'DatabaseKdbKeePass.File' at 6;6.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Database.kdb - KeePass']/?/?/menuitem[@accessiblename='File']"
+				fullname="project1Repository.DatabaseKdbKeePass.File"
+				id="269e874ad15043efb60fe146c5378d94"
+				timeout="60000"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\Recording1.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.140"
+			timeRelativeToTestModuleStartTime="00:03.141"
+			timeWallClock="09:51:34"
+			time="00:03.140"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'DatabaseKdbKeePass.Title' at 139;97.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Database.kdb - KeePass']/?/?/column[@text='Title']"
+				fullname="project1Repository.DatabaseKdbKeePass.Title"
+				id="d599a35e198a4940beee7368ed1c0b01"
+				timeout="60000"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\Recording1.cs"
+				codeline="98"
+				itemindex="4"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.846"
+			timeRelativeToTestModuleStartTime="00:03.847"
+			timeWallClock="09:51:34"
+			time="00:03.846"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'DatabaseKdbKeePass.Button' at 3;14.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Database.kdb - KeePass']/button[@controlid='1091']"
+				fullname="project1Repository.DatabaseKdbKeePass.Button"
+				id="6ecc5088826e475cb3ad65d7be16a135"
+				timeout="60000"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\Recording1.cs"
+				codeline="102"
+				itemindex="5"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.503"
+			timeRelativeToTestModuleStartTime="00:04.504"
+			timeWallClock="09:51:35"
+			time="00:04.503"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'AddEntry.Text1017' at 30;5.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Add Entry']/text[@controlid='1017']"
+				fullname="project1Repository.AddEntry.Text1017"
+				id="547de2e8393741e3ad5bf8a92ba2457f"
+				timeout="60000"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\Recording1.cs"
+				codeline="106"
+				itemindex="6"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.346"
+			timeRelativeToTestModuleStartTime="00:05.347"
+			timeWallClock="09:51:36"
+			time="00:05.346"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'sec' with focus on 'AddEntry.Text1017'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Add Entry']/text[@controlid='1017']"
+				fullname="project1Repository.AddEntry.Text1017"
+				id="547de2e8393741e3ad5bf8a92ba2457f"
+				timeout="60000"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\Recording1.cs"
+				codeline="110"
+				itemindex="7"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.780"
+			timeRelativeToTestModuleStartTime="00:05.781"
+			timeWallClock="09:51:36"
+			time="00:05.780"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'AddEntry.Text1018' at 62;9.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Add Entry']/text[@controlid='1018']"
+				fullname="project1Repository.AddEntry.Text1018"
+				id="d5a8de38924349f888301c31d36b40ad"
+				timeout="60000"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\Recording1.cs"
+				codeline="114"
+				itemindex="8"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.455"
+			timeRelativeToTestModuleStartTime="00:06.456"
+			timeWallClock="09:51:37"
+			time="00:06.455"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'rex' with focus on 'AddEntry.Text1018'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Add Entry']/text[@controlid='1018']"
+				fullname="project1Repository.AddEntry.Text1018"
+				id="d5a8de38924349f888301c31d36b40ad"
+				timeout="60000"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\Recording1.cs"
+				codeline="118"
+				itemindex="9"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.890"
+			timeRelativeToTestModuleStartTime="00:06.891"
+			timeWallClock="09:51:37"
+			time="00:06.890"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'AddEntry.Text1008' at 147;18.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Add Entry']/text[@controlid='1008']"
+				fullname="project1Repository.AddEntry.Text1008"
+				id="ec479f3544d34453ab35c70de8c91dc4"
+				timeout="60000"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\Recording1.cs"
+				codeline="122"
+				itemindex="10"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.558"
+			timeRelativeToTestModuleStartTime="00:07.559"
+			timeWallClock="09:51:38"
+			time="00:07.558"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{Back 28}west1' with focus on 'AddEntry.Text1008'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Add Entry']/text[@controlid='1008']"
+				fullname="project1Repository.AddEntry.Text1008"
+				id="ec479f3544d34453ab35c70de8c91dc4"
+				timeout="60000"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\Recording1.cs"
+				codeline="126"
+				itemindex="11"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.070"
+			timeRelativeToTestModuleStartTime="00:11.071"
+			timeWallClock="09:51:41"
+			time="00:11.070"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'AddEntry.Text1023' at 177;7.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Add Entry']/text[@controlid='1023']"
+				fullname="project1Repository.AddEntry.Text1023"
+				id="afb5a75e0fc24afcb8a916bc49a78474"
+				timeout="60000"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\Recording1.cs"
+				codeline="130"
+				itemindex="12"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.749"
+			timeRelativeToTestModuleStartTime="00:11.750"
+			timeWallClock="09:51:42"
+			time="00:11.749"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{Back 28}west1' with focus on 'AddEntry.Text1023'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Add Entry']/text[@controlid='1023']"
+				fullname="project1Repository.AddEntry.Text1023"
+				id="afb5a75e0fc24afcb8a916bc49a78474"
+				timeout="60000"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\Recording1.cs"
+				codeline="134"
+				itemindex="13"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.260"
+			timeRelativeToTestModuleStartTime="00:15.261"
+			timeWallClock="09:51:46"
+			time="00:15.260"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'AddEntry.Button' at 22;12.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Add Entry']/button[@controlid='1200']"
+				fullname="project1Repository.AddEntry.Button"
+				id="e2241fde61774b3d880211811470286e"
+				timeout="60000"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\Recording1.cs"
+				codeline="138"
+				itemindex="14"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.926"
+			timeRelativeToTestModuleStartTime="00:15.927"
+			timeWallClock="09:51:46"
+			time="00:15.926"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'KeePass1.File.MenuItem1' at 13;9.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/contextmenu[@processname='KeePass']/contextmenu/menuitem[2]"
+				fullname="project1Repository.KeePass1.File.MenuItem1"
+				id="84d3bb164a0b43fb83d3eda774f4b95b"
+				timeout="90000"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\Recording1.cs"
+				codeline="142"
+				itemindex="15"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:16.708"
+			timeRelativeToTestModuleStartTime="00:16.709"
+			timeWallClock="09:51:47"
+			time="00:16.708"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'AddEntry.ButtonOK' at 51;11.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Add Entry']/button[@text='OK']"
+				fullname="project1Repository.AddEntry.ButtonOK"
+				id="00b16011c0704d289003b4924366fbce"
+				timeout="60000"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\Recording1.cs"
+				codeline="146"
+				itemindex="16"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:17.378"
+			timeRelativeToTestModuleStartTime="00:17.379"
+			timeWallClock="09:51:48"
+			time="00:17.378"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'DatabaseKdbKeePass.CellSec' at 73;9.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Database.kdb - KeePass']/table[@controlid='1002']/?/?/cell[@text='sec']"
+				fullname="project1Repository.DatabaseKdbKeePass.CellSec"
+				id="86bd1e92005b4845b434d776da3bd118"
+				timeout="60000"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\Recording1.cs"
+				codeline="150"
+				itemindex="17"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:18.089"
+			timeRelativeToTestModuleStartTime="00:18.090"
+			timeWallClock="09:51:48"
+			time="00:18.089"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Right Click item 'DatabaseKdbKeePass.CellSec' at 74;8.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Database.kdb - KeePass']/table[@controlid='1002']/?/?/cell[@text='sec']"
+				fullname="project1Repository.DatabaseKdbKeePass.CellSec"
+				id="86bd1e92005b4845b434d776da3bd118"
+				timeout="60000"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\Recording1.cs"
+				codeline="154"
+				itemindex="18"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:18.786"
+			timeRelativeToTestModuleStartTime="00:18.787"
+			timeWallClock="09:51:49"
+			time="00:18.786"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'KeePass1.File.MenuItem3' at 78;10.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/contextmenu[@processname='KeePass']/contextmenu/menuitem[9]"
+				fullname="project1Repository.KeePass1.File.MenuItem3"
+				id="5ad8d398a85841d9ac5c417961321c0d"
+				timeout="90000"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\Recording1.cs"
+				codeline="158"
+				itemindex="19"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:19.556"
+			timeRelativeToTestModuleStartTime="00:19.557"
+			timeWallClock="09:51:50"
+			time="00:19.556"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'KeePass.ButtonDelete' at 20;10.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='KeePass']/?/?/element[@instance='0']/button[@text='&amp;Delete']"
+				fullname="project1Repository.KeePass.ButtonDelete"
+				id="afd51ef1c5ac468e86d0d9db25496ae1"
+				timeout="60000"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\Recording1.cs"
+				codeline="162"
+				itemindex="20"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:20.682"
+			timeRelativeToTestModuleStartTime="00:20.683"
+			timeWallClock="09:51:51"
+			time="00:20.682"
+			level="Info"
+			category="Mouse"
+			errimg=".\Recordin_cf04efe3_e4d26f5d_trace.jpg"
+			errthumb=".\Recordin_cf04efe3_e4d26f5d_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'DatabaseKdbKeePass.Backup' at 31;9.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Database.kdb - KeePass']/?/?/treeitem[@text='Backup']"
+				fullname="project1Repository.DatabaseKdbKeePass.Backup"
+				id="00e53fbf4b2d45f8bb72206d491950a3"
+				timeout="60000"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\Recording1.cs"
+				codeline="166"
+				itemindex="21"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:21.386"
+			timeRelativeToTestModuleStartTime="00:21.387"
+			timeWallClock="09:51:52"
+			time="00:21.386"
+			level="Info"
+			category="Mouse"
+			errimg=".\Recordin_cf04efe3_1cb6c588_trace.jpg"
+			errthumb=".\Recordin_cf04efe3_1cb6c588_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'DatabaseKdbKeePass.CellSec' at 76;12.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Database.kdb - KeePass']/table[@controlid='1002']/?/?/cell[@text='sec']"
+				fullname="project1Repository.DatabaseKdbKeePass.CellSec"
+				id="86bd1e92005b4845b434d776da3bd118"
+				timeout="60000"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\Recording1.cs"
+				codeline="170"
+				itemindex="22"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:51.542"
+			timeRelativeToTestModuleStartTime="00:51.543"
+			timeWallClock="09:52:22"
+			time="00:51.542"
+			level="Error"
+			category="Module"
+			errimg=".\Recordin_cf04efe3_d340e0e0_trace.jpg"
+			errthumb=".\Recordin_cf04efe3_d340e0e0_trace_thumb.jpg">
+			<message>
+				Failed to find item 'project1Repository.DatabaseKdbKeePass.CellSec'.<br/>No element found for path 'table[@controlid='1002']/?/?/cell[@text='sec']' within 30s.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)
+   at project1.project1RepositoryFolders.DatabaseKdbKeePassAppFolder.get_CellSec() in c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\project1Repository.cs:line 1349
+   at project1.Recording1.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\Recording1.cs:line 171
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext)"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\Recording1.cs"
+				codeline="171"
+				type="repoitem"
+				path="/form[@title='Database.kdb - KeePass']/table[@controlid='1002']/?/?/cell[@text='sec']"
+				fullname="project1Repository.DatabaseKdbKeePass.CellSec"
+				id="86bd1e92005b4845b434d776da3bd118"
+				timeout="60000"
+				loglvl="Error"
+				itemindex="22"/>
+		</item>
+	</activity>
+</report>

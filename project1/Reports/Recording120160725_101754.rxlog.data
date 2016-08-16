@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Failed"
+		duration="4.28s"
+		durationms="4281"
+		type="root"
+		rid="c4f0d5ce130ce00"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="Damodar Shanbhag"
+		host="HP"
+		rxversion="6.0.1.0"
+		osversion="Windows 8.1 64bit"
+		runtimeversion="4.0.30319.34209"
+		procarch="32bit"
+		language="en-GB"
+		screenresolution="1366x768"
+		timestamp="25-07-2016 10:17:59"
+		timestampiso="2016-07-25T04:47:59"
+		timeoutfactor="1"
+		module="Recording1">
+		<detail>
+			Recording1
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.541"
+			timeRelativeToTestModuleStartTime="00:00.541"
+			timeWallClock="10:17:59"
+			time="00:00.541"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Calculator' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Calculator']"
+				fullname="project1Repository.Calculator.Self"
+				id="aa90ce55c12749dd90da5dbc822c7592"
+				timeout="30000"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\Recording1.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.280"
+			timeRelativeToTestModuleStartTime="00:04.280"
+			timeWallClock="10:18:03"
+			time="00:04.280"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error"/>
+		</item>
+	</activity>
+</report>

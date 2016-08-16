@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Failed"
+		duration="16.41s"
+		durationms="16407"
+		type="root"
+		rid="1bb2b2bdf7a70f90"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="Damodar Shanbhag"
+		host="HP"
+		rxversion="6.0.1.0"
+		osversion="Windows 8.1 64bit"
+		runtimeversion="4.0.30319.34209"
+		procarch="64bit"
+		language="en-GB"
+		screenresolution="1366x768"
+		timestamp="26-07-2016 11.19.54 AM"
+		timestampiso="2016-07-26T05:49:54"
+		timeoutfactor="1"
+		module="accountcreation__dap">
+		<detail>
+			accountcreation__dap
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.860"
+			timeRelativeToTestModuleStartTime="00:00.860"
+			timeWallClock="11:19:55"
+			time="00:00.860"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Up item 'Dropdown' at 528;385.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/container[@caption='dropdown']"
+				fullname="dubeerRepository.Dropdown.Self"
+				id="4778dd5d9da84c798c8f6bd934d5c0d4"
+				timeout="30000"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\dubeer\accountcreation_Plusdap.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:16.407"
+			timeRelativeToTestModuleStartTime="00:16.407"
+			timeWallClock="11:20:11"
+			time="00:16.407"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error"/>
+		</item>
+	</activity>
+</report>

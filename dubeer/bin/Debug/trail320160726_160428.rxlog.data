@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Failed"
+		duration="29.51s"
+		durationms="29506"
+		type="root"
+		rid="3faaa521e276e0d"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="Damodar Shanbhag"
+		host="HP"
+		rxversion="6.0.1.0"
+		osversion="Windows 8.1 64bit"
+		runtimeversion="4.0.30319.34209"
+		procarch="64bit"
+		language="en-GB"
+		screenresolution="1366x768"
+		timestamp="26-07-2016 4.05.11 PM"
+		timestampiso="2016-07-26T10:35:11"
+		timeoutfactor="1"
+		module="trail3">
+		<detail>
+			trail3
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.731"
+			timeRelativeToTestModuleStartTime="00:00.733"
+			timeWallClock="16:05:11"
+			time="00:00.731"
+			level="Info"
+			category="Website">
+			<message>
+				Opening web site 'https://tigers.dubber.net/login' with browser 'firefox' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\dubeer\trail3.cs"
+				codeline="82"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.885"
+			timeRelativeToTestModuleStartTime="00:00.887"
+			timeWallClock="16:05:11"
+			time="00:00.885"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Down item 'Dubber' at 1354;456.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='tigers.dubber.net']"
+				fullname="dubeerRepository.Dubber.Self"
+				id="f93d9f96c4464b9b8a0dc238eff587fc"
+				timeout="30000"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\dubeer\trail3.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:29.505"
+			timeRelativeToTestModuleStartTime="00:29.507"
+			timeWallClock="16:05:40"
+			time="00:29.505"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error"/>
+		</item>
+	</activity>
+</report>

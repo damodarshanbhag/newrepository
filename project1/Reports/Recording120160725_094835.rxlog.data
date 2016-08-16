@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Failed"
+		duration="13.84s"
+		durationms="13835"
+		type="root"
+		rid="93994559e564040"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="Damodar Shanbhag"
+		host="HP"
+		rxversion="6.0.1.0"
+		osversion="Windows 8.1 64bit"
+		runtimeversion="4.0.30319.34209"
+		procarch="32bit"
+		language="en-GB"
+		screenresolution="2732x798"
+		timestamp="25-07-2016 09:48:39"
+		timestampiso="2016-07-25T04:18:39"
+		timeoutfactor="1"
+		module="Recording1">
+		<detail>
+			Recording1
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.409"
+			timeRelativeToTestModuleStartTime="00:00.410"
+			timeWallClock="09:48:39"
+			time="00:00.409"
+			level="Info"
+			category="Application">
+			<message>
+				Run application 'C:\Program Files (x86)\KeePass Password Safe\KeePass.exe' with arguments '' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\Recording1.cs"
+				codeline="82"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.469"
+			timeRelativeToTestModuleStartTime="00:00.470"
+			timeWallClock="09:48:39"
+			time="00:00.469"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'OpenDatabaseDatabaseKdb.Text1008' at 95;10.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'^Open\ Database\ -\ Database\.']/text[@controlid='1008']"
+				fullname="project1Repository.OpenDatabaseDatabaseKdb.Text1008"
+				id="4e2fe39bfa344fedacf8ab04aa93a3ea"
+				timeout="60000"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\Recording1.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.153"
+			timeRelativeToTestModuleStartTime="00:02.154"
+			timeWallClock="09:48:41"
+			time="00:02.153"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'rx' with focus on 'OpenDatabaseDatabaseKdb.Text1008'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'^Open\ Database\ -\ Database\.']/text[@controlid='1008']"
+				fullname="project1Repository.OpenDatabaseDatabaseKdb.Text1008"
+				id="4e2fe39bfa344fedacf8ab04aa93a3ea"
+				timeout="60000"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\Recording1.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.500"
+			timeRelativeToTestModuleStartTime="00:02.501"
+			timeWallClock="09:48:41"
+			time="00:02.500"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'CreateNewPasswordDatabase.ButtonOK' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'^Create\ New\ Password\ Datab']/button[@text='OK']"
+				fullname="project1Repository.CreateNewPasswordDatabase.ButtonOK"
+				id="3f62ee31db1844aeb578262a39637124"
+				timeout="60000"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\Recording1.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.834"
+			timeRelativeToTestModuleStartTime="00:13.835"
+			timeWallClock="09:48:53"
+			time="00:13.834"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error"/>
+		</item>
+	</activity>
+</report>

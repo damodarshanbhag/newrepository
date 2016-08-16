@@ -1,0 +1,916 @@
+﻿<repository
+name="dubberRepository"
+id="8ab236d2-debb-4e76-94f7-d67f727dfdd2"
+rxversion="6.0">
+	<codegen
+	classname="dubberRepository"
+	namespace="dubber"/>
+	<rootfolder
+	name="Root"
+	id="679e61dd-5cc8-44ae-9478-e0b7f37f4fa9"
+	searchtimeout="0ms"
+	capname="unknown"
+	isrooted="True"
+	usecache="True">
+		<appfolder
+		name="DubberMozillaFirefox"
+		id="0c0b48ec-7d79-4404-983c-18f903001b94"
+		searchtimeout="30000ms"
+		capname="form"
+		refpath="/form[@title='Dubber - Mozilla Firefox']"
+		addcaps="form,nativewindow"
+		refimgid="8e644007-495f-44c8-bccc-f161b629757f"
+		isrooted="True"
+		usecache="True">
+			<basepath>
+				/form[@title='Dubber - Mozilla Firefox']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAMGSURBVDhPrZNZSJRhFIb/osWwCcusnM1m7PtH
+kogyG+sibbF1xiUlHaMsmnEsM2TKtBIVaXOp0EBMUwopmxZcsqwQJjNjEsTU3EpzRh2lsoVIi9D/
+7Rv9L4rqrhfeq+88L+ecj8P8d+2v6ZfsNdnyIk2D/bsfv+d2P/nARZreWvXVvdkBZQ1CvuxPDaTJ
+twcXmLS+uTXDJKcGymtPsfb+ADZXv4dPpQ1+xhYUmts/lRhzjtPySRMUrw6N69zXOulYUmL8mD7V
+gJICNYIzj0J0vQ2yUitmGrsgyTEjmob29DxEfam2ikcnVBEi2dihIeiLY2FLWwRLzkIoEzMgOl+G
+qYXNmJHfBKf0Oiw9VobPQ0/xpS8Tg88Eah5nmNpd4uxeHUHvIRqQzMJySo72OD9cTI2Bc3otXJKr
+seDIPbjqipFfcQcYOos+M3OOxxnm5R6ZzRLJwhrDoj+BxeAFd5zUBYGNM0JsuAuX6JsQaC7BITAL
+tyoLwX3IRWuF3MbjDNMYLhp9s5PAEsWiJZxF8uaVWBJmgGNEPhw1eZimzsR0/1RMV8bix+dicB9P
+oCJ/NZeSwkweD6jbIh57FUrQQ7t4vk6BaxofzPeLgVh1GJu0OjhviIdguR5uKzT41rEeo1YWrdeF
+w+OwXaV+bk0t2wi6wghe02Va9CzeGDxgSWRRtU8BdVAwZnuEIzlhNUbqhBg2O+FFmmsljzPMFaU8
+wbyGoE1N0E0DuncRFG3wRKjCG1L5VrjIAyCXrUXrVXd8vC1C52kZbgSRJB5nmBih0LlymfRdvS8f
+Ek7H2cOidLsnDqzyRuZWL/QdZzGU7g5rPEG5yo17pHLw5fEJZbMLdzzwkHL2Tuzj2HfSHWHfC/3e
+KIL+WDqalqA5UMTV+EuyeOw3zdLPmZNRQmTfa5UEDetpkIqgPZCgM4SCQQS3Voq5g8JZBbT2rzcx
+hXqxnJmSaHAWNBbJpCPlCjFX5inkLivEX8+Qea+CnQS5tGYV9Qw78C/ZHyXUXtTrqP2pfajdqQXU
+vxwSw/wEmUuNDCsjulkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		name="FileUpload"
+		id="e500a5f4-3def-49e0-9275-8ebd6547c47a"
+		searchtimeout="30000ms"
+		capname="form"
+		refpath="/form[@title='File Upload']"
+		addcaps="form,nativewindow"
+		isrooted="True"
+		usecache="True">
+			<item
+			name="SystemItemNameDisplay"
+			id="d241eb46-d806-4ae3-a969-ed878157dd5f"
+			searchtimeout="30000ms"
+			capname="text"
+			refpath="/form[@title='File Upload']/element[@class='DUIViewWndClassName']/container/element[@class='CtrlNotifySink' and @instance='1']/container/container/listitem[@automationid='8']/text[@automationid='System.ItemNameDisplay']"
+			addcaps="text,uiautomation,uiautomationvalue"
+			refimgid="85e932af-8a41-4002-aa7c-784750e7f67f">
+				/form[@title='File Upload']/element[@class='DUIViewWndClassName']//container[@caption='ShellView']/?/?/listitem[@automationid='8']/text[@automationid='System.ItemNameDisplay']
+			</item>
+			<item
+			name="ButtonOpen"
+			id="8c6ff31f-c1db-4597-925a-4dd99c100e2d"
+			searchtimeout="30000ms"
+			capname="button"
+			refpath="/form[@title='File Upload']/button[@text='&amp;Open']"
+			addcaps="button,nativewindow"
+			refimgid="df1d6003-f393-4fc5-bd46-a454a7576017">
+				/form[@title='File Upload']/button[@text='&amp;Open']
+			</item>
+			<item
+			name="SomeIndicator"
+			id="d62426d5-f62f-4e1a-ac75-9c294345e600"
+			searchtimeout="30000ms"
+			capname="indicator"
+			refpath="/form[@title='File Upload']/element[@class='DUIViewWndClassName']/container/element[@class='CtrlNotifySink' and @instance='1']/container/container/element[@class='CtrlNotifySink' and @instance='1']/scrollbar[@style='Custom']/indicator"
+			addcaps="indicator"
+			refimgid="1381a163-a486-4891-9d10-43d94c9ad742">
+				/form[@title='File Upload']/element[@class='DUIViewWndClassName']//container[@caption='ShellView']/container[@class='DirectUIHWND']/element[@instance='1']/scrollbar[@style='Custom']/indicator
+			</item>
+			<item
+			name="SystemItemNameDisplay1"
+			id="19e5dfa4-a86f-4839-9a20-e942d9e48ef2"
+			searchtimeout="30000ms"
+			capname="text"
+			refpath="/form[@title='File Upload']/element[@class='DUIViewWndClassName']/container/element[@class='CtrlNotifySink' and @instance='1']/container/container/listitem[@automationid='11']/text[@automationid='System.ItemNameDisplay']"
+			addcaps="text,uiautomation,uiautomationvalue"
+			refimgid="b237ffb7-d82c-47cb-b161-6ae798f6f8b8">
+				/form[@title='File Upload']/element[@class='DUIViewWndClassName']//container[@caption='ShellView']/?/?/listitem[@automationid='11']/text[@automationid='System.ItemNameDisplay']
+			</item>
+			<item
+			name="LocalDiskC"
+			id="f74595ad-02b8-49a1-9805-a8888a24cc17"
+			searchtimeout="30000ms"
+			capname="treeitem"
+			refpath="/form[@title='File Upload']/element[@class='DUIViewWndClassName']/container/element[@class='CtrlNotifySink' and @instance='0']/element/tree[@controlid='100']/treeitem[@text='Desktop']/treeitem[@text='This PC']/treeitem[@text='Local Disk (C:)']"
+			addcaps="treeitem"
+			refimgid="952d76bd-88bd-4d06-a227-c69a06b402f1">
+				/form[@title='File Upload']/element[@class='DUIViewWndClassName']/container/element[1]/?/?/tree[@controlid='100']//treeitem[@text='Local Disk (C:)']
+			</item>
+			<folder
+			name="ShellView"
+			id="314f38c6-be27-4658-8651-293bd5b8701c"
+			searchtimeout="30000ms"
+			capname="container"
+			refpath="/form[@title='File Upload']/element[@class='DUIViewWndClassName']/container[@class='DirectUIHWND']/element[@class='CtrlNotifySink' and @instance='1']/container[@caption='ShellView']"
+			addcaps="container,nativewindow"
+			isrooted="True"
+			usecache="False">
+				<item
+				name="SystemItemNameDisplay3"
+				id="754c2164-34b7-4530-90db-78d34f89c5f5"
+				searchtimeout="30000ms"
+				capname="text"
+				refpath="/form[@title='File Upload']/element[@class='DUIViewWndClassName']/container/element[@class='CtrlNotifySink' and @instance='1']/container/container/listitem[@automationid='0']/text[@automationid='System.ItemNameDisplay']"
+				addcaps="text,uiautomation,uiautomationvalue"
+				refimgid="399d0c90-56a8-455d-a381-1ae08830f79c">
+					/form[@title='File Upload']/element[@class='DUIViewWndClassName']//container[@caption='ShellView']/?/?/listitem[@automationid='0']/text[@automationid='System.ItemNameDisplay']
+				</item>
+				<item
+				name="SystemItemNameDisplay4"
+				id="2772999f-7161-4ec8-a573-b24d8fe95238"
+				searchtimeout="30000ms"
+				capname="text"
+				refpath="/form[@title='File Upload']/element[@class='DUIViewWndClassName']/container/element[@class='CtrlNotifySink' and @instance='1']/container/container/listitem[@automationid='5']/text[@automationid='System.ItemNameDisplay']"
+				addcaps="text,uiautomation,uiautomationvalue"
+				refimgid="25f168eb-634a-443f-b1df-cc3432266abb">
+					/form[@title='File Upload']/element[@class='DUIViewWndClassName']//container[@caption='ShellView']/?/?/listitem[@automationid='5']/text[@automationid='System.ItemNameDisplay']
+				</item>
+				<basepath>
+					/form[@title='File Upload']/element[@class='DUIViewWndClassName']//container[@caption='ShellView']
+				</basepath>
+			</folder>
+			<basepath>
+				/form[@title='File Upload']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAMGSURBVDhPrZNZSJRhFIb/osWwCcusnM1m7PtH
+kogyG+sibbF1xiUlHaMsmnEsM2TKtBIVaXOp0EBMUwopmxZcsqwQJjNjEsTU3EpzRh2lsoVIi9D/
+7Rv9L4rqrhfeq+88L+ecj8P8d+2v6ZfsNdnyIk2D/bsfv+d2P/nARZreWvXVvdkBZQ1CvuxPDaTJ
+twcXmLS+uTXDJKcGymtPsfb+ADZXv4dPpQ1+xhYUmts/lRhzjtPySRMUrw6N69zXOulYUmL8mD7V
+gJICNYIzj0J0vQ2yUitmGrsgyTEjmob29DxEfam2ikcnVBEi2dihIeiLY2FLWwRLzkIoEzMgOl+G
+qYXNmJHfBKf0Oiw9VobPQ0/xpS8Tg88Eah5nmNpd4uxeHUHvIRqQzMJySo72OD9cTI2Bc3otXJKr
+seDIPbjqipFfcQcYOos+M3OOxxnm5R6ZzRLJwhrDoj+BxeAFd5zUBYGNM0JsuAuX6JsQaC7BITAL
+tyoLwX3IRWuF3MbjDNMYLhp9s5PAEsWiJZxF8uaVWBJmgGNEPhw1eZimzsR0/1RMV8bix+dicB9P
+oCJ/NZeSwkweD6jbIh57FUrQQ7t4vk6BaxofzPeLgVh1GJu0OjhviIdguR5uKzT41rEeo1YWrdeF
+w+OwXaV+bk0t2wi6wghe02Va9CzeGDxgSWRRtU8BdVAwZnuEIzlhNUbqhBg2O+FFmmsljzPMFaU8
+wbyGoE1N0E0DuncRFG3wRKjCG1L5VrjIAyCXrUXrVXd8vC1C52kZbgSRJB5nmBih0LlymfRdvS8f
+Ek7H2cOidLsnDqzyRuZWL/QdZzGU7g5rPEG5yo17pHLw5fEJZbMLdzzwkHL2Tuzj2HfSHWHfC/3e
+KIL+WDqalqA5UMTV+EuyeOw3zdLPmZNRQmTfa5UEDetpkIqgPZCgM4SCQQS3Voq5g8JZBbT2rzcx
+hXqxnJmSaHAWNBbJpCPlCjFX5inkLivEX8+Qea+CnQS5tGYV9Qw78C/ZHyXUXtTrqP2pfajdqQXU
+vxwSw/wEmUuNDCsjulkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		name="Dubber"
+		id="295341c3-99ff-4894-9892-319602a3a4a4"
+		searchtimeout="30000ms"
+		capname="webdocument"
+		refpath="/dom[@domain='tigers.dubber.net']"
+		addcaps="container,webdocument"
+		refimgid="9416b167-3332-4b84-8845-999bcdd1b790"
+		isrooted="True"
+		usecache="False">
+			<item
+			name="UserEmail"
+			id="6e78a8ff-da49-42c9-a85d-440991663d28"
+			searchtimeout="30000ms"
+			capname="inputtag"
+			refpath="/dom[@domain='tigers.dubber.net']//input[#'user_email']"
+			addcaps="unknown,webelement,inputtag"
+			refimgid="34c7135e-050b-48cb-91af-38174068e870">
+				/dom[@domain='tigers.dubber.net']//input[#'user_email']
+			</item>
+			<item
+			name="UserPassword"
+			id="3c65f661-633b-43d1-8555-15e973055266"
+			searchtimeout="30000ms"
+			capname="inputtag"
+			refpath="/dom[@domain='tigers.dubber.net']//input[#'user_password']"
+			addcaps="unknown,webelement,inputtag"
+			refimgid="2af7fd1b-c651-4d84-9646-816ea002b3bf">
+				/dom[@domain='tigers.dubber.net']//input[#'user_password']
+			</item>
+			<item
+			name="ContentBox"
+			id="1ca7f69e-73c4-49f7-a883-b5062e6b91d2"
+			searchtimeout="30000ms"
+			capname="divtag"
+			refpath="/dom[@domain='tigers.dubber.net']//div[#'main_body']/div[1]/div/div[2]"
+			addcaps="unknown,webelement,divtag"
+			refimgid="13de72b0-ac67-421a-a556-39cf9829f68e">
+				/dom[@domain='tigers.dubber.net']//div[#'main_body']/div[1]/div/div[2]
+			</item>
+			<item
+			name="SubmitButton"
+			id="26e98c01-64a5-4b1f-8264-7cc26ccd1bbf"
+			searchtimeout="30000ms"
+			capname="inputtag"
+			refpath="/dom[@domain='tigers.dubber.net']//input[#'submit_button']"
+			addcaps="unknown,webelement,inputtag"
+			refimgid="9a904679-5cb4-4f88-8a28-206f9c30eab8">
+				/dom[@domain='tigers.dubber.net']//input[#'submit_button']
+			</item>
+			<item
+			name="ManageDapsButton"
+			id="df6c7239-70f1-4d4d-bca4-c237ee3ef11e"
+			searchtimeout="30000ms"
+			capname="atag"
+			refpath="/dom[@domain='tigers.dubber.net']//a[#'manage_daps_button']"
+			addcaps="unknown,webelement,atag"
+			refimgid="ce1a89f7-a3a4-4bdd-8cc1-087f3afe3b2a">
+				/dom[@domain='tigers.dubber.net']//a[#'manage_daps_button']
+			</item>
+			<item
+			name="NewDap"
+			id="1b9c7dfd-ea23-464e-a58b-eb23cab8aeef"
+			searchtimeout="30000ms"
+			capname="atag"
+			refpath="/dom[@domain='tigers.dubber.net']//a[#'new_dap']"
+			addcaps="unknown,webelement,atag"
+			refimgid="e5e0d6ed-784a-4423-a574-576e23b2d2d5">
+				/dom[@domain='tigers.dubber.net']//a[#'new_dap']
+			</item>
+			<item
+			name="DapAreaId"
+			id="3b9ee07f-fdc6-4707-bb0e-93619b3c7ae3"
+			searchtimeout="30000ms"
+			capname="selecttag"
+			refpath="/dom[@domain='tigers.dubber.net']//select[#'dap_area_id']"
+			addcaps="unknown,webelement,selecttag"
+			refimgid="95c6490e-65b2-4084-8163-eda6d61e408c">
+				/dom[@domain='tigers.dubber.net']//select[#'dap_area_id']
+			</item>
+			<item
+			name="ModalBackdropFadeIn"
+			id="620b4aed-64bf-472a-8bbc-9349e0f58df8"
+			searchtimeout="30000ms"
+			capname="divtag"
+			refpath="/dom[@domain='tigers.dubber.net']/body/div[6]"
+			addcaps="unknown,webelement,divtag"
+			refimgid="9e6dd34a-0cde-4d3f-898a-009c4502508b">
+				/dom[@domain='tigers.dubber.net']/body/div[6]
+			</item>
+			<item
+			name="AreaDescription"
+			id="c3dd41cd-c077-4084-9ddd-029408eb30e6"
+			searchtimeout="30000ms"
+			capname="inputtag"
+			refpath="/dom[@domain='tigers.dubber.net']//input[#'area_description']"
+			addcaps="unknown,webelement,inputtag"
+			refimgid="c0c8f32d-9551-49f1-96ef-2c66391ec5b6">
+				/dom[@domain='tigers.dubber.net']//input[#'area_description']
+			</item>
+			<item
+			name="AreaState"
+			id="b1b582b0-ef88-478c-ba73-49e5c3125066"
+			searchtimeout="30000ms"
+			capname="inputtag"
+			refpath="/dom[@domain='tigers.dubber.net']//input[#'area_state']"
+			addcaps="unknown,webelement,inputtag"
+			refimgid="bbdbb66f-80c7-4d45-8190-90c2507ad0d2">
+				/dom[@domain='tigers.dubber.net']//input[#'area_state']
+			</item>
+			<item
+			name="AreaCountry"
+			id="ff7bce66-d8ca-4012-b035-075d78716075"
+			searchtimeout="30000ms"
+			capname="selecttag"
+			refpath="/dom[@domain='tigers.dubber.net']//select[#'area_country']"
+			addcaps="unknown,webelement,selecttag"
+			refimgid="ed03a3c1-0bf0-4cde-8baf-bdf92c5060d1">
+				/dom[@domain='tigers.dubber.net']//select[#'area_country']
+			</item>
+			<item
+			name="NewAreaOkButton"
+			id="30c8c8a0-1736-43ce-b755-d315eba2f789"
+			searchtimeout="30000ms"
+			capname="buttontag"
+			refpath="/dom[@domain='tigers.dubber.net']//button[#'new_area_ok_button']"
+			addcaps="unknown,webelement,buttontag"
+			refimgid="035e1dfe-f43c-4f41-b1f8-0eb8d6cfe2e4">
+				/dom[@domain='tigers.dubber.net']//button[#'new_area_ok_button']
+			</item>
+			<item
+			name="DapStartNumberAreaCode"
+			id="0773e6c1-12a9-4905-b9dd-a5a1b9c10a7e"
+			searchtimeout="30000ms"
+			capname="selecttag"
+			refpath="/dom[@domain='tigers.dubber.net']//select[#'dap_start_number_area_code']"
+			addcaps="unknown,webelement,selecttag"
+			refimgid="e2ca7ee7-9765-41bf-b11f-40e129687739">
+				/dom[@domain='tigers.dubber.net']//select[#'dap_start_number_area_code']
+			</item>
+			<item
+			name="DapStartNumberServiceNumber"
+			id="72b432ec-4ab1-4875-8e42-9aeb31237672"
+			searchtimeout="30000ms"
+			capname="inputtag"
+			refpath="/dom[@domain='tigers.dubber.net']//input[#'dap_start_number_service_number']"
+			addcaps="unknown,webelement,inputtag"
+			refimgid="41ca4042-9abd-40a6-a155-ec352a6046da">
+				/dom[@domain='tigers.dubber.net']//input[#'dap_start_number_service_number']
+			</item>
+			<item
+			name="DapEndNumberAreaCode"
+			id="05947189-68df-4ed9-a288-970ebbe85066"
+			searchtimeout="30000ms"
+			capname="selecttag"
+			refpath="/dom[@domain='tigers.dubber.net']//select[#'dap_end_number_area_code']"
+			addcaps="unknown,webelement,selecttag"
+			refimgid="6c221914-f93a-48f9-8e41-3ca7fc4f998b">
+				/dom[@domain='tigers.dubber.net']//select[#'dap_end_number_area_code']
+			</item>
+			<item
+			name="DapEndNumberServiceNumber"
+			id="1ea2544c-220b-46e7-aec5-d528009fc5e4"
+			searchtimeout="30000ms"
+			capname="inputtag"
+			refpath="/dom[@domain='tigers.dubber.net']//input[#'dap_end_number_service_number']"
+			addcaps="unknown,webelement,inputtag"
+			refimgid="2a54def2-89d8-4038-bd97-0fb91d47e5ec">
+				/dom[@domain='tigers.dubber.net']//input[#'dap_end_number_service_number']
+			</item>
+			<item
+			name="DapSubmitButton"
+			id="574bb672-3e29-47b2-bb0e-b7e77b86a8dc"
+			searchtimeout="30000ms"
+			capname="buttontag"
+			refpath="/dom[@domain='tigers.dubber.net']//button[#'dap_submit_button']"
+			addcaps="unknown,webelement,buttontag"
+			refimgid="7847a3eb-d26b-4677-a469-5d5a4b9219e2">
+				/dom[@domain='tigers.dubber.net']//button[#'dap_submit_button']
+			</item>
+			<item
+			name="ConfirmDapCreationButton"
+			id="a0954b2b-0052-4d3d-9eaf-44bcb3354d7f"
+			searchtimeout="30000ms"
+			capname="buttontag"
+			refpath="/dom[@domain='tigers.dubber.net']//button[#'confirm_dap_creation_button']"
+			addcaps="unknown,webelement,buttontag"
+			refimgid="e496943e-cda6-428f-b9f3-30ead5580493">
+				/dom[@domain='tigers.dubber.net']//button[#'confirm_dap_creation_button']
+			</item>
+			<item
+			name="ProfileDdt"
+			id="036b39c5-f342-4481-8e9c-a8e7cf15a497"
+			searchtimeout="30000ms"
+			capname="atag"
+			refpath="/dom[@domain='tigers.dubber.net']//a[#'profile-ddt']"
+			addcaps="unknown,webelement,atag"
+			refimgid="e3b4c347-d3c1-4067-89f3-07690a5bbf49">
+				/dom[@domain='tigers.dubber.net']//a[#'profile-ddt']
+			</item>
+			<item
+			name="DropDownLogout"
+			id="32598150-b4e1-42b2-845a-feff92e58c50"
+			searchtimeout="30000ms"
+			capname="atag"
+			refpath="/dom[@domain='tigers.dubber.net']//a[#'drop_down_logout']"
+			addcaps="unknown,webelement,atag"
+			refimgid="a7c0191c-88e5-4f2c-85fd-fb057e5c1de9">
+				/dom[@domain='tigers.dubber.net']//a[#'drop_down_logout']
+			</item>
+			<item
+			name="ContainerAdmin"
+			id="40c27e0b-e7d8-4844-ad0d-c4bd85604cd4"
+			searchtimeout="30000ms"
+			capname="divtag"
+			refpath="/dom[@domain='tigers.dubber.net']/body/div[3]"
+			addcaps="unknown,webelement,divtag"
+			refimgid="0df0946c-3c8f-4425-a83f-404ef56306e3">
+				/dom[@domain='tigers.dubber.net']/body/div[3]
+			</item>
+			<item
+			name="AccountTab"
+			id="d0f108ec-4cc8-4162-be0d-e363a9d476e8"
+			searchtimeout="30000ms"
+			capname="atag"
+			refpath="/dom[@domain='tigers.dubber.net']//a[#'account_tab']"
+			addcaps="unknown,webelement,atag"
+			refimgid="b29ad20f-5727-4909-8b70-1fde3d7c5dda">
+				/dom[@domain='tigers.dubber.net']//a[#'account_tab']
+			</item>
+			<item
+			name="NewAccount"
+			id="3913aa06-6f2a-413b-9261-9b751d859170"
+			searchtimeout="30000ms"
+			capname="atag"
+			refpath="/dom[@domain='tigers.dubber.net']//a[#'new_account']"
+			addcaps="unknown,webelement,atag"
+			refimgid="6fa7d720-fb24-439f-b495-c3de68b12d53">
+				/dom[@domain='tigers.dubber.net']//a[#'new_account']
+			</item>
+			<item
+			name="AccountName"
+			id="e4721a3f-137a-43c7-9bb7-9e955fd934cd"
+			searchtimeout="30000ms"
+			capname="inputtag"
+			refpath="/dom[@domain='tigers.dubber.net']/body/div[3]/div[@id='main_body']/div/div/div/div/form/div[1]/div/div/input[@id='account_name']"
+			addcaps="unknown,webelement,inputtag"
+			refimgid="bba4cbb6-b437-4ed4-8072-f2325f11d0cc">
+				/dom[@domain='tigers.dubber.net']/body/div[3]/div[@id='main_body']//form[@id='new_account']/div[1]/?/?/div/input[@id='account_name']
+			</item>
+			<item
+			name="AccountDubberAddress"
+			id="4d61d999-ba23-4368-a6c9-ab688dae127f"
+			searchtimeout="30000ms"
+			capname="inputtag"
+			refpath="/dom[@domain='tigers.dubber.net']//input[#'account_dubber_address']"
+			addcaps="unknown,webelement,inputtag"
+			refimgid="4368952a-7ef0-43d7-9a98-ceaaef94052f">
+				/dom[@domain='tigers.dubber.net']//input[#'account_dubber_address']
+			</item>
+			<item
+			name="AccountExternalReference"
+			id="d6772cd5-7203-46f8-9b77-670b9674bec7"
+			searchtimeout="30000ms"
+			capname="inputtag"
+			refpath="/dom[@domain='tigers.dubber.net']//input[#'account_external_reference']"
+			addcaps="unknown,webelement,inputtag"
+			refimgid="abe622f0-0b6a-4b8a-b665-4767cb0ad8d8">
+				/dom[@domain='tigers.dubber.net']//input[#'account_external_reference']
+			</item>
+			<item
+			name="AccountTimeZone"
+			id="d9268121-7036-48c5-a911-06fcc0f5f413"
+			searchtimeout="30000ms"
+			capname="selecttag"
+			refpath="/dom[@domain='tigers.dubber.net']//select[#'account_time_zone']"
+			addcaps="unknown,webelement,selecttag"
+			refimgid="af5acc5c-d89a-4729-b193-de2af8b82d75">
+				/dom[@domain='tigers.dubber.net']//select[#'account_time_zone']
+			</item>
+			<item
+			name="AccountAddressAttributesAddress"
+			id="1dfbf7ea-fa99-4f20-a460-b3cbafe1de3c"
+			searchtimeout="30000ms"
+			capname="inputtag"
+			refpath="/dom[@domain='tigers.dubber.net']//input[#'account_address_attributes_address']"
+			addcaps="unknown,webelement,inputtag"
+			refimgid="304295cc-8aeb-4d16-8ea1-45d77414b68b">
+				/dom[@domain='tigers.dubber.net']//input[#'account_address_attributes_address']
+			</item>
+			<item
+			name="AccountAddressAttributesSuburb"
+			id="24dfc774-490e-4baa-bfc8-9c451349f113"
+			searchtimeout="30000ms"
+			capname="inputtag"
+			refpath="/dom[@domain='tigers.dubber.net']//input[#'account_address_attributes_suburb']"
+			addcaps="unknown,webelement,inputtag"
+			refimgid="6fffcbed-2dc8-4067-835f-fdb4c66b0d3e">
+				/dom[@domain='tigers.dubber.net']//input[#'account_address_attributes_suburb']
+			</item>
+			<item
+			name="AccountAddressAttributesCountry"
+			id="ced0c677-f83d-4933-ab79-7229e777d789"
+			searchtimeout="30000ms"
+			capname="selecttag"
+			refpath="/dom[@domain='tigers.dubber.net']//select[#'account_address_attributes_country']"
+			addcaps="unknown,webelement,selecttag"
+			refimgid="ca6b8c97-4034-481f-9287-4f0b33a08894">
+				/dom[@domain='tigers.dubber.net']//select[#'account_address_attributes_country']
+			</item>
+			<item
+			name="AccountAddressAttributesPostCode"
+			id="e2b758fd-2cfa-44e4-99b6-12064fbbeed8"
+			searchtimeout="30000ms"
+			capname="inputtag"
+			refpath="/dom[@domain='tigers.dubber.net']//input[#'account_address_attributes_post_code']"
+			addcaps="unknown,webelement,inputtag"
+			refimgid="9056cb71-f027-4603-bb6c-6b5d8d4b8eb6">
+				/dom[@domain='tigers.dubber.net']//input[#'account_address_attributes_post_code']
+			</item>
+			<item
+			name="AccountPhoneAreaCode"
+			id="31b4bd0d-55d2-41cd-8a55-bfaec47c9e27"
+			searchtimeout="30000ms"
+			capname="selecttag"
+			refpath="/dom[@domain='tigers.dubber.net']//select[#'account_phone_area_code']"
+			addcaps="unknown,webelement,selecttag"
+			refimgid="7664f6ed-6290-488c-811a-6989a8ddaed3">
+				/dom[@domain='tigers.dubber.net']//select[#'account_phone_area_code']
+			</item>
+			<item
+			name="AccountPhoneServiceNumber"
+			id="f21cefc0-55b6-4009-8e44-8ee66134373d"
+			searchtimeout="30000ms"
+			capname="inputtag"
+			refpath="/dom[@domain='tigers.dubber.net']//input[#'account_phone_service_number']"
+			addcaps="unknown,webelement,inputtag"
+			refimgid="1165f17f-a02d-4367-b201-fec8f6a0d081">
+				/dom[@domain='tigers.dubber.net']//input[#'account_phone_service_number']
+			</item>
+			<item
+			name="AccountAccountUsersAttributes0Email"
+			id="037bb8ad-be72-4d7e-aaac-bed9954f11a0"
+			searchtimeout="30000ms"
+			capname="inputtag"
+			refpath="/dom[@domain='tigers.dubber.net']//input[#'account_account_users_attributes_0_email']"
+			addcaps="unknown,webelement,inputtag"
+			refimgid="bec664b7-f183-4484-9f10-c67feeb4db87">
+				/dom[@domain='tigers.dubber.net']//input[#'account_account_users_attributes_0_email']
+			</item>
+			<item
+			name="AccountAccountUsersAttributes0Email1"
+			id="4a9c3e83-abc8-4de5-a7d6-1fcf3fcfef9a"
+			searchtimeout="30000ms"
+			capname="inputtag"
+			refpath="/dom[@domain='tigers.dubber.net']//input[#'account_account_users_attributes_0_email_confirmation']"
+			addcaps="unknown,webelement,inputtag"
+			refimgid="a8d7884c-907e-4167-9a55-141f8f894648">
+				/dom[@domain='tigers.dubber.net']//input[#'account_account_users_attributes_0_email_confirmation']
+			</item>
+			<item
+			name="AccountAccountUsersAttributes0First"
+			id="485ed98a-6940-4be3-a4ae-a7cbf2a96558"
+			searchtimeout="30000ms"
+			capname="inputtag"
+			refpath="/dom[@domain='tigers.dubber.net']//input[#'account_account_users_attributes_0_first_name']"
+			addcaps="unknown,webelement,inputtag"
+			refimgid="fa17253a-1ac5-4ab1-bfc1-b71c9df65b8b">
+				/dom[@domain='tigers.dubber.net']//input[#'account_account_users_attributes_0_first_name']
+			</item>
+			<item
+			name="AccountAccountUsersAttributes0Last"
+			id="e2d072a4-2f99-4097-a848-b7ba86917c28"
+			searchtimeout="30000ms"
+			capname="inputtag"
+			refpath="/dom[@domain='tigers.dubber.net']//input[#'account_account_users_attributes_0_last_name']"
+			addcaps="unknown,webelement,inputtag"
+			refimgid="76a96f40-9d23-4a41-a11c-c4452cd30161">
+				/dom[@domain='tigers.dubber.net']//input[#'account_account_users_attributes_0_last_name']
+			</item>
+			<item
+			name="AccountSubmitButton"
+			id="5e04eb44-a10a-4320-a85a-90201a746f6d"
+			searchtimeout="30000ms"
+			capname="buttontag"
+			refpath="/dom[@domain='tigers.dubber.net']//button[#'account_submit_button']"
+			addcaps="unknown,webelement,buttontag"
+			refimgid="030c5cf8-bffe-418b-ac3e-bbed8f3fc0ca">
+				/dom[@domain='tigers.dubber.net']//button[#'account_submit_button']
+			</item>
+			<item
+			name="AccountAddressAttributesState"
+			id="4f088292-f818-44e4-b434-08001de66980"
+			searchtimeout="30000ms"
+			capname="selecttag"
+			refpath="/dom[@domain='tigers.dubber.net']//select[#'account_address_attributes_state']"
+			addcaps="unknown,webelement,selecttag"
+			refimgid="4b4f91ed-f335-4444-978e-bc18a2493e58">
+				/dom[@domain='tigers.dubber.net']//select[#'account_address_attributes_state']
+			</item>
+			<item
+			name="InboundNumberArea"
+			id="4b978ceb-65d1-4475-9443-d739f40392a4"
+			searchtimeout="30000ms"
+			capname="selecttag"
+			refpath="/dom[@domain='tigers.dubber.net']//select[#'inbound_number_area']"
+			addcaps="unknown,webelement,selecttag"
+			refimgid="af3da690-f12f-4d54-b811-6bccc6f44c80">
+				/dom[@domain='tigers.dubber.net']//select[#'inbound_number_area']
+			</item>
+			<item
+			name="InboundNumberDapId"
+			id="624fb984-9c89-4755-975a-c20350177fae"
+			searchtimeout="30000ms"
+			capname="selecttag"
+			refpath="/dom[@domain='tigers.dubber.net']//select[#'inbound_number_dap_id']"
+			addcaps="unknown,webelement,selecttag"
+			refimgid="e69a8010-a332-49b7-bcb5-320f135ae899">
+				/dom[@domain='tigers.dubber.net']//select[#'inbound_number_dap_id']
+			</item>
+			<item
+			name="InboundNumberNumberServiceNumber"
+			id="ed73ca62-4017-4c4c-927e-756665833022"
+			searchtimeout="30000ms"
+			capname="inputtag"
+			refpath="/dom[@domain='tigers.dubber.net']//input[#'inbound_number_number_service_number']"
+			addcaps="unknown,webelement,inputtag"
+			refimgid="fd8226c8-dbe6-4fd7-b87b-47b35bcbef0a">
+				/dom[@domain='tigers.dubber.net']//input[#'inbound_number_number_service_number']
+			</item>
+			<item
+			name="InboundNumberLabel"
+			id="658b0e47-3867-46a0-b984-6f622045d63a"
+			searchtimeout="30000ms"
+			capname="inputtag"
+			refpath="/dom[@domain='tigers.dubber.net']//input[#'inbound_number_label']"
+			addcaps="unknown,webelement,inputtag"
+			refimgid="4a85dc91-d557-4d67-9426-82753986a323">
+				/dom[@domain='tigers.dubber.net']//input[#'inbound_number_label']
+			</item>
+			<item
+			name="InboundNumberCapDubPointsAttributes"
+			id="e816da5c-31b4-49dd-bc51-53620364b75d"
+			searchtimeout="30000ms"
+			capname="inputtag"
+			refpath="/dom[@domain='tigers.dubber.net']//input[#'inbound_number_cap_dub_points_attributes_0_number_service_number']"
+			addcaps="unknown,webelement,inputtag"
+			refimgid="1400d078-0018-44af-8789-72055f4e859e">
+				/dom[@domain='tigers.dubber.net']//input[#'inbound_number_cap_dub_points_attributes_0_number_service_number']
+			</item>
+			<item
+			name="InboundNumberCapDubPointsAttributes1"
+			id="ba051188-c600-4fbc-aebb-5df32bdd7795"
+			searchtimeout="30000ms"
+			capname="inputtag"
+			refpath="/dom[@domain='tigers.dubber.net']//input[#'inbound_number_cap_dub_points_attributes_0_label']"
+			addcaps="unknown,webelement,inputtag"
+			refimgid="7ac1463e-3993-469d-b3c4-2f9de78b9354">
+				/dom[@domain='tigers.dubber.net']//input[#'inbound_number_cap_dub_points_attributes_0_label']
+			</item>
+			<item
+			name="InboundNumberSubmitButton"
+			id="ce45f769-7f8a-4b41-886f-dc2862502164"
+			searchtimeout="30000ms"
+			capname="buttontag"
+			refpath="/dom[@domain='tigers.dubber.net']//button[#'inbound_number_submit_button']"
+			addcaps="unknown,webelement,buttontag"
+			refimgid="7ecdff67-3816-48fd-89e1-e9a4300e633f">
+				/dom[@domain='tigers.dubber.net']//button[#'inbound_number_submit_button']
+			</item>
+			<item
+			name="Caret"
+			id="7d80543f-f2e3-441e-add6-e126844c30fd"
+			searchtimeout="30000ms"
+			capname="spantag"
+			refpath="/dom[@domain='tigers.dubber.net']//a[#'profile-ddt']/span"
+			addcaps="unknown,webelement,spantag"
+			refimgid="08f7c7bd-1f41-43fe-920c-b76f256907dd">
+				/dom[@domain='tigers.dubber.net']//a[#'profile-ddt']/span
+			</item>
+			<basepath>
+				/dom[@domain='tigers.dubber.net']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		name="DISPLAY1LowerRight"
+		id="9972aef6-a7be-4246-a552-8033cd36ed9c"
+		searchtimeout="30000ms"
+		capname="grip"
+		refpath="/grip[@name='DISPLAY1 LowerRight']"
+		addcaps="grip,uiautomation,nativewindow"
+		refimgid="79c888ee-026d-42d6-93c8-37e1bfac5f95"
+		isrooted="True"
+		usecache="True">
+			<basepath>
+				/grip[@name='DISPLAY1 LowerRight']
+			</basepath>
+			<icon>
+				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
+kPkCLSMpytHJTCMAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		name="Downloads"
+		id="d6928b19-d5fc-4f9c-b0ea-cb4cf4474edc"
+		searchtimeout="30000ms"
+		capname="form"
+		refpath="/form[@title='Downloads']"
+		addcaps="form,nativewindow"
+		isrooted="True"
+		usecache="True">
+			<item
+			name="SystemItemNameDisplay"
+			id="6a9fecb2-63a7-4136-95c0-ee9daad0fbb6"
+			searchtimeout="30000ms"
+			capname="text"
+			refpath="/form[@title='Downloads']/element[@class='ShellTabWindowClass']/element[@class='DUIViewWndClassName']/container/element[@class='CtrlNotifySink' and @instance='1']/container/container/listitem[@automationid='5']/text[@automationid='System.ItemNameDisplay']"
+			addcaps="text,uiautomation,uiautomationvalue"
+			refimgid="b7ff6618-eadb-460d-9ceb-ca2e666139a7">
+				/form[@title='Downloads']/element[@class='ShellTabWindowClass']//container[@caption='ShellView']/?/?/listitem[@automationid='5']/text[@automationid='System.ItemNameDisplay']
+			</item>
+			<item
+			name="Edit"
+			id="9ae0d6d0-148d-48a0-b3fa-fe68a0d229b2"
+			searchtimeout="30000ms"
+			capname="text"
+			refpath="/form[@title='Downloads']/element[@class='ShellTabWindowClass']/element[@class='DUIViewWndClassName']/container/element[@class='CtrlNotifySink' and @instance='1']/container/container/element[@class='CtrlNotifySink' and @instance='0']/text[@class='Edit']"
+			addcaps="text,nativewindow"
+			refimgid="c4bfadbb-57ab-45d5-8747-30e420461b74">
+				/form[@title='Downloads']/element[@class='ShellTabWindowClass']//container[@caption='ShellView']/?/?/element[@instance='0']/text[@class='Edit']
+			</item>
+			<item
+			name="ItemsView"
+			id="9f7099fd-7cbf-433f-bde9-6b76c3a631da"
+			searchtimeout="30000ms"
+			capname="list"
+			refpath="/form[@title='Downloads']/element[@class='ShellTabWindowClass']/element[@class='DUIViewWndClassName']/container/element[@class='CtrlNotifySink' and @instance='1']/container/container/list[@accessiblename='Items View']"
+			addcaps="list,accessible"
+			refimgid="7a2810da-5583-4751-a55e-5cd612299a4b">
+				/form[@title='Downloads']/element[@class='ShellTabWindowClass']//element[@instance='1']/container[@caption='ShellView']/?/?/list[@accessiblename='Items View']
+			</item>
+			<basepath>
+				/form[@title='Downloads']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAALdSURBVDhPbZNJTBNhGIY5amJEjRhP6knjRc8Y
+DJHGJSQmikbDIoRCMBpxCRYRIZSGVYHggggGUVkLhUILKJYCQllroeyblNJSutN9VfM6HapA4E3e
+08zzfP8/mc/HE/1oplI3mqXRiBhQC9OgGkrB6sBTrPTRIOt5BGn3fSzx7+InL04y106lkdDm6MXZ
+sMrLoJ/IhVacBeNSKSQTRXDbO/HH3fO/ThMX861REi+2EY/gl6OFrMNQB/1CIRZ5cZgSvoJJy8Vv
+VxfxjAe39QtmWyPgxTayWeC2NcNpacRCOxVj/XmYHMwnQZe5mZCzMMMN3S4g7g+3gwuXrQlOcwPs
+Ribm2iIhFmRjvC+bBG26KljUHzDVfGMHwUgGXFY2HGYW7IZaWHWVmGkJh6g7DeKeNBI0K4phlBVi
+kn19u0BLfH2HqR42Qw0sugqYVMQkzk0IOxIhIhpT2oDTdN7/XsqoWvai61EL6bCtVcOi/UTAZTCs
+vCMmXcPQ13gIiR5J6sCZJj38uSZE9FhxitG59RSq4VSYNR9hVL7HmvwtdNKXGG+4ggFOLIa4MaTg
+BMsI31obInrt2wXKwWQYV0uhlxdBu1QI9cJziOsvo7cxDP3sMFJwvMmKAw1ORAp2ECj6k6CXvYFW
+UgDVQi5WZzIwygzG97qrENSHkIJ9LCf8Gp2I2kmwIngMzWI+VPM5UEwzIJ9IhajmIgIe5IBCKyAF
++5l2+FZZEMozkYJ/JQWe/105lwXFVDpk4ymQjjzBj+rzyMyLRkB8Ji58s2FvpQV7yo3YVaIBXaDD
+sWddOJrATSAFy8SyrEzSIRtLhlREg2T4IYSVQeB/DkJ2QSwO3mODwl3D7mIPrN0Ke7LUSWxa523M
+8WMwy6ditouK4Ypz4BQGoPV1IFILEklJuhcOZ+RyvOh65tui/abbbgVONIbcGWEGlwgrKL2D5Wct
+qXEnKS8S/A953vFMPEzjbZ3s4+PzF4/bYcSFJEuFAAAAAElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<appfolder
+		name="InbCallflow3Notepad"
+		id="3561f37a-c6dc-4012-91de-92d708ef5cea"
+		searchtimeout="30000ms"
+		capname="form"
+		refpath="/form[@title='inb-Callflow(3) - Notepad']"
+		addcaps="form,nativewindow"
+		isrooted="True"
+		usecache="True">
+			<basepath>
+				/form[@title='inb-Callflow(3) - Notepad']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAKPSURBVDhPjZHLTxNRFMbZm7j2/zG6cEPUxD07
+486QaCIhYHhoqZSXpRFsAVseQaUBQkHBSqGl005n2k470+l0Xi2lD2irjWv5vDMotdEFJzk5NzO5
+3/f7zu34X/VNzeAq85+a5dT07XsPQJ3UcKvzPvx61ZzruRNzevi8OV9RPEaDCbgtnf2/r3Z0ULXa
+dVssW5YbP5CpNZGofkOkVEfg+Aw7WgVeIrIo5OHkVAwGWFgP45gY7GqRuHn9piOeE6V6E/xpE2y5
+gaNiDf58FVtKCR+lY7gFHTMJBf1faDhjmXYBR1weWhT0A0o9xqFSgF/S4RNUeFM5LMdFzDECpqmU
+6fx4bRcrDN8uYItJe+ty0cudfgdTaSBM8PcLVWxrZYJfxFKG4Kc0TDA5dG8eIFGptwuMREVtV624
+AnIBe9kL9zXivhLPYp7JEPc0xkIcBvYZPFzaglattQSsicQ1a1TMbyonc9FyHaHimZndpxJ36cLd
+lVJhjysYDqfx1BfEz/PzlsAonb3zmpXZVbEw/0nUsMEr+MBJWCLZXTEjO3EPJjF0wOKZL4Seja9o
+NJstgRFaHHFyyrYnrS0Eiqf4rFewKZfwnmzeQzb/ltMwxeZgoUX0+RnYwykYdSkwHBEO3eSyM6m8
+86ZlrCYluNkMZmM87GTzo4Y7efuevRi6vX4sUMl2gkFK0FycOm1nZY9PLWGN5F7OFDCX1uFIyBhj
+JLyIiOgNGvlDoAnlJUFfJH3jZVSUyJIcM5y6+Ce7sfk3UR6TRxyshGCYEPT6aTxa9iFbqrYInh8J
+dwkBLFHRdJogWcfJW4+Ts83oWBaT5JvRNjqLJzth092oywh/V07VTfWr9H8Fxge6NowfV2m3pbP/
+F0Wgr4voafeUAAAAAElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<appfolder
+		name="Notepad"
+		id="2fe476ff-6224-40d8-9f0f-0eda10964e68"
+		searchtimeout="30000ms"
+		capname="contextmenu"
+		refpath="/contextmenu[@processname='notepad']"
+		addcaps="contextmenu,nativewindow"
+		isrooted="True"
+		usecache="True">
+			<basepath>
+				/contextmenu[@processname='notepad']
+			</basepath>
+			<icon>
+				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
+			</icon>
+		</appfolder>
+		<appfolder
+		name="Dropdown"
+		id="33c7bbd1-8b21-4049-b3ba-b5eba1425d2b"
+		searchtimeout="30000ms"
+		capname="container"
+		refpath="/container[@caption='dropdown']"
+		addcaps="container"
+		refimgid="ed1bba45-495e-47f6-a4ea-0464e43e2112"
+		isrooted="True"
+		usecache="True">
+			<basepath>
+				/container[@caption='dropdown']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAABhUlEQVQ4T8WQvUsCYRzHb++F/oSGiMiiV4qWakiiqWyJGiK0cmxw
+kUhtMHqzTuWC0KKh2ZBqsTSHlt6oNkENBF+OoJZCKlO/PY/PGaIXCQ19jw/3e7787sPdcX/OkCOC
+LiGOVruIZqsIhS2BJj6BFnuCnBOoJ3OdJQYFL6LR+ohOWxS9y7cQ/FHkBNVaL2qmfajUeFFF7nno
+uULNoHOD/gK1uit0zx1hdGwBeuEALpcLnPk4gkAkjrtwDPfheAGF5xiug1HcEC5DInzBJ0zMO8Hz
+PLid82fkky26fupo+me3mGDbL0pVqgw+c1DRgNbOBI6zOClp8gvFD5WSE8zw0id4o6SkkV8uhb5B
+GkrNBhPsnkZISSO3LAcVZKBUrzHBnueBlDRyy3JIgqkVJtj3hEhJ/3ZGIv0LdCeLwcklJnAeBvCa
+TOEl+UF4J7xJszz53W+BevEEPeMC2lUWifWCuZS24VV0qDbRN6JjAhpBEGAymWA0GsvCYDDAbDbD
+7XYzwT+G474AUqqnq7MiKz0AAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<basepath/>
+	</rootfolder>
+	<variables/>
+</repository>

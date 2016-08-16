@@ -1,0 +1,10 @@
+C:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\dubeer\bin\Debug\dubeer.rxtmg
+C:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\dubeer\bin\Debug\dubeer.dll
+C:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\dubeer\bin\Debug\dubeer.pdb
+C:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\dubeer\bin\Debug\Ranorex.Core.WinApi.dll
+C:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\dubeer\bin\Debug\Ranorex.Core.Injector.dll
+C:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\dubeer\bin\Debug\Ranorex.Libs.WinForms.dll
+C:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\dubeer\obj\x86\Debug\dubeer.csprojResolveAssemblyReference.cache
+C:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\dubeer\obj\x86\Debug\dubeer.dll
+C:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\dubeer\obj\x86\Debug\dubeer.pdb
+C:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\dubeer\bin\Debug\Ranorex.PDF.dll

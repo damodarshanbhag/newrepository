@@ -1,0 +1,238 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectGuid>{2239A219-1E93-41C7-97FB-94B3A9010E58}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Library</OutputType>
+    <RootNamespace>dubeer</RootNamespace>
+    <AssemblyName>dubeer</AssemblyName>
+    <RanorexVersion>6.0</RanorexVersion>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <projectdefaultrepository>898c38be-9c5e-462f-a166-599e0de4c65e</projectdefaultrepository>
+    <NoWin32Manifest>False</NoWin32Manifest>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+    <NoStdLib>False</NoStdLib>
+    <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
+    <IntermediateOutputPath>obj\$(Configuration)\</IntermediateOutputPath>
+    <WarningLevel>4</WarningLevel>
+    <RunCodeAnalysis>False</RunCodeAnalysis>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <BaseIntermediateOutputPath>obj\</BaseIntermediateOutputPath>
+    <StartAction>Project</StartAction>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <BaseAddress>4194304</BaseAddress>
+    <RegisterForComInterop>False</RegisterForComInterop>
+    <GenerateSerializationAssemblies>Auto</GenerateSerializationAssemblies>
+    <FileAlignment>4096</FileAlignment>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Ranorex.Core" />
+    <Reference Include="Ranorex.Plugin.ChromeWeb" />
+    <Reference Include="Ranorex.Plugin.Flex" />
+    <Reference Include="Ranorex.Plugin.Java" />
+    <Reference Include="Ranorex.Plugin.Mobile" />
+    <Reference Include="Ranorex.Plugin.MozillaWeb" />
+    <Reference Include="Ranorex.Plugin.Msaa" />
+    <Reference Include="Ranorex.Plugin.Office" />
+    <Reference Include="Ranorex.Plugin.Qt" />
+    <Reference Include="Ranorex.Plugin.RawText" />
+    <Reference Include="Ranorex.Plugin.Sap" />
+    <Reference Include="Ranorex.Plugin.Uia" />
+    <Reference Include="Ranorex.Plugin.Web" />
+    <Reference Include="Ranorex.Plugin.Win32" />
+    <Reference Include="Ranorex.Plugin.WinForms" />
+    <Reference Include="Ranorex.Plugin.Wpf" />
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="accountcreation_Plusdap.cs">
+      <BoundTo>c9f3cefa-6c9d-4817-811a-c4ce63dedb81</BoundTo>
+      <DependentUpon>accountcreation_+dap.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>09756f63-a899-4334-894e-d5aaf92ac817</id>
+    </Compile>
+    <Compile Include="accountcreation_Plusdap.UserCode.cs">
+      <BoundTo>c9f3cefa-6c9d-4817-811a-c4ce63dedb81</BoundTo>
+      <DependentUpon>accountcreation_+dap.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>3ef9e32c-3186-4257-ae81-74c2f37e601a</id>
+    </Compile>
+    <Compile Include="AssemblyInfo.cs">
+      <id>a251f92d-a554-4d28-a759-f27ee8c05dad</id>
+    </Compile>
+    <Compile Include="comparing.cs">
+      <BoundTo>5e99c5ee-010f-42d2-a27e-e290197c837e</BoundTo>
+      <DependentUpon>comparing.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>251db13b-7e08-45fe-bc5a-380ba8b50794</id>
+    </Compile>
+    <Compile Include="comparing.UserCode.cs">
+      <BoundTo>5e99c5ee-010f-42d2-a27e-e290197c837e</BoundTo>
+      <DependentUpon>comparing.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>2ec6c45e-0eba-4691-ba4f-3a94eff51a92</id>
+    </Compile>
+    <Compile Include="comparingcallflow.cs">
+      <id>7e64f395-ecd5-430a-985c-034a54a9ed0f</id>
+    </Compile>
+    <Compile Include="dap_creation.cs">
+      <BoundTo>23cc7fc3-3e10-424e-9454-70ce6b12e9e5</BoundTo>
+      <DependentUpon>dap_creation.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>3e1308f3-7b06-4db4-8408-b32c2a7e76a0</id>
+    </Compile>
+    <Compile Include="dap_creation.UserCode.cs">
+      <BoundTo>23cc7fc3-3e10-424e-9454-70ce6b12e9e5</BoundTo>
+      <DependentUpon>dap_creation.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>28027046-9fb8-4521-9369-6f45f37d521f</id>
+    </Compile>
+    <Compile Include="dubeerRepository.cs">
+      <BoundTo>898c38be-9c5e-462f-a166-599e0de4c65e</BoundTo>
+      <DependentUpon>dubeerRepository.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>627c7779-8269-4bc5-8bb7-facb6b933c10</id>
+    </Compile>
+    <Compile Include="Login_logout_drag_check.cs">
+      <BoundTo>57249b3b-9833-4124-8d75-ada26f65cc77</BoundTo>
+      <DependentUpon>Login_logout_drag_check.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>6e6a725c-b958-4e84-8d30-cbc74b260ec3</id>
+    </Compile>
+    <Compile Include="Login_logout_drag_check.UserCode.cs">
+      <BoundTo>57249b3b-9833-4124-8d75-ada26f65cc77</BoundTo>
+      <DependentUpon>Login_logout_drag_check.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>75f1744e-f29e-49bc-90d1-a50b7d2389c7</id>
+    </Compile>
+    <Compile Include="downloading.cs">
+      <BoundTo>6cb0bd2a-fd9a-4129-871a-3ce0e58b80fb</BoundTo>
+      <DependentUpon>downloading.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>db4b26ec-b049-471f-a5d9-047ac15357ca</id>
+    </Compile>
+    <Compile Include="downloading.UserCode.cs">
+      <BoundTo>6cb0bd2a-fd9a-4129-871a-3ce0e58b80fb</BoundTo>
+      <DependentUpon>downloading.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>1b6f625c-b8ae-4959-a16e-29b2f7fa68a7</id>
+    </Compile>
+    <Compile Include="editing_callflow.cs">
+      <id>c84df14b-3b26-4a34-af42-0ab9c797d7fd</id>
+    </Compile>
+    <Compile Include="trail3.cs">
+      <BoundTo>dbeedd26-cc99-46b0-b8c6-a7045e788137</BoundTo>
+      <DependentUpon>trail3.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>fd8809e7-ffb2-4335-bb04-e3e21e2d270a</id>
+    </Compile>
+    <Compile Include="trail3.UserCode.cs">
+      <BoundTo>dbeedd26-cc99-46b0-b8c6-a7045e788137</BoundTo>
+      <DependentUpon>trail3.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>6a47f83a-3218-43fb-9a55-c38dbeb509ce</id>
+    </Compile>
+    <Compile Include="uploading_callflow.cs">
+      <BoundTo>64057636-4a77-4382-9095-20f992805786</BoundTo>
+      <DependentUpon>uploading_callflow.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>b76009e9-d48f-4ea6-98a7-83e8304cad6e</id>
+    </Compile>
+    <Compile Include="uploading_callflow.UserCode.cs">
+      <BoundTo>64057636-4a77-4382-9095-20f992805786</BoundTo>
+      <DependentUpon>uploading_callflow.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>971bfdac-d3d2-4151-a766-183f42cac47e</id>
+    </Compile>
+    <Compile Include="UserCodeModule1.cs">
+      <id>85bc5ed5-a136-4102-9b7a-4dd26e8d5df7</id>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="accountcreation_+dap.rxrec">
+      <BoundTo>898c38be-9c5e-462f-a166-599e0de4c65e</BoundTo>
+      <id>c9f3cefa-6c9d-4817-811a-c4ce63dedb81</id>
+      <recordtableid>6debea54-f1ac-4017-81f1-41a241eaaa81</recordtableid>
+    </None>
+    <None Include="comparing.rxrec">
+      <BoundTo>898c38be-9c5e-462f-a166-599e0de4c65e</BoundTo>
+      <id>5e99c5ee-010f-42d2-a27e-e290197c837e</id>
+      <recordtableid>a87eacba-200d-429a-8847-4cd87152b325</recordtableid>
+    </None>
+    <None Include="dap_creation.rxrec">
+      <BoundTo>898c38be-9c5e-462f-a166-599e0de4c65e</BoundTo>
+      <id>23cc7fc3-3e10-424e-9454-70ce6b12e9e5</id>
+      <recordtableid>5d07c68b-e396-4e4b-b94c-ca44ed6065a5</recordtableid>
+    </None>
+    <None Include="dubeerRepository.rximg">
+      <BoundTo>898c38be-9c5e-462f-a166-599e0de4c65e</BoundTo>
+      <DependentUpon>dubeerRepository.rxrep</DependentUpon>
+      <imageblob>true</imageblob>
+      <id>28269c85-d716-4f41-8571-2c951ebd2b0f</id>
+    </None>
+    <None Include="dubeerRepository.rxrep">
+      <id>898c38be-9c5e-462f-a166-599e0de4c65e</id>
+      <repoid>af88e116-5181-4452-a544-f77c4ec591d1</repoid>
+      <reporootid>360444f8-fdf2-48c7-bf6d-4dc9c3993978</reporootid>
+    </None>
+    <None Include="Login_logout_drag_check.rxrec">
+      <BoundTo>898c38be-9c5e-462f-a166-599e0de4c65e</BoundTo>
+      <id>57249b3b-9833-4124-8d75-ada26f65cc77</id>
+      <recordtableid>8b557166-b059-4588-8d44-00c5cd9a79e7</recordtableid>
+    </None>
+    <None Include="downloading.rxrec">
+      <BoundTo>898c38be-9c5e-462f-a166-599e0de4c65e</BoundTo>
+      <id>6cb0bd2a-fd9a-4129-871a-3ce0e58b80fb</id>
+      <recordtableid>7e19d9d2-e460-4504-9d63-0965b53ddc5e</recordtableid>
+    </None>
+    <None Include="trail3.rxrec">
+      <BoundTo>898c38be-9c5e-462f-a166-599e0de4c65e</BoundTo>
+      <id>dbeedd26-cc99-46b0-b8c6-a7045e788137</id>
+      <recordtableid>d4d080aa-e688-476a-a3bb-2f947cb3e208</recordtableid>
+    </None>
+    <None Include="uploading_callflow.rxrec">
+      <BoundTo>898c38be-9c5e-462f-a166-599e0de4c65e</BoundTo>
+      <id>64057636-4a77-4382-9095-20f992805786</id>
+      <recordtableid>d0ac1124-20d6-47d8-96a2-438e2ffbe7fe</recordtableid>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="dubeer.rxtmg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>a8548024-8ac9-4be8-b9c4-57bcc3d5e2d9</id>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Ranorex$(RanorexVersion)\Ranorex.MSBuild.Targets" Condition="Exists('$(MSBuildExtensionsPath)\Ranorex$(RanorexVersion)\Ranorex.MSBuild.Targets')" />
+</Project>

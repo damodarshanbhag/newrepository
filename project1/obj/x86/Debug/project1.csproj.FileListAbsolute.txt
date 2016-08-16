@@ -1,0 +1,17 @@
+C:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\bin\Debug\project1.rxtmg
+C:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\bin\Debug\project1.rxtst
+C:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\bin\Debug\project1.exe.config
+C:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\bin\Debug\project1.exe
+C:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\bin\Debug\project1.pdb
+C:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\obj\x86\Debug\project1.csprojResolveAssemblyReference.cache
+C:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\obj\x86\Debug\project1.exe
+C:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\obj\x86\Debug\project1.pdb
+C:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\bin\Debug\dubber.rxtmg
+C:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\bin\Debug\dubber.dll
+C:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\bin\Debug\dubber.pdb
+C:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\bin\Debug\callflow_batch.rxtmg
+C:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\bin\Debug\callflow_batch.dll
+C:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\bin\Debug\callflow_batch.pdb
+C:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\bin\Debug\dubeer.rxtmg
+C:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\bin\Debug\dubeer.dll
+C:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\bin\Debug\dubeer.pdb

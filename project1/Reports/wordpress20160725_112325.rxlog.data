@@ -1,0 +1,251 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="7f9b7e99961b29a"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="Damodar Shanbhag"
+		host="HP"
+		rxversion="6.0.1.0"
+		osversion="Windows 8.1 64bit"
+		runtimeversion="4.0.30319.34209"
+		procarch="32bit"
+		language="en-GB"
+		screenresolution="1366x768"
+		timestamp="25-07-2016 11:23:30"
+		timestampiso="2016-07-25T05:53:30"
+		timeoutfactor="1"
+		module="wordpress">
+		<detail>
+			wordpress
+		</detail>
+		<errmsg>
+			Attribute 'Text' of element for item 'project1Repository.RanorexWebtestLogInMozillaFirefo.Grouping.EnterTitleHere' does not match the specified value (actual='(null)', expected='Ranorex is awesome!').
+		</errmsg>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.609"
+			timeRelativeToTestModuleStartTime="00:00.609"
+			timeWallClock="11:23:31"
+			time="00:00.609"
+			level="Info"
+			category="Website">
+			<message>
+				Opening web site 'http://webtest.ranorex.org/wp-login.php?redirect_to=http%3A%2F%2Fwebtest.ranorex.org%2Fwp-admin%2Findex.php&amp;reauth=1' with browser 'firefox' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\wordpress.cs"
+				codeline="82"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.687"
+			timeRelativeToTestModuleStartTime="00:00.687"
+			timeWallClock="11:23:31"
+			time="00:00.687"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'RanorexWebtestLogInMozillaFirefo.RanorexWebtestLogIn.Username' at 113;22.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'^Ranorex\ Webtest\ ›\ Log\ In\ ']/container[@accessiblerole='Grouping']//container[@accessiblename='Ranorex Webtest › Log In']/element[1]/element[2]/?/?/text[@accessiblerole='StaticText']/text[2]"
+				fullname="project1Repository.RanorexWebtestLogInMozillaFirefo.RanorexWebtestLogIn.Username"
+				id="0ac926f0332f435fb206753d0c765345"
+				timeout="90000"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\wordpress.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.812"
+			timeRelativeToTestModuleStartTime="00:03.812"
+			timeWallClock="11:23:34"
+			time="00:03.812"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Firefox.RanorexWebtest' at 111;7.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/contextmenu[@processname='firefox']/?/?/listitem[@accessiblename='Ranorex webtest']"
+				fullname="project1Repository.Firefox.RanorexWebtest"
+				id="5f9c1fb789574b7b8a67be38fa407f2f"
+				timeout="60000"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\wordpress.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.718"
+			timeRelativeToTestModuleStartTime="00:04.718"
+			timeWallClock="11:23:35"
+			time="00:04.718"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'RanorexWebtestLogInMozillaFirefo.RanorexWebtestLogIn.Password' at 104;9.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'^Ranorex\ Webtest\ ›\ Log\ In\ ']/container[@accessiblerole='Grouping']//container[@accessiblename='Ranorex Webtest › Log In']/element[1]/element[2]/?/?/text[@accessiblename='Password' and @accessiblerole='StaticText']/text[2]"
+				fullname="project1Repository.RanorexWebtestLogInMozillaFirefo.RanorexWebtestLogIn.Password"
+				id="9411f64e6d3442ecbbee5561da40db0b"
+				timeout="90000"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\wordpress.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.468"
+			timeRelativeToTestModuleStartTime="00:05.468"
+			timeWallClock="11:23:36"
+			time="00:05.468"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'ranorex' with focus on 'RanorexWebtestLogInMozillaFirefo.RanorexWebtestLogIn.Password'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'^Ranorex\ Webtest\ ›\ Log\ In\ ']/container[@accessiblerole='Grouping']//container[@accessiblename='Ranorex Webtest › Log In']/element[1]/element[2]/?/?/text[@accessiblename='Password' and @accessiblerole='StaticText']/text[2]"
+				fullname="project1Repository.RanorexWebtestLogInMozillaFirefo.RanorexWebtestLogIn.Password"
+				id="9411f64e6d3442ecbbee5561da40db0b"
+				timeout="90000"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\wordpress.cs"
+				codeline="98"
+				itemindex="4"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.531"
+			timeRelativeToTestModuleStartTime="00:06.531"
+			timeWallClock="11:23:37"
+			time="00:06.531"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'RanorexWebtestLogInMozillaFirefo.RanorexWebtestLogIn.LogIn' at 18;10.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'^Ranorex\ Webtest\ ›\ Log\ In\ ']/container[@accessiblerole='Grouping']//container[@accessiblename='Ranorex Webtest › Log In']/element[1]/element[2]/?/?/button[@accessiblename='Log In']"
+				fullname="project1Repository.RanorexWebtestLogInMozillaFirefo.RanorexWebtestLogIn.LogIn"
+				id="ba2d61b235b44306bdfc0cdea4160885"
+				timeout="90000"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\wordpress.cs"
+				codeline="102"
+				itemindex="5"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.343"
+			timeRelativeToTestModuleStartTime="00:07.343"
+			timeWallClock="11:23:38"
+			time="00:07.343"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'RanorexWebtestLogInMozillaFirefo.Grouping.RanorexIsAwesome' at 83;13.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'^Ranorex\ Webtest\ ›\ Log\ In\ ']/container[@accessiblerole='Grouping']//container[@accessiblename~'^Dashboard\ ‹\ Ranorex\ Webte']/element/element[3]/?/?/element[@accessiblename='Main content']/element[3]/element[2]/element[2]//list[@accessiblerole='List']/listitem[@accessiblename~'^Jul\ 22nd,\ 5:34\ am\ Ranorex']/link[@accessiblename='Ranorex is awesome!']/text[@accessiblename='Ranorex is awesome!']"
+				fullname="project1Repository.RanorexWebtestLogInMozillaFirefo.Grouping.RanorexIsAwesome"
+				id="5750ce40a8034d499e172406ad36b133"
+				timeout="90000"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\wordpress.cs"
+				codeline="106"
+				itemindex="6"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.890"
+			timeRelativeToTestModuleStartTime="00:09.890"
+			timeWallClock="11:23:40"
+			time="00:09.890"
+			level="Info"
+			category="Validation"
+			errimg=".\wordpres_91e5ded0_9bad3c13_trace.jpg"
+			errthumb=".\wordpres_91e5ded0_9bad3c13_trace_thumb.jpg">
+			<message>
+				Validating AttributeEqual (Text='Ranorex is awesome!') on item 'RanorexWebtestLogInMozillaFirefo.Grouping.EnterTitleHere'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'^Ranorex\ Webtest\ ›\ Log\ In\ ']/container[@accessiblerole='Grouping']/container[@accessiblerole='PropertyPage']/?/?/container[@accessiblename~'^Edit\ Post\ ‹\ Ranorex\ Webte']/element/element[3]/?/?/element[@accessiblename='Main content']/element[3]/element[2]/element[@accessiblerole='None']/element[@accessiblerole='None']/element[1]//text[@accessiblerole='Text']"
+				fullname="project1Repository.RanorexWebtestLogInMozillaFirefo.Grouping.EnterTitleHere"
+				id="f8294d94af9d489399841591e9e02c5c"
+				timeout="90000"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\wordpress.cs"
+				codeline="110"
+				itemindex="7"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.390"
+			timeRelativeToTestModuleStartTime="00:11.390"
+			timeWallClock="11:23:42"
+			time="00:11.390"
+			level="Failure"
+			category="Validation"
+			errimg=".\wordpres_91e5ded0_01f85323_trace.jpg"
+			errthumb=".\wordpres_91e5ded0_01f85323_trace_thumb.jpg">
+			<message>
+				Attribute 'Text' of element for item 'project1Repository.RanorexWebtestLogInMozillaFirefo.Grouping.EnterTitleHere' does not match the specified value (actual='(null)', expected='Ranorex is awesome!').
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'^Ranorex\ Webtest\ ›\ Log\ In\ ']/container[@accessiblerole='Grouping']/container[@accessiblerole='PropertyPage']/?/?/container[@accessiblename~'^Edit\ Post\ ‹\ Ranorex\ Webte']/element/element[3]/?/?/element[@accessiblename='Main content']/element[3]/element[2]/element[@accessiblerole='None']/element[@accessiblerole='None']/element[1]//text[@accessiblerole='Text']"
+				fullname="project1Repository.RanorexWebtestLogInMozillaFirefo.Grouping.EnterTitleHere"
+				id="f8294d94af9d489399841591e9e02c5c"
+				timeout="90000"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\wordpress.cs"
+				codeline="111"
+				loglvl="Failure"
+				itemindex="7"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.390"
+			timeRelativeToTestModuleStartTime="00:11.390"
+			timeWallClock="11:23:42"
+			time="00:11.390"
+			level="Error"
+			category="Module"
+			errimg=".\wordpres_91e5ded0_01f85323_trace.jpg"
+			errthumb=".\wordpres_91e5ded0_01f85323_trace_thumb.jpg">
+			<message>
+				Module execution was aborted because a validation step has failed. Attribute 'Text' of element for item 'project1Repository.RanorexWebtestLogInMozillaFirefo.Grouping.EnterTitleHere' does not match the specified value (actual='(null)', expected='Ranorex is awesome!').
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Validate.IsTrueInternal(Boolean condition, String message, Options options, RepoItemInfo itemInfo)
+   at Ranorex.Validate.AttributeInternal(Element element, String name, Object value, String message, Options options, RepoItemInfo itemInfo)
+   at Ranorex.Validate.Attribute(RepoItemInfo itemInfo, String name, Object value, String message, Options options)
+   at Ranorex.Validate.Attribute(RepoItemInfo itemInfo, String name, Object value)
+   at project1.wordpress.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\wordpress.cs:line 111
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext)"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\wordpress.cs"
+				codeline="111"
+				type="repoitem"
+				path="/form[@title~'^Ranorex\ Webtest\ ›\ Log\ In\ ']/container[@accessiblerole='Grouping']/container[@accessiblerole='PropertyPage']/?/?/container[@accessiblename~'^Edit\ Post\ ‹\ Ranorex\ Webte']/element/element[3]/?/?/element[@accessiblename='Main content']/element[3]/element[2]/element[@accessiblerole='None']/element[@accessiblerole='None']/element[1]//text[@accessiblerole='Text']"
+				fullname="project1Repository.RanorexWebtestLogInMozillaFirefo.Grouping.EnterTitleHere"
+				id="f8294d94af9d489399841591e9e02c5c"
+				timeout="90000"
+				loglvl="Error"
+				itemindex="7"/>
+		</item>
+	</activity>
+</report>

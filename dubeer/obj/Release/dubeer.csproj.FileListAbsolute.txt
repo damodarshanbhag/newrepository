@@ -1,0 +1,5 @@
+C:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\dubeer\bin\Release\dubeer.rxtmg
+C:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\dubeer\bin\Release\dubeer.dll
+C:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\dubeer\bin\Release\Ranorex.PDF.dll
+C:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\dubeer\obj\Release\dubeer.csprojResolveAssemblyReference.cache
+C:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\dubeer\obj\Release\dubeer.dll

@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="26b77477477ac86"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="Damodar Shanbhag"
+		host="HP"
+		rxversion="6.0.1.0"
+		osversion="Windows 8.1 64bit"
+		runtimeversion="4.0.30319.34209"
+		procarch="64bit"
+		language="en-GB"
+		screenresolution="2732x798"
+		timestamp="27-07-2016 9.16.43 AM"
+		timestampiso="2016-07-27T03:46:43"
+		timeoutfactor="1"
+		module="trail4">
+		<detail>
+			trail4
+		</detail>
+		<errmsg>
+			Failed to move to location '719;400' within element '{Unknown:None}'.
+		</errmsg>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.812"
+			timeRelativeToTestModuleStartTime="00:00.812"
+			timeWallClock="09:16:44"
+			time="00:00.812"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '.xml' with focus on 'FileUpload.Text1148'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='File Upload']/?/?/text[@controlid='1148']"
+				fullname="dubeerRepository.FileUpload.Text1148"
+				id="27d95202887b49c6934726b5ebb9097a"
+				timeout="60000"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\dubeer\trail4.cs"
+				codeline="82"
+				itemindex="24"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.015"
+			timeRelativeToTestModuleStartTime="00:03.015"
+			timeWallClock="09:16:46"
+			time="00:03.015"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{Return}' with focus on 'FileUpload.Text1148'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='File Upload']/?/?/text[@controlid='1148']"
+				fullname="dubeerRepository.FileUpload.Text1148"
+				id="27d95202887b49c6934726b5ebb9097a"
+				timeout="60000"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\dubeer\trail4.cs"
+				codeline="86"
+				itemindex="25"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.397"
+			timeRelativeToTestModuleStartTime="00:03.397"
+			timeWallClock="09:16:46"
+			time="00:03.397"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'DubberMozillaFirefox.Dubber1.Upload' at 85;18.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Dubber - Mozilla Firefox']/container[@accessiblerole='Grouping']/container[@accessiblerole='PropertyPage']/?/?/container[@accessiblename='Dubber']/element[3]/element[4]/element/element[@accessiblerole='None']/element[@accessiblerole='None']/element[@accessiblerole='None']/element[@accessiblerole='None']/element[6]/?/?/button[@accessiblename='Upload']"
+				fullname="dubeerRepository.DubberMozillaFirefox.Dubber1.Upload"
+				id="2baf5f2da21842a4af6b20a926e95bf3"
+				timeout="90000"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\dubeer\trail4.cs"
+				codeline="90"
+				itemindex="26"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.678"
+			timeRelativeToTestModuleStartTime="00:04.678"
+			timeWallClock="09:16:48"
+			time="00:04.678"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Down item 'DubberMozillaFirefox.None' at 1352;288.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Dubber - Mozilla Firefox']/container[@accessiblerole='Grouping']/?/?/element[@accessiblerole='None']"
+				fullname="dubeerRepository.DubberMozillaFirefox.None"
+				id="d861fa46567643d889b78004c95df6be"
+				timeout="60000"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\dubeer\trail4.cs"
+				codeline="94"
+				itemindex="27"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.319"
+			timeRelativeToTestModuleStartTime="00:05.319"
+			timeWallClock="09:16:48"
+			time="00:05.319"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Up item 'DubberMozillaFirefox.None' at 1360;580.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Dubber - Mozilla Firefox']/container[@accessiblerole='Grouping']/?/?/element[@accessiblerole='None']"
+				fullname="dubeerRepository.DubberMozillaFirefox.None"
+				id="d861fa46567643d889b78004c95df6be"
+				timeout="60000"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\dubeer\trail4.cs"
+				codeline="99"
+				itemindex="28"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.928"
+			timeRelativeToTestModuleStartTime="00:05.928"
+			timeWallClock="09:16:49"
+			time="00:05.928"
+			level="Info"
+			category="Mouse"
+			errimg=".\trail420_6d746551_760f539a_trace.jpg"
+			errthumb=".\trail420_6d746551_760f539a_trace_thumb.jpg">
+			<message>
+				Mouse Left Down item 'DubberMozillaFirefox.Dubber1.None4' at 734;191.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Dubber - Mozilla Firefox']/container[@accessiblerole='Grouping']/container[@accessiblerole='PropertyPage']/?/?/container[@accessiblename='Dubber']/element[3]/element[4]/element/element[@accessiblerole='None']/element[@accessiblerole='None']/element[@accessiblerole='None']/element[@accessiblerole='None']/element[8]"
+				fullname="dubeerRepository.DubberMozillaFirefox.Dubber1.None4"
+				id="3e614a1857744114bbea99222bd5ec19"
+				timeout="90000"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\dubeer\trail4.cs"
+				codeline="104"
+				itemindex="29"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.569"
+			timeRelativeToTestModuleStartTime="00:06.569"
+			timeWallClock="09:16:49"
+			time="00:06.569"
+			level="Info"
+			category="Mouse"
+			errimg=".\trail420_6d746551_9b47f9e5_trace.jpg"
+			errthumb=".\trail420_6d746551_9b47f9e5_trace_thumb.jpg">
+			<message>
+				Mouse Left Up item 'DubberMozillaFirefox.Dubber1.None4' at 719;400.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Dubber - Mozilla Firefox']/container[@accessiblerole='Grouping']/container[@accessiblerole='PropertyPage']/?/?/container[@accessiblename='Dubber']/element[3]/element[4]/element/element[@accessiblerole='None']/element[@accessiblerole='None']/element[@accessiblerole='None']/element[@accessiblerole='None']/element[8]"
+				fullname="dubeerRepository.DubberMozillaFirefox.Dubber1.None4"
+				id="3e614a1857744114bbea99222bd5ec19"
+				timeout="90000"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\dubeer\trail4.cs"
+				codeline="109"
+				itemindex="30"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.741"
+			timeRelativeToTestModuleStartTime="00:06.741"
+			timeWallClock="09:16:50"
+			time="00:06.741"
+			level="Error"
+			category="Module"
+			errimg=".\trail420_6d746551_d4fd634e_trace.jpg"
+			errthumb=".\trail420_6d746551_d4fd634e_trace_thumb.jpg">
+			<message>
+				Failed to move to location '719;400' within element '{Unknown:None}'.<br/>The pointer cannot be moved to point '{X=1025,Y=917}' since it is outside of the visible desktop.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Mouse.MoveTo(Element element, Location location, Duration moveTime)
+   at dubeer.trail4.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\dubeer\trail4.cs:line 110
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext)"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\dubeer\trail4.cs"
+				codeline="110"
+				type="repoitem"
+				path="/form[@title='Dubber - Mozilla Firefox']/container[@accessiblerole='Grouping']/container[@accessiblerole='PropertyPage']/?/?/container[@accessiblename='Dubber']/element[3]/element[4]/element/element[@accessiblerole='None']/element[@accessiblerole='None']/element[@accessiblerole='None']/element[@accessiblerole='None']/element[8]"
+				fullname="dubeerRepository.DubberMozillaFirefox.Dubber1.None4"
+				id="3e614a1857744114bbea99222bd5ec19"
+				timeout="90000"
+				loglvl="Error"
+				itemindex="30"/>
+		</item>
+	</activity>
+</report>

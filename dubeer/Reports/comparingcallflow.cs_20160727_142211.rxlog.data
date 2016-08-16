@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="5e13c07523b0fa"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="Damodar Shanbhag"
+		host="HP"
+		rxversion="6.0.1.0"
+		osversion="Windows 8.1 64bit"
+		runtimeversion="4.0.30319.34209"
+		procarch="64bit"
+		language="en-GB"
+		screenresolution="1366x768"
+		timestamp="27-07-2016 2.22.18 PM"
+		timestampiso="2016-07-27T08:52:18"
+		timeoutfactor="1"
+		module="comparingcallflow">
+		<detail>
+			comparingcallflow
+		</detail>
+		<errmsg>
+			Failed to move to location 'Center' within element '{ATag:profile-ddt}'.
+		</errmsg>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.495"
+			timeRelativeToTestModuleStartTime="00:02.495"
+			timeWallClock="14:22:21"
+			time="00:02.495"
+			level="Error"
+			category="Module"
+			errimg=".\comparin_590b5f9e_06e9b3cb_trace.jpg"
+			errthumb=".\comparin_590b5f9e_06e9b3cb_trace_thumb.jpg">
+			<message>
+				Failed to move to location 'Center' within element '{ATag:profile-ddt}'.<br/>The pointer cannot be moved to point '{X=1370,Y=143}' since it is outside of the visible desktop.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Mouse.MoveTo(Element element, Location location, Duration moveTime)
+   at Ranorex.Mouse.Click(Element element, MouseButtons buttons, Location location, Int32 times, Duration moveTime)
+   at Ranorex.Adapter.Click()
+   at dubeer.comparingcallflow.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\dubeer\comparingcallflow.cs:line 65
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext)"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\dubeer\comparingcallflow.cs"
+				codeline="65"
+				type="repoitem"
+				path="/dom[@domain='tigers.dubber.net']//a[#'profile-ddt']"
+				fullname="dubeerRepository.Dubber.ProfileDdt"
+				id="e3ece16c090f4b3aab70e9b5d8fd9811"
+				timeout="60000"
+				loglvl="Error"/>
+		</item>
+	</activity>
+</report>

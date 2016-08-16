@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+# Ranorex Studio 6.0
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "project1", "project1\project1.csproj", "{22654DA3-7244-4B31-B613-215CB6E4A81A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dubeer", "dubeer\dubeer.csproj", "{2239A219-1E93-41C7-97FB-94B3A9010E58}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{22654DA3-7244-4B31-B613-215CB6E4A81A}.Debug|x86.Build.0 = Debug|x86
+		{22654DA3-7244-4B31-B613-215CB6E4A81A}.Debug|x86.ActiveCfg = Debug|x86
+		{22654DA3-7244-4B31-B613-215CB6E4A81A}.Release|x86.Build.0 = Release|x86
+		{22654DA3-7244-4B31-B613-215CB6E4A81A}.Release|x86.ActiveCfg = Release|x86
+		{2239A219-1E93-41C7-97FB-94B3A9010E58}.Debug|x86.Build.0 = Debug|x86
+		{2239A219-1E93-41C7-97FB-94B3A9010E58}.Debug|x86.ActiveCfg = Debug|x86
+		{2239A219-1E93-41C7-97FB-94B3A9010E58}.Release|x86.Build.0 = Release|x86
+		{2239A219-1E93-41C7-97FB-94B3A9010E58}.Release|x86.ActiveCfg = Release|x86
+	EndGlobalSection
+EndGlobal

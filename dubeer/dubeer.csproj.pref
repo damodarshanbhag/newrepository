@@ -1,0 +1,14 @@
+﻿<Properties>
+  <Array name="bookmarks" />
+  <Array name="files">
+    <Element value="uploading_callflow.rxrec" />
+    <Element value="downloading.rxrec" />
+    <Element value="comparingcallflow.cs" />
+  </Array>
+  <Properties name="projectSavedData">
+    <Properties name="customTool">
+      <fileNames value="" />
+      <runOnBuild value="False" />
+    </Properties>
+  </Properties>
+</Properties>

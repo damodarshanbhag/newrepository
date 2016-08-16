@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="6.0"
+id="a53171e8-2354-4b7d-80be-b939f59a2c16"
+embeddedrepository="false"
+mode="Global">
+	<name>
+		Recording2
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Recording2"
+	namespace="dubber"/>
+	<variables/>
+	<recorditems/>
+	<repository
+	name="dubberRepository"
+	id="8ab236d2-debb-4e76-94f7-d67f727dfdd2"
+	rxversion="6.0"
+	relativepath="dubberRepository.rxrep">
+		<codegen
+		classname="dubberRepository"
+		namespace="dubber"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="679e61dd-5cc8-44ae-9478-e0b7f37f4fa9"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Recording2.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

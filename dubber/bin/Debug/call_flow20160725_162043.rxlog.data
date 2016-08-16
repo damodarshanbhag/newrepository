@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="17fc8586a1067f36"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="Damodar Shanbhag"
+		host="HP"
+		rxversion="6.0.1.0"
+		osversion="Windows 8.1 64bit"
+		runtimeversion="4.0.30319.34209"
+		procarch="64bit"
+		language="en-GB"
+		screenresolution="1366x768"
+		timestamp="25-07-2016 16:20:51"
+		timestampiso="2016-07-25T10:50:51"
+		timeoutfactor="1"
+		module="call_flow">
+		<detail>
+			call_flow
+		</detail>
+		<errmsg>
+			Failed to wait for item to not exist. Item 'dubberRepository.DubberMozillaFirefox.Grouping.None ' still exists after the specified timeout of 5s.
+		</errmsg>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.723"
+			timeRelativeToTestModuleStartTime="00:00.724"
+			timeWallClock="16:20:52"
+			time="00:00.723"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'DubberMozillaFirefox.Dubber1.Dubber' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Dubber - Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename='Dubber']"
+				fullname="dubberRepository.DubberMozillaFirefox.Dubber1.Dubber"
+				id="ff31c1aa114d45e8ad33df62e1a5c61f"
+				timeout="90000"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\dubber\call_flow.cs"
+				codeline="82"
+				itemindex="9"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.719"
+			timeRelativeToTestModuleStartTime="00:02.720"
+			timeWallClock="16:20:54"
+			time="00:02.719"
+			level="Info"
+			category="Mouse"
+			errimg=".\call_flo_598b3e0f_92e9b212_trace.jpg"
+			errthumb=".\call_flo_598b3e0f_92e9b212_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'DubberMozillaFirefox.Dubber1.Dubber' at 1335;298.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Dubber - Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename='Dubber']"
+				fullname="dubberRepository.DubberMozillaFirefox.Dubber1.Dubber"
+				id="ff31c1aa114d45e8ad33df62e1a5c61f"
+				timeout="90000"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\dubber\call_flow.cs"
+				codeline="86"
+				itemindex="10"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.465"
+			timeRelativeToTestModuleStartTime="00:03.466"
+			timeWallClock="16:20:54"
+			time="00:03.465"
+			level="Info"
+			category="Wait"
+			errimg=".\call_flo_598b3e0f_4093f2d1_trace.jpg"
+			errthumb=".\call_flo_598b3e0f_4093f2d1_trace_thumb.jpg">
+			<message>
+				Waiting 5s for item 'DubberMozillaFirefox.Grouping.None' to not exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Dubber - Mozilla Firefox']/container[@accessiblerole='Grouping']/?/?/element[@accessiblerole='None']"
+				fullname="dubberRepository.DubberMozillaFirefox.Grouping.None"
+				id="936ec9e7b94946749d27c43d5187bf41"
+				timeout="5000"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\dubber\call_flow.cs"
+				codeline="90"
+				itemindex="11"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.545"
+			timeRelativeToTestModuleStartTime="00:08.546"
+			timeWallClock="16:21:00"
+			time="00:08.545"
+			level="Error"
+			category="Module"
+			errimg=".\call_flo_598b3e0f_28e1a322_trace.jpg"
+			errthumb=".\call_flo_598b3e0f_28e1a322_trace_thumb.jpg">
+			<message>
+				Failed to wait for item to not exist. Item 'dubberRepository.DubberMozillaFirefox.Grouping.None ' still exists after the specified timeout of 5s.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Core.Repository.RepoItemInfo.WaitForNotExists(Duration waitTimeout)
+   at dubber.call_flow.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\dubber\call_flow.cs:line 91
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext)"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\dubber\call_flow.cs"
+				codeline="91"
+				loglvl="Error"
+				id="936ec9e7b94946749d27c43d5187bf41"
+				path="/form[@title='Dubber - Mozilla Firefox']/container[@accessiblerole='Grouping']/?/?/element[@accessiblerole='None']"
+				fullname="dubberRepository.DubberMozillaFirefox.Grouping.None"
+				itemindex="11"/>
+		</item>
+	</activity>
+</report>

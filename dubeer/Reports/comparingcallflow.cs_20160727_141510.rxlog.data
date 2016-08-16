@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Failed"
+		duration="46.37s"
+		durationms="46365"
+		type="root"
+		rid="16e084e32f065ea"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="Damodar Shanbhag"
+		host="HP"
+		rxversion="6.0.1.0"
+		osversion="Windows 8.1 64bit"
+		runtimeversion="4.0.30319.34209"
+		procarch="64bit"
+		language="en-GB"
+		screenresolution="1366x768"
+		timestamp="27-07-2016 2.15.17 PM"
+		timestampiso="2016-07-27T08:45:17"
+		timeoutfactor="1"
+		module="comparingcallflow">
+		<detail>
+			comparingcallflow
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.703"
+			timeRelativeToTestModuleStartTime="00:00.703"
+			timeWallClock="14:15:17"
+			time="00:00.703"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'DubberMozillaFirefox.Dubber.Link' at 34;18.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Dubber - Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename='Dubber']/element[3]/element[2]//link[@accessiblerole='Link']"
+				fullname="dubeerRepository.DubberMozillaFirefox.Dubber.Link"
+				id="d08d1f9fecee4727bed45f9280cae9d1"
+				timeout="90000"
+				codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\dubeer\comparingcallflow.cs"
+				codeline="64"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:46.365"
+			timeRelativeToTestModuleStartTime="00:46.365"
+			timeWallClock="14:16:03"
+			time="00:46.365"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error"/>
+		</item>
+	</activity>
+</report>

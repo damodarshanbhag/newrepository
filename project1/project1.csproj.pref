@@ -1,0 +1,16 @@
+﻿<Properties>
+  <Array name="active">
+    <Element value="project1.rxtst" />
+  </Array>
+  <Array name="bookmarks" />
+  <Array name="files">
+    <Element value="calctest.rxrec" />
+    <Element value="project1.rxtst" />
+    <Element value="wordpress.rxrec" />
+  </Array>
+  <Properties name="projectSavedData">
+    <Properties name="customTool">
+      <runOnBuild value="False" />
+    </Properties>
+  </Properties>
+</Properties>

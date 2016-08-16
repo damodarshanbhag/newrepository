@@ -1,0 +1,863 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="1a217f4e2ea5551e"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="1"
+		totalblockedcount="0"
+		user="Damodar Shanbhag"
+		host="HP"
+		rxversion="6.0.1.0"
+		osversion="Windows 8.1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-GB"
+		screenresolution="1366x768"
+		timestamp="04-08-2016 2.24.01 PM"
+		timestampiso="2016-08-04T08:54:01"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Failed"
+			duration="1.5m"
+			durationms="89542"
+			type="test suite"
+			rid="32ab5ac082a67188"
+			totalerrorcount="1"
+			totalwarningcount="0"
+			totalsuccesscount="0"
+			totalfailedcount="1"
+			totalblockedcount="0"
+			testsuitename="project1"
+			runconfigname="TestRun"
+			runlabel=""
+			maxchildren="2">
+			<params/>
+			<detail>
+			</detail>
+			<activity
+				result="Failed"
+				duration="1.5m"
+				durationms="89518"
+				type="test case"
+				rid="24b43568d74b4b48"
+				totalerrorcount="1"
+				totalwarningcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="1"
+				totalblockedcount="0"
+				testcasename="calculator"
+				testcaseid="7e90e4ac-a646-4432-a7f7-89bacdfdd261"
+				maxchildren="0">
+				<params/>
+				<detail>
+				</detail>
+				<activity
+					result="Success"
+					duration="28.13s"
+					durationms="28125"
+					type="test module"
+					rid="1379db66a9dab2c"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					modulename="calculator"
+					moduleid="c381cab8-7c10-4fef-9209-c04580742bcc"
+					moduletype="Recording">
+					<detail>
+					</detail>
+					<varbindings/>
+					<item
+						timeRelativeToTestSuiteStartTime="00:00.700"
+						timeRelativeToTestModuleStartTime="00:00.031"
+						timeWallClock="14:24:02"
+						time="00:00.700"
+						level="Info"
+						category="Application">
+						<message>
+							Run application 'C:\Windows\System32\calc.exe' with arguments '' in normal mode.
+						</message>
+						<metainfo
+							itemindex="0"
+							codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\calculator.cs"
+							codeline="82"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:01.184"
+						timeRelativeToTestModuleStartTime="00:00.515"
+						timeWallClock="14:24:02"
+						time="00:01.184"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'Calculator.Calc.Button' at 19;17.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Calculator']/?/?/container[@instance='1']/button[@controlid='122']"
+							fullname="project1Repository.Calculator.Calc.Button"
+							id="59e32ff171c44f608599605923220e0f"
+							timeout="90000"
+							codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\calculator.cs"
+							codeline="86"
+							itemindex="1"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:03.589"
+						timeRelativeToTestModuleStartTime="00:02.920"
+						timeWallClock="14:24:05"
+						time="00:03.589"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'Calculator.Calc.Button1' at 25;14.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Calculator']/?/?/container[@instance='1']/button[@controlid='123']"
+							fullname="project1Repository.Calculator.Calc.Button1"
+							id="04bd355e39844a618bea9eba5c4b6b67"
+							timeout="90000"
+							codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\calculator.cs"
+							codeline="90"
+							itemindex="2"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:04.417"
+						timeRelativeToTestModuleStartTime="00:03.748"
+						timeWallClock="14:24:05"
+						time="00:04.417"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'Calculator.Calc.Button2' at 12;15.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Calculator']/?/?/container[@instance='1']/button[@controlid='124']"
+							fullname="project1Repository.Calculator.Calc.Button2"
+							id="fc90f9c536974770a2fdd0ec8f516a7b"
+							timeout="90000"
+							codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\calculator.cs"
+							codeline="94"
+							itemindex="3"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:05.230"
+						timeRelativeToTestModuleStartTime="00:04.561"
+						timeWallClock="14:24:06"
+						time="00:05.230"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'Calculator.Calc.Button3' at 11;16.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Calculator']/?/?/container[@instance='1']/button[@controlid='125']"
+							fullname="project1Repository.Calculator.Calc.Button3"
+							id="0fd1fa7836ed4bd786623ec7e28b2b97"
+							timeout="90000"
+							codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\calculator.cs"
+							codeline="98"
+							itemindex="4"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:06.026"
+						timeRelativeToTestModuleStartTime="00:05.358"
+						timeWallClock="14:24:07"
+						time="00:06.026"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'Calculator.Calc.Button4' at 17;14.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Calculator']/?/?/container[@instance='1']/button[@controlid='126']"
+							fullname="project1Repository.Calculator.Calc.Button4"
+							id="e3ad7259ffc94f229cfc826c129412f4"
+							timeout="90000"
+							codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\calculator.cs"
+							codeline="102"
+							itemindex="5"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:06.808"
+						timeRelativeToTestModuleStartTime="00:06.139"
+						timeWallClock="14:24:08"
+						time="00:06.808"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'Calculator.Calc.Button5' at 23;10.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Calculator']/?/?/container[@instance='1']/button[@controlid='83']"
+							fullname="project1Repository.Calculator.Calc.Button5"
+							id="c728a50ff66c46609e056cef5fe071dc"
+							timeout="90000"
+							codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\calculator.cs"
+							codeline="106"
+							itemindex="6"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:07.618"
+						timeRelativeToTestModuleStartTime="00:06.949"
+						timeWallClock="14:24:09"
+						time="00:07.618"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'Calculator.Calc.Button6' at 8;12.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Calculator']/?/?/container[@instance='1']/button[@controlid='82']"
+							fullname="project1Repository.Calculator.Calc.Button6"
+							id="94825bde2ad24dd68c4ba66a6ccf3d59"
+							timeout="90000"
+							codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\calculator.cs"
+							codeline="110"
+							itemindex="7"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:08.399"
+						timeRelativeToTestModuleStartTime="00:07.730"
+						timeWallClock="14:24:09"
+						time="00:08.399"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'Calculator.Calc.Button7' at 21;11.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Calculator']/?/?/container[@instance='1']/button[@controlid='81']"
+							fullname="project1Repository.Calculator.Calc.Button7"
+							id="235d3165792649baaa93b3b9ce848081"
+							timeout="90000"
+							codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\calculator.cs"
+							codeline="114"
+							itemindex="8"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:09.227"
+						timeRelativeToTestModuleStartTime="00:08.558"
+						timeWallClock="14:24:10"
+						time="00:09.227"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'Calculator.Calc.Button8' at 21;15.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Calculator']/?/?/container[@instance='1']/button[@controlid='80']"
+							fullname="project1Repository.Calculator.Calc.Button8"
+							id="69e64a45154f49f5b726a9adc9f1ed85"
+							timeout="90000"
+							codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\calculator.cs"
+							codeline="118"
+							itemindex="9"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:10.008"
+						timeRelativeToTestModuleStartTime="00:09.339"
+						timeWallClock="14:24:11"
+						time="00:10.008"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'Calculator.Calc.Button9' at 3;15.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Calculator']/?/?/container[@instance='1']/button[@controlid='110']"
+							fullname="project1Repository.Calculator.Calc.Button9"
+							id="5f3965ce1598480b98bddcd3218ee8b1"
+							timeout="90000"
+							codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\calculator.cs"
+							codeline="122"
+							itemindex="10"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:10.790"
+						timeRelativeToTestModuleStartTime="00:10.121"
+						timeWallClock="14:24:12"
+						time="00:10.790"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'Calculator.Calc.Button10' at 19;12.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Calculator']/?/?/container[@instance='1']/button[@controlid='137']"
+							fullname="project1Repository.Calculator.Calc.Button10"
+							id="b620dc27aba647dcb378aa01fb70da42"
+							timeout="90000"
+							codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\calculator.cs"
+							codeline="126"
+							itemindex="11"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:11.602"
+						timeRelativeToTestModuleStartTime="00:10.933"
+						timeWallClock="14:24:13"
+						time="00:11.602"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'Calculator.Calc.Button11' at 17;12.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Calculator']/?/?/container[@instance='1']/button[@controlid='138']"
+							fullname="project1Repository.Calculator.Calc.Button11"
+							id="e80a8ce1b9fa4b1e8a4baef96efdb4a1"
+							timeout="90000"
+							codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\calculator.cs"
+							codeline="130"
+							itemindex="12"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:12.430"
+						timeRelativeToTestModuleStartTime="00:11.761"
+						timeWallClock="14:24:13"
+						time="00:12.430"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'Calculator.Calc.Button12' at 4;16.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Calculator']/?/?/container[@instance='1']/button[@controlid='139']"
+							fullname="project1Repository.Calculator.Calc.Button12"
+							id="9071546beea64443b0368e87a03df7b3"
+							timeout="90000"
+							codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\calculator.cs"
+							codeline="134"
+							itemindex="13"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:13.243"
+						timeRelativeToTestModuleStartTime="00:12.574"
+						timeWallClock="14:24:14"
+						time="00:13.243"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'Calculator.Calc.Button13' at 9;16.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Calculator']/?/?/container[@instance='1']/button[@controlid='91']"
+							fullname="project1Repository.Calculator.Calc.Button13"
+							id="5f52bf464ec74c0e93c110d70b59c70d"
+							timeout="90000"
+							codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\calculator.cs"
+							codeline="138"
+							itemindex="14"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:14.040"
+						timeRelativeToTestModuleStartTime="00:13.371"
+						timeWallClock="14:24:15"
+						time="00:14.040"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'Calculator.Calc.ContainerHash32770' at 154;80.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Calculator']/?/?/container[@instance='1']"
+							fullname="project1Repository.Calculator.Calc.ContainerHash32770"
+							id="373015db9e8c42249770e2b03effcafa"
+							timeout="90000"
+							codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\calculator.cs"
+							codeline="142"
+							itemindex="15"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:14.836"
+						timeRelativeToTestModuleStartTime="00:14.168"
+						timeWallClock="14:24:16"
+						time="00:14.836"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'Calculator.Calc.Button14' at 7;16.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Calculator']/?/?/container[@instance='1']/button[@controlid='118']"
+							fullname="project1Repository.Calculator.Calc.Button14"
+							id="05817b29378349558481ed94ce5e80f6"
+							timeout="90000"
+							codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\calculator.cs"
+							codeline="146"
+							itemindex="16"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:15.633"
+						timeRelativeToTestModuleStartTime="00:14.964"
+						timeWallClock="14:24:17"
+						time="00:15.633"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'Calculator.Calc.Button15' at 19;11.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Calculator']/?/?/container[@instance='1']/button[@controlid='134']"
+							fullname="project1Repository.Calculator.Calc.Button15"
+							id="3f4a6b0ba825443089be18bc5244f402"
+							timeout="90000"
+							codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\calculator.cs"
+							codeline="150"
+							itemindex="17"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:16.428"
+						timeRelativeToTestModuleStartTime="00:15.759"
+						timeWallClock="14:24:17"
+						time="00:16.428"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'Calculator.Calc.Button16' at 13;13.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Calculator']/?/?/container[@instance='1']/button[@controlid='135']"
+							fullname="project1Repository.Calculator.Calc.Button16"
+							id="199b9b1d083442389159362d1ef69cce"
+							timeout="90000"
+							codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\calculator.cs"
+							codeline="154"
+							itemindex="18"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:17.262"
+						timeRelativeToTestModuleStartTime="00:16.593"
+						timeWallClock="14:24:18"
+						time="00:17.262"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'Calculator.Calc.Button17' at 13;13.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Calculator']/?/?/container[@instance='1']/button[@controlid='136']"
+							fullname="project1Repository.Calculator.Calc.Button17"
+							id="8b90f40bd6514961a87398a11de3175e"
+							timeout="90000"
+							codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\calculator.cs"
+							codeline="158"
+							itemindex="19"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:18.059"
+						timeRelativeToTestModuleStartTime="00:17.390"
+						timeWallClock="14:24:19"
+						time="00:18.059"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'Calculator.Calc.Button18' at 14;13.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Calculator']/?/?/container[@instance='1']/button[@controlid='92']"
+							fullname="project1Repository.Calculator.Calc.Button18"
+							id="a3c4d5c4b8cc4a5386d294d9c46810b0"
+							timeout="90000"
+							codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\calculator.cs"
+							codeline="162"
+							itemindex="20"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:18.840"
+						timeRelativeToTestModuleStartTime="00:18.171"
+						timeWallClock="14:24:20"
+						time="00:18.840"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'Calculator.Calc.Button19' at 27;16.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Calculator']/?/?/container[@instance='1']/button[@controlid='114']"
+							fullname="project1Repository.Calculator.Calc.Button19"
+							id="64959e11c2b7428887fc4a83a5449382"
+							timeout="90000"
+							codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\calculator.cs"
+							codeline="166"
+							itemindex="21"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:19.621"
+						timeRelativeToTestModuleStartTime="00:18.952"
+						timeWallClock="14:24:21"
+						time="00:19.621"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'Calculator.Calc.Button20' at 19;9.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Calculator']/?/?/container[@instance='1']/button[@controlid='131']"
+							fullname="project1Repository.Calculator.Calc.Button20"
+							id="cc82812adb3f4e1a8b8a94ea932e2ca4"
+							timeout="90000"
+							codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\calculator.cs"
+							codeline="170"
+							itemindex="22"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:20.434"
+						timeRelativeToTestModuleStartTime="00:19.765"
+						timeWallClock="14:24:21"
+						time="00:20.434"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'Calculator.Calc.Button21' at 16;11.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Calculator']/?/?/container[@instance='1']/button[@controlid='132']"
+							fullname="project1Repository.Calculator.Calc.Button21"
+							id="70cdc06c565f40c783a8c64014765a04"
+							timeout="90000"
+							codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\calculator.cs"
+							codeline="174"
+							itemindex="23"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:21.251"
+						timeRelativeToTestModuleStartTime="00:20.582"
+						timeWallClock="14:24:22"
+						time="00:21.251"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'Calculator.Calc.Button22' at 13;11.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Calculator']/?/?/container[@instance='1']/button[@controlid='133']"
+							fullname="project1Repository.Calculator.Calc.Button22"
+							id="69b505ff91804d0f85b1d42f32186516"
+							timeout="90000"
+							codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\calculator.cs"
+							codeline="178"
+							itemindex="24"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:22.095"
+						timeRelativeToTestModuleStartTime="00:21.426"
+						timeWallClock="14:24:23"
+						time="00:22.095"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'Calculator.Calc.Button23' at 7;14.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Calculator']/?/?/container[@instance='1']/button[@controlid='94']"
+							fullname="project1Repository.Calculator.Calc.Button23"
+							id="0a546aaf80274e4d97eed9746fc47ac3"
+							timeout="90000"
+							codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\calculator.cs"
+							codeline="182"
+							itemindex="25"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:22.923"
+						timeRelativeToTestModuleStartTime="00:22.254"
+						timeWallClock="14:24:24"
+						time="00:22.923"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'Calculator.Calc.Button24' at 9;14.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Calculator']/?/?/container[@instance='1']/button[@controlid='121']"
+							fullname="project1Repository.Calculator.Calc.Button24"
+							id="7004309774d24063b75f90d488303119"
+							timeout="90000"
+							codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\calculator.cs"
+							codeline="186"
+							itemindex="26"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:23.735"
+						timeRelativeToTestModuleStartTime="00:23.066"
+						timeWallClock="14:24:25"
+						time="00:23.735"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'Calculator.Calc.Button25' at 49;4.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Calculator']/?/?/container[@instance='1']/button[@controlid='130']"
+							fullname="project1Repository.Calculator.Calc.Button25"
+							id="d557db646fc64a41badad13210761cd4"
+							timeout="90000"
+							codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\calculator.cs"
+							codeline="190"
+							itemindex="27"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:24.532"
+						timeRelativeToTestModuleStartTime="00:23.863"
+						timeWallClock="14:24:25"
+						time="00:24.532"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'Calculator.Calc.Button26' at 30;6.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Calculator']/?/?/container[@instance='1']/button[@controlid='84']"
+							fullname="project1Repository.Calculator.Calc.Button26"
+							id="8b437b6a4c1143d4a10891bc709e3226"
+							timeout="90000"
+							codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\calculator.cs"
+							codeline="194"
+							itemindex="28"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:25.329"
+						timeRelativeToTestModuleStartTime="00:24.660"
+						timeWallClock="14:24:26"
+						time="00:25.329"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'Calculator.Calc.Button27' at 8;7.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Calculator']/?/?/container[@instance='1']/button[@controlid='93']"
+							fullname="project1Repository.Calculator.Calc.Button27"
+							id="039a8f501a22473fa3cbfae50d582329"
+							timeout="90000"
+							codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\calculator.cs"
+							codeline="198"
+							itemindex="29"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:26.126"
+						timeRelativeToTestModuleStartTime="00:25.457"
+						timeWallClock="14:24:27"
+						time="00:26.126"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'Calculator.Calc.Button18' at 14;16.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Calculator']/?/?/container[@instance='1']/button[@controlid='92']"
+							fullname="project1Repository.Calculator.Calc.Button18"
+							id="a3c4d5c4b8cc4a5386d294d9c46810b0"
+							timeout="90000"
+							codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\calculator.cs"
+							codeline="202"
+							itemindex="30"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:26.954"
+						timeRelativeToTestModuleStartTime="00:26.285"
+						timeWallClock="14:24:28"
+						time="00:26.954"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'Calculator.Calc.Button19' at 21;18.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Calculator']/?/?/container[@instance='1']/button[@controlid='114']"
+							fullname="project1Repository.Calculator.Calc.Button19"
+							id="64959e11c2b7428887fc4a83a5449382"
+							timeout="90000"
+							codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\calculator.cs"
+							codeline="206"
+							itemindex="31"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:27.779"
+						timeRelativeToTestModuleStartTime="00:27.110"
+						timeWallClock="14:24:29"
+						time="00:27.779"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'Calculator.Close' at 18;11.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Calculator']/?/?/button[@accessiblename='Close']"
+							fullname="project1Repository.Calculator.Close"
+							id="5e96fe47b991442891d3a46832d96abc"
+							timeout="60000"
+							codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\calculator.cs"
+							codeline="210"
+							itemindex="32"
+							loglvl="Info"/>
+					</item>
+				</activity>
+				<activity
+					result="Failed"
+					duration="1m"
+					durationms="61205"
+					type="test module"
+					rid="295866dd5ed68a2"
+					totalerrorcount="1"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					modulename="wordpress"
+					moduleid="5537a3bf-b406-4ccf-a722-adfd3f9373d1"
+					moduletype="Recording">
+					<detail>
+					</detail>
+					<errmsg>
+						Failed to find item 'project1Repository.RanorexWebtestLogIn.UserLogin'.
+					</errmsg>
+					<varbindings/>
+					<item
+						timeRelativeToTestSuiteStartTime="00:28.810"
+						timeRelativeToTestModuleStartTime="00:00.015"
+						timeWallClock="14:24:30"
+						time="00:28.810"
+						level="Info"
+						category="Website"
+						errimg="images_project1_11e37397\project1_11e37397_68881a91_trace.jpg"
+						errthumb="images_project1_11e37397\project1_11e37397_68881a91_trace_thumb.jpg">
+						<message>
+							Opening web site 'http://webtest.ranorex.org/wp-login.php?redirect_to=http%3A%2F%2Fwebtest.ranorex.org%2Fwp-admin%2Findex.php&amp;reauth=1' with browser 'Firefox' in normal mode.
+						</message>
+						<metainfo
+							itemindex="0"
+							codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\wordpress.cs"
+							codeline="82"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:28.966"
+						timeRelativeToTestModuleStartTime="00:00.171"
+						timeWallClock="14:24:30"
+						time="00:28.966"
+						level="Info"
+						category="Mouse"
+						errimg="images_project1_11e37397\project1_11e37397_1512de51_trace.jpg"
+						errthumb="images_project1_11e37397\project1_11e37397_1512de51_trace_thumb.jpg">
+						<message>
+							Mouse Left Click item 'RanorexWebtestLogIn.UserLogin' at 107;21.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='webtest.ranorex.org']//input[#'user_login']"
+							fullname="project1Repository.RanorexWebtestLogIn.UserLogin"
+							id="946882053f0b4e09a2b62a2f58cef6bf"
+							timeout="60000"
+							codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\wordpress.cs"
+							codeline="86"
+							itemindex="1"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:29.625"
+						timeRelativeToTestModuleStartTime="01:00.830"
+						timeWallClock="14:25:31"
+						time="01:29.625"
+						level="Error"
+						category="Module"
+						errimg="images_project1_11e37397\project1_11e37397_d7936612_trace.jpg"
+						errthumb="images_project1_11e37397\project1_11e37397_d7936612_trace_thumb.jpg">
+						<message>
+							Failed to find item 'project1Repository.RanorexWebtestLogIn.UserLogin'.<br/>No element found for path '/dom[@domain='webtest.ranorex.org']//input[#'user_login']' within 1m.
+						</message>
+						<metainfo
+							stacktrace="   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)
+   at project1.project1RepositoryFolders.RanorexWebtestLogInAppFolder.get_UserLogin() in c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\project1Repository.cs:line 2941
+   at project1.wordpress.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\wordpress.cs:line 87
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext)"
+							codefile="c:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\wordpress.cs"
+							codeline="87"
+							type="repoitem"
+							path="/dom[@domain='webtest.ranorex.org']//input[#'user_login']"
+							fullname="project1Repository.RanorexWebtestLogIn.UserLogin"
+							id="946882053f0b4e09a2b62a2f58cef6bf"
+							timeout="60000"
+							loglvl="Error"
+							itemindex="1"/>
+					</item>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

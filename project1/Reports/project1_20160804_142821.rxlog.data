@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="90d8b985bdeb4a4"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="1"
+		totalblockedcount="0"
+		user="Damodar Shanbhag"
+		host="HP"
+		rxversion="6.0.1.0"
+		osversion="Windows 8.1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-GB"
+		screenresolution="1366x768"
+		timestamp="04-08-2016 2.28.21 PM"
+		timestampiso="2016-08-04T08:58:21"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Failed"
+			duration="687ms"
+			durationms="687"
+			type="test suite"
+			rid="2a858f9957cc4cc8"
+			totalerrorcount="1"
+			totalwarningcount="0"
+			totalsuccesscount="0"
+			totalfailedcount="1"
+			totalblockedcount="0"
+			testsuitename="project1"
+			runconfigname="TestRun"
+			runlabel=""
+			maxchildren="2">
+			<params/>
+			<detail>
+			</detail>
+			<activity
+				result="Failed"
+				duration="640ms"
+				durationms="640"
+				type="test case"
+				rid="16641d70e99d605b"
+				totalerrorcount="1"
+				totalwarningcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="1"
+				totalblockedcount="0"
+				testcasename="dubber_search_and_download_&amp;_uploading_the_callflow"
+				testcaseid="02b6dca3-7092-4e83-b3ad-2090598d36bf"
+				maxchildren="0">
+				<params>
+					<param
+						name="NewParameter">
+					</param>
+				</params>
+				<detail>
+				</detail>
+				<activity
+					result="Failed"
+					duration="328ms"
+					durationms="328"
+					type="test module"
+					rid="87267bc922dbdd6"
+					totalerrorcount="1"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					modulename="Downloading"
+					moduleid="7e19d9d2-e460-4504-9d63-0965b53ddc5e"
+					moduletype="Recording">
+					<detail>
+					</detail>
+					<errmsg>
+						The module 'Downloading' (with ID {7e19d9d2-e460-4504-9d63-0965b53ddc5e}) could not be found. The following errors occurred loading the assemblies: Could not load file or assembly 'file:///C:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\bin\Debug\callflow_batch.csproj' or one of its dependencies. The system cannot find the file specified., Could not load file or assembly 'file:///C:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\bin\Debug\dubber.csproj' or one of its dependencies. The system cannot find the file specified., Could not load file or assembly 'file:///C:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\bin\Debug\dubeer.csproj' or one of its dependencies. The system cannot find the file specified..
+					</errmsg>
+					<item
+						timeRelativeToTestSuiteStartTime="00:00.912"
+						timeRelativeToTestModuleStartTime="00:00.093"
+						timeWallClock="14:28:21"
+						time="00:00.912"
+						level="Error"
+						category="Module"
+						errimg="images_project1_cc888a61\project1_cc888a61_27704a03_trace.jpg"
+						errthumb="images_project1_cc888a61\project1_cc888a61_27704a03_trace_thumb.jpg">
+						<message>
+							The module 'Downloading' (with ID {7e19d9d2-e460-4504-9d63-0965b53ddc5e}) could not be found. The following errors occurred loading the assemblies: Could not load file or assembly 'file:///C:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\bin\Debug\callflow_batch.csproj' or one of its dependencies. The system cannot find the file specified., Could not load file or assembly 'file:///C:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\bin\Debug\dubber.csproj' or one of its dependencies. The system cannot find the file specified., Could not load file or assembly 'file:///C:\Users\Damodar Shanbhag\Documents\Ranorex\RanorexStudio Projects\project1\project1\bin\Debug\dubeer.csproj' or one of its dependencies. The system cannot find the file specified..
+						</message>
+						<metainfo
+							stacktrace="   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext)"
+							loglvl="Error"/>
+					</item>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>
